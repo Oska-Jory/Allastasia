@@ -1,0 +1,859 @@
+///////////////////////////////////////////////////////
+/----------------------------------------------------/
+/                |----------------------|            /
+/                |SEXY SOUNDS BY AHRIDOK|            /
+/                |Released to Scu11 Only|            /                                                     
+/                |----------------------|            /
+/           www.rune-server.org/members/ahridok/     /
+/----------------------------------------------------/
+//////////////////////////////////////////////////////
+//SOUND ID//                 //DELAY//
+            //SPECIAL SOUNDS//
+|Armadyl GodSword = 3865      Delay = 25          
+|Bandos  GodSword = 3834      Delay = 0            
+|Dragon Mace      = 2541      Delay = 0            
+|Dragon Dagger (S)= 2537      Delay = 0  
+|Abyssal whip     = 2713      Delay = 0 
+|Dragon bolt (E) SPECIAL = 2915      Delay = 0  
+|Dark bow         = 3737      Delay = 1 
+|Saradomin Sword = 3853       Delay = 1 
+|------------NORMAL SOUNDS-----------
+|            case 861:
+                return 2693;
+            case 859:
+                return 2693;
+            case 857:
+                return 2693;
+            case 855:
+                return 2693;
+            case 853:
+                return 2693;
+            case 851:
+                return 2693;
+            case -1:
+                return 2564;
+            case 4151:
+                return 2720;
+            case 4726:
+                return 1328;
+            case 4755:
+                return 1323;
+            case 4747:
+                return 1332;
+            case 4675:
+                return 2555;
+            case 6528:
+                return 2520;
+            case 4587:
+            case 1305:
+                return 2500;
+            case 4718:
+                return 1321;
+            case 5698:
+                return 2517;
+            case 4734:
+            case 9185:
+                return 2700;
+            case 868:
+                return 2696;
+            case 11235:
+                return 3731;
+            case 11694:
+            case 11696:
+            case 11698:
+            case 11700:
+            case 11730:
+                return 3846;    
+            default:
+            return 10000;
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+0 - Bird/tzhaar bird dying.
+1 - Bird/tzhaar bird attacking.
+2 - Bird/tzhaar bird attacking/blocking.
+3 - Cow blocking.
+4 - Cow attacking
+5 - Cow dying.
+6 - Gnome blocking.
+7 - Gnome dying.
+
+15 - Rat dying.
+16 - Rat attacking.
+17 - Rat blocking.
+18 - Bear blocking.
+19 - Bear dying.
+20 - Bear attacking.
+
+21 To 23 - Unknown.
+24 - Chicken blocking/attacking.
+25 - Chicken dying.
+26 - Chicken attacking.
+
+34 - Dog attacking.
+35 - Dog dying.
+36 - Dog blocking.
+37 - Dog blocking?
+
+44 To 45 - Greater/lesser demon dying.
+46 - Greater/lesser demon blocking.
+47 - Greater/lesser demon attacking.
+48 - Same as above.
+49 - Same as 46.
+54 - Giant blocking.
+55 - Giant dying.
+56 - Giant attacking.
+57 - Ghost attacking?
+58 - Ghost blocking.
+--
+60 - Ghost dying
+61 - Ghost attacking.
+
+62 - Imp blocking?
+63 - Imp dying?
+64 - Imp attacking.
+
+65 To 68 - Unknown
+69 - Getting hit.
+70 - Man dying.
+71 - Woman dying.
+72 - Man getting hit.
+73 - Woman getting hit.
+74 To 107 - Unknown.
+108 - Skeleton attacking.
+109 - Skeleton dying.
+110 - Skeleton blocking.
+--
+115 - Dragon attacking.
+116 - Dragon blocking.
+117 - Baby dragon attacking?
+118 - Baby/normal dragon dying.
+119 - Baby dragon blocking.
+
+121 - HellHound dying.
+122 - Hellhound blocking?
+
+123 - Goblin attacking.
+124 - Goblin blocking.
+125 - Goblin dying.
+138 To 140 - Monkey's
+143 - Elemental warrior blocking.
+144 - Elemental warrior attacking?
+145 - Elemental warrior dying.
+146 - Zombie blocking.
+147 - Zombie dying.
+148 - Zombie dying.
+--
+151 - Chicken blocking.
+152 - Chicken dying.
+153 - Chicken attacking.
+154 - Chicken cluck.
+155 - Nothing.
+156 - Nothing.
+157 - A spell cast/hit?
+158 - Vulnerability?
+159 - Bind & success.
+160 - Crumble undead.
+161 - Not sure.
+162 - Same as 159.
+--
+165 - Spell and splash.
+--
+169 - Monk healing themself.
+170 - Barbarian assault healing.
+171 - Some spell.
+172 - Some spell.
+
+172 To 200 - These sounds are fucked, pity because most of these are moder magics.
+201 - Backwards teleport sound.
+202 - Teleport.
+203 To 216 - Enchant gems.
+217 - Unknown.
+218 - Splash?
+219 - Stun.
+220 - Entangle (Fucked).
+221 - Frozen.
+223 - High alch.
+224 - Low alch.
+225 - Weaken (Fucked).
+226 - Unknown.
+227 - Superheat item.
+228 - Unknown.
+229 - Unknown.
+230 - Wear armour?
+231 - End teleport?
+232 - Very quiet noise.
+233 - Explosion.
+234 - Unknown.
+235 - Fire burning?
+236 - Bird.
+237 - Unknown.
+238 - Dart/knife?
+239 - Unknown.
+240 - Unknown.
+241 - Bubbling.
+242 - More bubbling.
+243 - Unkown.
+244 - Armour getting hit?
+245 - Same as above.
+246 - Unknown
+247 - Same as 244 and 245.
+248 - Same as above.
+249 - Same as above.
+250 - Same as above.
+251 - Same as above.
+252 - Unknown.
+253 - Same as 251.
+254 - Armour getting hit.
+255 - Unknown.
+256 - Explosion.
+257 - Smaller explosion.
+258 - Unknown.
+259 - Unknown.
+260 - Unknown.
+261 - Unknown.
+262 - Unknown.
+263 - Unlock door?
+264 - Unknown.
+265 - Dog/Wolf dying/houling.
+266 - Knocking door.
+267 - Canifis - Man changing into wolf.
+268 - Unknown.
+269 - Gate creeking.
+270 - Nothing.
+271 - Unknown.
+272 - Open chest.
+273 - Unknown.
+274 - Unknown.
+275 - Unknown.
+276 - Open chest.
+277 - Like a deep growl.
+278 - Unknown.
+279 - Unknown.
+280 - Unknown.
+281 - Make a potion?
+282 - Unknown.
+283 - Gate creeking.
+284 - Unknown.
+285 - Heard this before, but can't remember.
+286 - Same as above.
+287 - Unknown.
+288 - Same as above.
+289 - Cast net/harpoon/cage out (Fishing)
+290 - Flames of Zamorak (Fucked).
+291 - Claws of Guthix (Fucked).
+292 - Unknown.
+293 - Nothing.
+294 - Unknown (Magic spell?)
+295 - Almost same as above.
+296 - Claws of guthix and splash (Fucked).
+297 - Saradomin strike (Fucked).
+298 - Unknown.
+299 - Saradomin strike and splash (Fucked).
+300 - Unknown.
+301 - Unknown.
+302 - Unknown.
+303 - Frog.
+304 - Unknown.
+305 - Unknown.
+306 - Evil chicken?
+307 - Chicken.
+308 - Unknown.
+309 - Unknown.
+310 - Unknown.
+311 - Chicken dies?
+312 - Unknown.
+313 - Unknown.
+314 - Sounds like the end of a spell.
+315 - Unknown.
+316 - Bee's?.
+317 - Quite eating sound.
+318 - Unknown.
+319 - Open a chest.
+320 - Same as above.
+321 - Close/open metal gate.
+322 - Unknown.
+323 - Unknown.
+324 - Opening a chest.
+325 - Close/open a metal door/chest.
+326 - Open a door.
+327 - Unknown.
+328 - Same as 326.
+329 - Not sure :/.
+330 - Unknown.
+331 - Same as 315.
+332 - Open a chest?
+333 - Not sure.
+334 - Drink potion.
+335 - Bee's.
+336 - Low alch.
+337 - Burst of strength?
+338 - Unknown.
+339 - Swarm.
+340 - Unknown.
+341 - Unknown.
+342 - Swarm.
+343 - Unknown.
+344 - Drunk dwarf.
+345 - Tree spirit.
+346 - Monster plant (Random).
+347 - Unknown.
+348 - Some sort of explosion.
+349 - Unknown.
+350 - Random event plant appears.
+351 - Unknown.
+352 - Unknown.
+353 - Random old man.
+354 - Open chest.
+355 - Unknown (Fucked).
+356 - Pickup item.
+357 - Cook food.
+358 - Pick flax.
+359 - Open chest.
+360 - Unknown.
+361 - Crossbow/Normal bow firing?
+362 - Same as above but quieter.
+363 - Unkown.
+364 - Dart/knife.
+365 - Same as above?
+366 - Unknown.
+367 - MLB spec?
+368 - Unknown.
+369 - Dark/knife?
+370 - Fire with bow.
+371 - Unknown.
+372 - Unknown.
+373 - Make potion.
+374 - Unknown.
+375 - Light fire.
+376 - Drop item.
+377 - Unknown.
+378 - Fishing/sea.
+379 - Unknown.
+380 - Bury bones.
+381 - Hit something with pickaxe?
+382 - Hit something.
+383 - Unknown.
+384 - Unknown.
+385 - DDS Spec.
+386 - MSB Spec.
+387 - Dragon Mace spec.
+388 - Dragon spear?
+389 - Unknown.
+390 - Dragon longsword.
+391 - MLB Spec.
+392 - Unknown.
+393 - Hit with staff?
+394 - Hit with staff?
+395 - Hit with staff.
+396 - Scimitar/sword.
+397 - Unknown.
+398 - Dagger/Lunge with sword/scim.
+399 - Battleaxes.
+400 - Some sort of axe?
+401 - Slash with dds.
+402 - Unknown.
+403 - Faint dagger noise.
+404 - Hit metal.
+405 - Hit hard armour.
+406 - Hit hard armour.
+407 - Hit hard armour.
+408 - Hitting armour.
+409 - Same as above (Bit louder).
+410 - Getting hit with sword?
+411 To 415 - Hit with armour on.
+416 - Not sure.
+417 - Punch/Kick.
+418 - Not sure.
+419 - Unknown.
+420 - Unknown.
+421 - Unknown.
+422 - Unknown
+423 - Unknown.
+424 - Unknown.
+425 - Unknown.
+426 - Unknown.
+427 - Unknown.
+428 - Unknown.
+429 - Unknown.
+430 - Grant wish genie lamp.
+431 - No ore left in rock.
+432 - Mining.
+433 - Protect melee.
+434 - Superhuman Strength.
+435 - Turn prayer off.
+436 - Clarity of thought.
+437 - Run out of prayer.
+438 - Protect magic.
+439 - Steel skin.
+440 - Incredible reflexes.
+441 - Rock skin.
+442 - Replenish/Recharge prayer.
+443 - Rapid heal.
+444 - Protect range.
+445 - Unknown.
+446 - Thick skin.
+447 - Not high enough/Not enough prayer.
+448 - Improved reflexes
+449 - Burst of strength.
+450 - Ultimate strength.
+451 - Rapid restore.
+452 - Unknown.
+453 - Unknown.
+454 - Unknown.
+455 - Jump wilderness ditch.
+456 - Unknown.
+457 - Unknown.
+458 - Stunned from thieving.
+459 - Unknown.
+460 - Unknown.
+461 - Unknown.
+462 - Unknown.
+463 - Getting hit.
+464 - Cutting gem.
+465 - Drop money?
+466 - Same as above.
+467 - Unknown.
+468 - Smithing.
+469 - Smelting (Fucked ffs).
+470 - Not sure.
+471 To 473 - Woodcutting sounds.
+474 - Unknown.
+475 - Unknown.
+476 - Bubble?
+477 - Nothing.
+478 - Same as above.
+479 - Unknown.
+480 - Unknown.
+481 - Runecrafting.
+482 - Unknown.
+483 - Unknown.
+484 - Unknown.
+485 - Unknown.
+486 - Unknown.
+487 - Unknown.
+488 - Unknown.
+489 - Unknown.
+490 - Some monster attcking - Heard it before.
+491 - Brawler?
+492 - Same
+493 - A monster dying.
+494 - Unknown.
+495 - Sounds like a machine.
+496 - Unknown.
+497 - Unknown.
+498 - Unknown.
+499 - Unknown.
+500 - Dagganoth ranging.
+501 - Unknown.
+502 - Crickets?
+503 - Nothing.
+504 - Like the wilderness ditch jump sound.
+505 - Unknown.
+506 - Unknown.
+
+2425 = Brawler
+
+2778 10085 = Battle ROom
+2828 10079 = Waiting Room
+
+165 = question
+166
+167 end of tut
+168 =sorr
+179 = alright
+
+185 = Question
+186 = sorry you need
+187 = okay 99k
+188 = all you do
+
+manta ray = 389
+shark = 383
+lob = 377
+shrimp 317
+
+
+377 = Fishin
+sound 161 : strike cast
+sound 240 : cooking i think
+sound 223: alching - high
+sound 224 : alching - low
+sound 370 : arrow
+sound 816 : getting hit
+sound 818: getting hit (female)
+and so on till 823 lol
+sound 986 : blood burst? I think
+sound 1057 : verac flail
+sound 1079 : g maul
+sound 1080 : whip
+sound 1081 : whip SPEC
+sound :1110 :ice blitz.  //edit or maybe cast i didnt look my friend told me
+sound: 1111 : ice cast//same thing as above
+sound 1125: ice barrage :D
+sound 1126: ice burst :D
+sound 811 : fm
+sound 793 : dds stab
+sound 791 : shield block
+
+380 -- bury bones
+
+385 -- drag dagger spec
+
+386 -- range special
+
+387 -- mace spec
+
+388 -- drag spear spec
+
+389 -- drag battle axe spec
+
+390 -- d long spec
+
+
+Mining
+
+429
+431
+432
+
+Prayer
+
+433-444, 451 and stuff few more
+
+458 - stunned
+
+smithing
+
+463
+464
+468
+469
+
+317 = eat food
+324 = pick lock
+332 = open somtin
+334 = drink potion
+343 = break axe
+353 = random event genie
+357 = cook
+358 = Pick up item
+370 = shoot arrow
+375 = Light Fire
+376 = Drop item
+460 = air woosh bag thing idk
+470 spinny thing
+474 = bloop
+475 = bloop 2
+476 = bloop 3 Higher
+
+
+woodcutting
+
+471
+472
+473
+
+405 - like 413 are when you wield wepons weither its long sword wepon arrows platelegs body so on
+
+200 - 229 mage stuff mage on items teleports
+
+396 - scimmy
+398 : lunge
+
+190 - entangle
+191 - entangle splash
+192 - something splash?
+193 - 192 succeed
+194 - another succeed of 192
+200 - telekenitic grab
+201 - some kind of teleport
+202 - teleport
+203 - some enchant
+204 - superheat?
+205 - another enchant
+206 - faster 205
+207 - another enchant
+208 - 3 stutters then enchant
+209 - 2 stutters then enchant
+210 - 208 then fire sound
+211 - 208 then bouncey sound?
+212 - another enchant
+213 - nice sound then fire
+214 - 213 but kind of teleport sound
+215 - 214
+216 - 214 then fire
+217 - superheat
+218 - superheat failure?
+219 - teleother?
+220 - entangle?
+221 - failure of some sort
+222 - cool sound
+223 - high alch :D
+224 - low alch :D
+225 - enfeeble?
+226 - failure
+227 - kawa
+228 - fall on something hot?
+229 - sharp sound
+230 - equip something?? :O!
+231 - down sound then fire
+232 - spade
+233 - bang
+234 - pop
+235 - cooking
+236 - birds
+237 - water?
+238 - bang
+239 - water then ahh?
+240 - fire
+241 - bubbles
+242 - more bubbles
+243 - 
+2500 - home tele
+2503 = hometele
+1080 - whip attack sound
+1081 - whip special sound
+367 - some kind of bow fire
+463 - armour block
+436 - inproved refexes
+434 - superhuman str
+433 - protect item
+437 - 0 prayer
+435 - pray off
+438 - protect from magic
+439 - steel skin
+440 - incredible reflexes
+441 - ultimate str
+442 - pray fill
+443 - some pray thing idk what one
+444 - protect from range
+445 - pray maybe?
+446 - chick skin
+447 - not high enuf pray
+448 - clarity of thought
+449 - rock skin
+450 - burst of str
+451 - mage boost
+452 - snowball throw
+455 - cross wildy ditch
+069 - hitted
+070 - npc man ded
+071 - npc girl ded
+072 - hitted
+sound 161 : strike cast
+sound 240 : cooking i think
+sound 223: alching - high
+sound 224 : alching - low
+sound 370 : arrow
+sound 816 : getting hit
+sound 818: getting hit (female)
+and so on till 823 lol
+sound 986 : blood burst? I think
+sound 1057 : verac flail
+sound 1079 : g maul
+sound 1080 : whip
+sound 1081 : whip SPEC
+sound :1110 :ice blitz. //edit or maybe cast i didnt look my friend told me
+sound: 1111 : ice cast//same thing as above
+sound 1125: ice barrage :D
+sound 1126: ice burst :D
+sound 811 : fm
+sound 793 : dds stab
+sound 791 : shield block
+
+380 -- bury bones
+
+385 -- drag dagger spec
+
+386 -- range special
+
+387 -- mace spec
+
+388 -- drag spear spec
+
+389 -- drag battle axe spec
+
+390 -- d long spec
+
+
+Mining
+
+429
+431
+432
+
+Prayer
+
+433-444, 451 and stuff few more
+
+458 - stunned
+
+smithing
+
+463
+464
+468
+469
+
+woodcutting
+
+471
+472
+473
+
+405 - like 413 are when you wield wepons weither its long sword wepon arrows platelegs body so on
+
+200 - 229 mage stuff mage on items teleports
+
+396 - scimmy
+398 : lunge
+
+Pre Release, Cuz my full list isn't finished already took me 1h to make this lil list =S
+SoundList By TheDragon Version 1
+Copyright TheDragon.
+ONLY For google.org AND DragonNetwork.zxq.net/forum
+--------------------------------------------------------------------
+-ID----Preview (What it do, *Name*)
+-Monster Sound-
+001----Rat getting hitted.
+002----Rat getting hitted Again.
+003----Cow Getting Hit.
+004----Cow.
+005----Cow.
+006----*Unknow*
+007----*Unknow*
+008----*Unknow*
+009----*Unknow*
+015----Dieing Rat.
+024----Chicken.
+025----Chicken.
+026----Chicken.
+027----Chicken.
+028----*Unknow*
+029----*Unknow*
+030----*Unknow*
+031----*Unknow*
+032----*Unknow*
+033----*Unknow*
+034----*Unknow* 
+035----*Unknow*
+036----*Unknow*
+037----*Unknow*
+038----*Unknow*
+039----*Unknow*
+040----*Unknow*
+041----*Unknow* 
+905----Dwarf Dieing
+-Il stop whit those monster sound for now... Il finish those latter.-
+
+-Magic Sound-
+1125---Ice Barrage Sound
+986----Blood Blitz Sound
+1110---Ice Blitz Sound
+202----Normal Teleport
+203----Enchanting
+224----Low Alchemie
+223----High Alch
+
+-Weapon Sound-
+396----Scimitar Slash.
+398----Sword Stab
+793----DDS Stab
+1057---Dharok Greataxe Slash
+1062---Torags Hammer Attack
+1061---Guthan WarSpear Attack 1
+1059---Verac Flail Attack
+370----Arrows Fire
+1079---Granite Maul Attack
+1080---Whip Slash
+-Il stop whit weapon sound, continue latter(V2 contain more)-
+
+-Special Sound-
+385----DDs Special
+390----Dlong Special
+1081---Whip Special
+386----Msb&Mlb Special
+389----Dbaxe Spec
+388----Dspear Spec
+
+
+-Players & Monster Contact, etc-
+816----Get Hitted
+791----Block Hit
+
+-Misc, Skill, etc-
+471----Woodcutting Begin
+472----Cuting tree
+473----Tree falling
+380----Bone burying
+352----Smelting
+379----Fishing
+240----Cooking Food
+375----Fletching
+
+1 - small rat getting hit
+2 - small rat getting hit?
+3 - cow Dieing
+4 - cow getting hit
+5 - cow attacking
+6 - some sqeeky npc getting attacked
+7 - some sqeeky npc getting killed
+8 - some sqeeky npc attacking
+9 - Imp dieing
+10 - imp attacking
+11 - imp being hit
+12 - Bear/something attacking
+13 - bear/something Dieing
+14 - bear/something being hit
+15 - Big rat dieing
+16 - big rat being hit
+17 - big rat attacking
+18 - bear being hit
+19 - bear dieing
+20 - bear attacking
+21 - bird dieing?
+22 - bird being hit
+23 - bird attacking
+24 - chicken being hit
+25 - chicken dieing
+26 - chicken attacking
+27 - cow moooooing
+28 - not 100% sure
+29 - not 100% sure
+30 - not 100% sure
+31 - not 100% sure
+32 - not 100% sure
+33 - not 100% sure
+34 - wolf being attacked
+35 - wolf dieing
+36 - wolf attacking
+
+
+
+1000 - Audbury teleport hit
+1001 - Audbury Teleport travel
+1002 - Earth strike cast + travel
+1003 - Earth bolt cast + travel
+1004 - Earth strike hit
+1005 - Earth blast hit
+1006 - earth bolt hit
+1007 - Earth blast cast + travel
+1008 - Earth wave hit?????
+1009 - Earth wave cast + travel
+1010 - Snare cast + travel (im not familiar with sound)
+1011 - Snare hit? im not 100% sure
+1012 - Entangle cast + travel
+1013 - Entangle hit

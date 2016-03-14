@@ -1,0 +1,23 @@
+STEVES AWESOME IDEA!
+
+-This can help with the economy, so yes, we can work on it now if anyone wants to.
+-Player killing type of game(this is not a minigame)
+
+-explanation
+	If you've ever read stories about the wild west I'm sure you've heard of bounties. This is how this 
+	will work. If someone wants another player dead, and they have some extra cash, they could certainly
+	use this system to do it. First we have an NPC that we'll call the "Bounty Master" for now, then the 
+	player goes to the bounty master and puts a bounty on the players head w/ the price they're paying. 
+	The bounty master will record this in his "book" and then if another player talks to the bounty master
+	they can view a list of bounties on players heads. This will probably be displayed on some sort of interface.
+	A player can then accept the bounty, and it will be added to their notes interface as a un deleteable note.
+	If the player happens to kill the target in the wilderness, they will get some sort of ticket(or just get a
+	message on the targets death) which they can exchange for the money that was on the targets head. I think it
+	would be a very fun, and worth while system for the server.
+
+Mystic - Support
+Emperor - Support
+Lumby - Support
+Zach -
+	
+-END.

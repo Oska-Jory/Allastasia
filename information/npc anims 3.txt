@@ -1,0 +1,141 @@
+[QUOTE=Dave™;2255244]Hello there here are some NPC Emote IDS
+
+Mutant Tarn
+[code]Mutant Tarn NPC ID - 5421 (5420, Is before he mutates he attacks like a man, 5419 is used for a clip scene :))
+
+Attack - 5617
+
+Defend - 5618
+
+Dead - 5619
+
+Stand - 5616
+
+walk - 5615[/code]
+
+Cave Horrors
+[code]Cave horror - IDS, 4353 - 4357
+
+Attack (Melee) - 4234
+
+Attack (Mage) - 4237
+
+Defend - 4235
+
+Death - 4233[/code]
+
+Kalphite Queen 2nd Formation.
+[code]
+Kalphite second form ID: 1160
+
+Attack Melee - Unknown.
+
+Attack Mage - 6235
+
+Attack Range - 6234
+
+Block - 6237
+
+Dead - 6233[/code]
+
+Zombie Champ
+[code]Zombie Champion  - 3066
+
+dead - 5580
+
+block - 5574
+
+Another Block I think, This is the real Champion emote - 5579
+
+Attack - 5581
+
+It can use any zombie emote out there, Zombie emotes for 474 + start at 5565-5581 :P[/code]
+
+Penance queen
+[code]Penance queen id : 5247
+
+Attack - 5411
+
+Death - 5412
+
+Defend - 5408[/code]
+
+Giants + Cyclops
+[code]
+Cyclops - 116, Hill Giant - 117, Fire Giant - 110, Moss Giant - 112
+Ice Giant - 111.
+
+defence - 4651
+
+Attack - 4652
+
+death - 4653
+
+Hellhound ID - 3586
+
+Attack - 6579
+
+Defend - 6578
+
+Death - 6576
+
+Scorpion id(s) - 271,5502,4403,108,109,144,107
+
+Attack - 6254
+
+Block - 6255
+
+Death - 6256[/code]
+
+
+Some Godwar emotes:
+
+Armadyl Warrior
+[code]Spiritual warrior ID - 6229
+
+Attack - 6954
+
+Defence - 6955
+
+Death - 6956[/code]
+
+Armardyl Ranger
+[code]Spiritual Ranger ID - 6230 (And Aviansie) 6232-6246
+
+Attack - 6953
+
+Defence - 6955
+
+Death - 6956[/code]
+
+Infomation about Spiritual Warrior, Ranger, Mage, 6219 - 6221 & 6255-6257
+
+These NPC's use these ID's
+
+Warrior's (Zamorak) Uses player mace attack
+Man Block
+Man Death
+
+Warrior (Saradomin) Uses longsword Attack
+Man Block
+Man Death
+
+Ranger (Saradomin & Zamorak)
+Player Bow attack
+Man Block
+Man Death
+
+Magers (Saradomin & Zamorak)
+Player GodSpell Attack
+man block
+man death
+Zamorak uses Flames of Zamorak GFX as atk
+Saradomin uses Saradomin Strike GFX as atk
+
+cool emote for man:
+
+[code]Cool Stand - 6469, Just incase you wan't a cool emote for other Human like npcs
+(E.G Wise Old Man with saradomin Staff)[/code]
+
+More to come[/QUOTE]
+

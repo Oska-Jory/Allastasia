@@ -1,0 +1,1519 @@
+Lumby Lumby zegt
+Summon
+[21:41:47] 448 - -1 (0xffffffff) > 12059 (0x2f1b)
+[21:41:47] 1160 - 243269632 (0xe800000) > 209715200 (0xc800000)
+[21:41:47] 1170 - 2457600 (0x258000) > 2949120 (0x2d0000)
+[21:41:47] 1174 - -1 (0xffffffff) > 6841 (0x1ab9)
+[21:41:47] 1175 - 182986 (0x2caca) > 50645706 (0x304caca)
+[21:41:47] 1176 - 0 (0x0) > 1920 (0x780)
+[21:41:47] 1801 - 5990265 (0x5b6779) > 5990267 (0x5b677b)
+
+
+[21:43:28] 448 - 12059 (0x2f1b) > -1 (0xffffffff)
+[21:43:28] 1175 - 50645706 (0x304caca) > 314058 (0x4caca)
+[21:43:28] 1176 - 1728 (0x6c0) > 0 (0x0)
+
+//Cast
+[21:44:59] 1177 - 60 (0x3c) > 54 (0x36)
+[21:44:59] 1801 - 5990269 (0x5b677d) > 5990271 (0x5b677f)
+
+//Lumby Lumby zegt
+Lumby Lumby zegt
+OHAIII 214: 69206093 215: 5621
+OHAIII 214: 69206095 215: 5621
+
+
+//Bank pin stuff
+e
+Config ID: 563 Value: 1
+wj
+Config ID: 563 Value: 2
+qda
+Config ID: 563 Value: 3
+
+//Dropped a hellcat.
+gj
+Config: ID: 448 Value: 7584
+Config: ID: 1174 Value: 3506
+Config: ID: 1160 Value: 8388608
+Config: ID: 1174 Value: 3506
+Config: ID: 1175 Value: 1231562
+Config: ID: 1175 Value: 1231562
+Interface Animation ID: 8581 Something: 43450371
+GFX Id: 4813
+mja
+Config ID: 448 Value: -1
+oa
+
+//Task List configs (varrock, progress 50 / 63, overall: 342 / 428)
+Config: ID: 1961 Value: 524162
+Config: ID: 1961 Value: 524162
+Config: ID: 1961 Value: 13107074
+
+//Bank tab viewed 10 to 0.
+Config: ID: 1248 Value: -939499493
+Config: ID: 1248 Value: -1073717221
+Config: ID: 1248 Value: -1207934949
+Config: ID: 1248 Value: -1342152677
+Config: ID: 1248 Value: -1476370405
+Config: ID: 1248 Value: -1610588133
+Config: ID: 1248 Value: -1744805861
+Config: ID: 1248 Value: -1879023589
+Config: ID: 1248 Value: -2013241317
+
+
+Config ID: 563 Value: 4
+//Ge opening
+Config ID: 1112 Value: -1
+Config ID: 1113 Value: -1
+Config ID: 1111 Value: 1
+Config ID: 1109 Value: -1
+
+//Buy
+Config ID: 1112 Value: 1
+Config ID: 1113 Value: 0
+
+//Selecting armadyl godsword to buy.
+Config: ID: 1109 Value: 11694
+Config: ID: 1114 Value: 40114498
+Config: ID: 1109 Value: 11694
+Config: ID: 1111 Value: 40114498
+
+//Select 1
+Config ID: 1110 Value: 1 //Total amount to buy
+Config: ID: 1111 Value: 40114498 //Price to buy
+
+//On confirm
+Config ID: 1112 Value: -1
+Config ID: 1113 Value: -1
+Config ID: 1111 Value: 1
+Config ID: 1110 Value: 0
+Config ID: 1109 Value: -1
+
+//Summoning shit:
+		/*
+		 * Amask Possible >> 16   0
+Amask Possible >> 16   662
+Amask Possible    4096
+Amask Possible    74
+Amask 194: 0 195: 4096 196: 48955409 197: 0
+Amask Possible >> 16   0
+Amask Possible >> 16   747
+Amask Possible    4096
+Amask Possible    17
+
+Spirit spider:
+Accessmask set: 2, interface: 747 child: 17 start 0, length: 0
+Accessmask set: 2, interface: 662 child: 74 start 0, length: 0
+Config: ID: 1170 Value: 2949120
+Config: ID: 1160 Value: 8388608
+Config: ID: 1175 Value: 50645706
+Config: ID: 1175 Value: 50645706
+Config: ID: 1160 Value: 209715200
+GFX Id: 4375
+Accessmask set: 2, interface: 747 child: 17 start 0, length: 0
+Accessmask set: 2, interface: 662 child: 74 start 0, length: 0
+
+//Dismiss:
+Config ID: 448 Value: -1
+Config ID: 1176 Value: 0
+Config: ID: 1175 Value: 314058
+Z
+Z
+I
+lb
+GFX Id: 5046
+Accessmask set: 0, interface: 747 child: 17 start 0, length: 0
+Config ID: 448 Value: -1
+
+//Pyrelord:
+ * Config: ID: 448 Value: 12816
+Config: ID: 1174 Value: 7377
+Config: ID: 1175 Value: 50645706
+Config: ID: 1175 Value: 51038922
+Config: ID: 1171 Value: 1847296
+Config: ID: 1171 Value: 1847296
+Config: ID: 1176 Value: 4096
+Config ID: 2044 Value: 0
+Config: ID: 1801 Value: 804206238
+Config ID: 1878 Value: 0
+Config: ID: 1231 Value: 333824
+Config: ID: 1160 Value: 8388608
+Config: ID: 1175 Value: 51038922
+Config: ID: 1175 Value: 51038922
+Config: ID: 1160 Value: 1115684864
+GFX Id: 4376
+Accessmask set: 0, interface: 747 child: 17 start 1, length: 0
+Accessmask set: 0, interface: 662 child: 74 start 1, length: 0
+Config: ID: 1170 Value: 31621120
+Config: ID: 1160 Value: 8388608
+Config: ID: 1175 Value: 51038922
+Config: ID: 1175 Value: 51038922
+Config: ID: 1160 Value: 1115684864
+GFX Id: 4620
+Accessmask set: 0, interface: 747 child: 17 start 1, length: 0
+Accessmask set: 0, interface: 662 child: 74 start 1, length: 0
+
+//Randomly sent when viewing follower details:
+ * 
+Config: ID: 1176 Value: 3840
+Config: ID: 1176 Value: 3904
+
+//Dismiss:
+ * 
+Config ID: 448 Value: -1
+Config ID: 1176 Value: 0
+Config: ID: 1175 Value: 707274
+ri
+GFX Id: 5046
+Accessmask set: 0, interface: 747 child: 17 start 0, length: 0
+		 */
+
+//Open worldmap
+BCONFIG ID: 674 VALUE: 52202850
+BCONFIG ID: 622 VALUE: 52202850
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Accessmask set: 2, interface: 755 child: 49 start 0, length: 0
+Interface config: interf: 755, child: 45, hidden: false
+
+BCONFIG ID: 674 VALUE: 52202850
+cfa
+BCONFIG ID: 674 VALUE: 52202850
+I
+I
+hs
+BCONFIG ID: 674 VALUE: 52202850
+
+//Close worldmap
+dda
+BCONFIG ID: 674 VALUE: 52202850
+B
+ao
+BCONFIG ID: 674 VALUE: 52202850
+I
+lla
+BCONFIG ID: 622 VALUE: -1
+BCONFIG ID: 674 VALUE: -1
+SendInterface CHILD: 548 Something: 0Somthing: 2730
+SendInterface CHILD: 746 Something: 226Somthing: 2730
+SendInterface CHILD: 548 Something: 24Somthing: 3065
+SendInterface CHILD: 746 Something: 185Somthing: 3065
+
+
+
+//Emotes tab or music tab again
+Config: ID: 1434 Value: -2144919552
+Config: ID: 464 Value: 1073741824
+Config: ID: 22 Value: 33558528
+Config: ID: 24 Value: 130028064
+Config: ID: 598 Value: 34078720
+Config: ID: 24 Value: 130028064
+Config: ID: 23 Value: 3213440
+Config: ID: 24 Value: 130028064
+Config: ID: 24 Value: 130028064
+Config: ID: 906 Value: 134232576
+Config: ID: 662 Value: 4194304
+Config: ID: 906 Value: 134232576
+Config: ID: 906 Value: 134232576
+Config: ID: 598 Value: 34078720
+Config: ID: 906 Value: 134232576
+Config: ID: 906 Value: 134232576
+Config: ID: 1104 Value: 484
+Config: ID: 1202 Value: 67174408
+Config: ID: 24 Value: 130028064
+Config: ID: 1180 Value: 67633152
+Config: ID: 1009 Value: 536870912
+Config: ID: 1180 Value: 67633152
+Config: ID: 1202 Value: 67174408
+Config: ID: 1202 Value: 67174408
+Config: ID: 1394 Value: 25165824
+Config: ID: 1394 Value: 25165824
+Config: ID: 1434 Value: -2144919552
+Config: ID: 1434 Value: -2144919552
+Config: ID: 1434 Value: -2144919552
+Config: ID: 1434 Value: -2144919552
+Config: ID: 1596 Value: 2179
+Config: ID: 1596 Value: 2179
+Config: ID: 1596 Value: 2179
+Config: ID: 1865 Value: 100673544
+Config: ID: 1865 Value: 100673544
+Config: ID: 1865 Value: 100673544
+Config: ID: 1865 Value: 100673544
+Config: ID: 1865 Value: 100673544
+Config: ID: 2019 Value: 393216
+Config: ID: 2019 Value: 393216
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1618 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1619 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config: ID: 1620 Value: 65535
+Config ID: 313 Value: 0
+Config: ID: 1104 Value: 484
+Config: ID: 1104 Value: 484
+Config: ID: 1104 Value: 484
+Config: ID: 1104 Value: 484
+Config: ID: 2246 Value: 7077890
+Config: ID: 2246 Value: 7077890
+Config: ID: 2246 Value: 7077890
+Config: ID: 2246 Value: 7077890
+Config: ID: 2246 Value: 7077890
+Config ID: 297 Value: 4
+
+//Equipment bonuses interface:
+Config: ID: 1248 Value: 134241307
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 667 child: 7 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+Accessmask set: 1538, interface: 670 child: 0 start 65, length: 0
+
+//When logging out to lobby:
+Config: ID: 869 Value: 2080701760
+Config: ID: 1287 Value: 1095665991
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1584 Value: 1073741847
+
+//ON LOGIN
+Config ID: 0 Value: 11
+Config ID: 5 Value: 10
+Config ID: 10 Value: 8
+Config ID: 11 Value: 5
+Config ID: 14 Value: 7
+Config ID: 17 Value: 15
+Config ID: 20 Value: -1
+Config ID: 21 Value: -1
+Config ID: 22 Value: -1
+Config ID: 23 Value: -1
+Config ID: 24 Value: -1
+Config ID: 25 Value: -1
+Config ID: 26 Value: 80
+Config ID: 29 Value: 2
+Config ID: 30 Value: 80
+Config ID: 31 Value: 100
+Config ID: 32 Value: 3
+Config ID: 60 Value: 3
+Config: ID: 62 Value: 1734
+Config ID: 63 Value: 6
+Config ID: 65 Value: 10
+Config ID: 67 Value: 3
+Config ID: 68 Value: 16
+Config ID: 71 Value: 4
+Config ID: 74 Value: 120
+Config ID: 76 Value: 6
+Config ID: 80 Value: 4
+Config: ID: 101 Value: 310
+Config ID: 105 Value: -1
+Config ID: 107 Value: 5
+Config ID: 111 Value: 9
+Config ID: 112 Value: 8
+Config ID: 113 Value: 1
+Config ID: 116 Value: 17
+Config ID: 118 Value: -1
+Config ID: 122 Value: 7
+Config ID: 130 Value: 4
+Config ID: 131 Value: 9
+Config: ID: 135 Value: 198
+Config ID: 139 Value: 75
+Config ID: 144 Value: 100
+Config ID: 145 Value: 7
+Config ID: 147 Value: 6
+Config ID: 148 Value: 11
+Config: ID: 150 Value: 160
+Config ID: 159 Value: 13
+Config ID: 160 Value: 2
+Config ID: 161 Value: 10
+Config: ID: 162 Value: 15073278
+Config ID: 165 Value: 30
+Config ID: 167 Value: 0
+Config ID: 168 Value: 4
+Config ID: 169 Value: 4
+Config ID: 170 Value: 0
+Config ID: 171 Value: 0
+Config ID: 172 Value: 1
+Config ID: 173 Value: 1
+Config ID: 175 Value: 13
+Config ID: 176 Value: 10
+Config ID: 177 Value: 64
+Config: ID: 178 Value: 159
+Config ID: 179 Value: 21
+Config ID: 180 Value: 6
+Config ID: 188 Value: 15
+Config ID: 192 Value: 2
+Config ID: 197 Value: 30
+Config ID: 200 Value: 5
+Config ID: 212 Value: 14
+Config ID: 222 Value: 3
+Config ID: 223 Value: 9
+Config ID: 226 Value: 7
+Config: ID: 259 Value: 1280
+Config: ID: 270 Value: 1000
+Config ID: 273 Value: 110
+Config: ID: 281 Value: 1000
+Config ID: 287 Value: 1
+Config: ID: 292 Value: -775946178
+Config ID: 293 Value: 65
+Config ID: 294 Value: 112
+Config ID: 298 Value: -1
+Config: ID: 299 Value: 1096446
+Config: ID: 300 Value: 1000
+Config ID: 302 Value: 61
+Config ID: 304 Value: 1
+Config ID: 307 Value: 110
+Config ID: 309 Value: 5
+Config ID: 311 Value: -1
+Config: ID: 313 Value: 65535
+Config ID: 314 Value: 80
+Config ID: 317 Value: 50
+Config: ID: 318 Value: 3199
+Config ID: 320 Value: 6
+Config ID: 322 Value: 10
+Config ID: 328 Value: 15
+Config ID: 329 Value: 39
+Config ID: 335 Value: 110
+Config ID: 339 Value: 85
+Config: ID: 340 Value: 1630159343
+Config ID: 346 Value: -1
+Config ID: 347 Value: 10
+Config: ID: 351 Value: 33519626
+Config: ID: 353 Value: 994
+Config: ID: 354 Value: 950
+Config ID: 359 Value: 100
+Config: ID: 361 Value: 1350565888
+Config: ID: 362 Value: -268435456
+Config: ID: 363 Value: -1610678192
+Config ID: 365 Value: 10
+Config ID: 382 Value: 11
+Config: ID: 383 Value: 2097671
+Config ID: 385 Value: 45
+Config ID: 387 Value: 110
+Config: ID: 394 Value: 212
+Config ID: 399 Value: 9
+Config ID: 402 Value: 6
+Config ID: 403 Value: 10
+Config ID: 406 Value: 20
+Config: ID: 408 Value: -2017034304
+Config: ID: 414 Value: -67108865
+Config: ID: 416 Value: 285
+Config: ID: 417 Value: 1182793726
+Config: ID: 423 Value: -537233082
+Config: ID: 425 Value: 1065
+Config: ID: 433 Value: 2068980590
+Config: ID: 435 Value: 693532
+Config: ID: 436 Value: 318829455
+Config: ID: 437 Value: 478826
+Config ID: 439 Value: 1
+Config: ID: 440 Value: 2064399
+Config: ID: 441 Value: -971504863
+Config: ID: 442 Value: -449957977
+Config: ID: 443 Value: 97779962
+Config ID: 445 Value: 26
+Config ID: 446 Value: 51
+Config ID: 448 Value: -1
+Config: ID: 449 Value: 1151336458
+Config: ID: 450 Value: 83962852
+Config: ID: 451 Value: 20697741
+Config: ID: 452 Value: -2039610878
+Config: ID: 453 Value: 1164415
+Config: ID: 455 Value: -1971732562
+Config ID: 463 Value: 1
+Config: ID: 464 Value: -134217730
+Config: ID: 465 Value: 21913611
+Config: ID: 482 Value: 386433458
+Config: ID: 486 Value: 1073741824
+Config: ID: 491 Value: 1073799168
+Config ID: 492 Value: 4
+Config: ID: 496 Value: 14123010
+Config: ID: 498 Value: 67108864
+Config: ID: 502 Value: 566243008
+Config: ID: 503 Value: -1810583633
+Config: ID: 504 Value: 10280
+Config: ID: 507 Value: 128
+Config ID: 508 Value: 33
+Config: ID: 509 Value: 838873600
+Config ID: 510 Value: 49
+Config: ID: 511 Value: 235080798
+Config: ID: 512 Value: 1090519197
+Config: ID: 515 Value: -1426063360
+Config: ID: 516 Value: 1073741824
+Config ID: 517 Value: 9
+Config: ID: 518 Value: 329316642
+Config: ID: 520 Value: 14309
+Config: ID: 521 Value: -208678004
+Config ID: 532 Value: -1
+Config: ID: 533 Value: 12448475
+Config: ID: 534 Value: -1994091959
+Config: ID: 540 Value: 2362668
+Config: ID: 553 Value: -764476036
+Config: ID: 554 Value: 1609826303
+Config: ID: 568 Value: 38867654
+Config: ID: 569 Value: 1073761770
+Config: ID: 571 Value: 45002763
+Config: ID: 572 Value: 117450784
+Config: ID: 573 Value: 164
+Config: ID: 574 Value: -67084228
+Config: ID: 594 Value: 113246207
+Config ID: 597 Value: 115
+Config: ID: 598 Value: -8388609
+Config ID: 599 Value: 2
+Config ID: 600 Value: 19
+Config: ID: 601 Value: 334496704
+Config: ID: 602 Value: -14611971
+Config: ID: 604 Value: -840412
+Config: ID: 607 Value: 277880703
+Config: ID: 609 Value: 8064
+Config: ID: 615 Value: 18579211
+Config: ID: 616 Value: 129212
+Config ID: 617 Value: 4
+Config: ID: 622 Value: 276824144
+Config: ID: 623 Value: 1476439176
+Config: ID: 624 Value: 1208000512
+Config: ID: 626 Value: 330798
+Config: ID: 628 Value: 8246
+Config: ID: 629 Value: -1744625664
+Config: ID: 635 Value: 53408
+Config ID: 636 Value: 6
+Config: ID: 638 Value: 262144
+Config: ID: 640 Value: 7168
+Config: ID: 641 Value: 537867206
+Config: ID: 642 Value: -616585217
+Config: ID: 643 Value: 537782755
+Config: ID: 648 Value: 1000
+Config: ID: 649 Value: 1050
+Config: ID: 655 Value: 140
+Config: ID: 657 Value: 327680
+Config ID: 661 Value: 7
+Config ID: 662 Value: -1
+Config ID: 667 Value: 42
+Config: ID: 671 Value: 58720346
+Config ID: 673 Value: 4
+Config: ID: 678 Value: 583024645
+Config: ID: 679 Value: -677293824
+Config: ID: 680 Value: -1594034171
+Config ID: 681 Value: 60
+Config: ID: 683 Value: 20590
+Config: ID: 684 Value: 1621579088
+Config: ID: 685 Value: 1275068466
+Config ID: 700 Value: 1
+Config: ID: 704 Value: -806712324
+Config: ID: 705 Value: 373249454
+Config: ID: 709 Value: -2139095027
+Config: ID: 710 Value: 32425
+Config: ID: 711 Value: 3400
+Config ID: 712 Value: 18
+Config: ID: 714 Value: -268435410
+Config ID: 715 Value: -2
+Config: ID: 716 Value: 1612677662
+Config: ID: 719 Value: -132104022
+Config ID: 721 Value: -1
+Config: ID: 723 Value: 1071511762
+Config ID: 728 Value: 100
+Config ID: 729 Value: 10
+Config: ID: 730 Value: 42076190
+Config: ID: 731 Value: 1082131916
+Config: ID: 738 Value: 476591297
+Config: ID: 787 Value: 7012459
+Config: ID: 788 Value: 19828931
+Config: ID: 794 Value: 75167757
+Config ID: 802 Value: 15
+Config ID: 806 Value: 19
+Config: ID: 807 Value: 10900630
+Config: ID: 809 Value: 147423
+Config: ID: 810 Value: 127314788
+Config: ID: 816 Value: 951443
+Config: ID: 821 Value: 8480
+Config: ID: 823 Value: 190
+Config: ID: 824 Value: 512
+Config: ID: 830 Value: 5636644
+Config: ID: 836 Value: 19393373
+Config: ID: 837 Value: -2147483648
+Config ID: 842 Value: 1
+Config: ID: 844 Value: 22368316
+Config: ID: 845 Value: 53739520
+Config ID: 849 Value: -1
+Config ID: 850 Value: -1
+Config ID: 851 Value: -1
+Config ID: 852 Value: -1
+Config ID: 853 Value: -1
+Config ID: 854 Value: -1
+Config ID: 855 Value: -1
+Config ID: 856 Value: -1
+Config: ID: 869 Value: 2080701760
+Config: ID: 870 Value: 1431974158
+Config ID: 872 Value: 4
+Config: ID: 874 Value: -1040319730
+Config: ID: 896 Value: 1433210987
+Config: ID: 897 Value: 1610747456
+Config ID: 900 Value: 64
+Config ID: 903 Value: 16
+Config: ID: 904 Value: 321
+Config: ID: 905 Value: 1627389248
+Config ID: 906 Value: -1
+Config: ID: 907 Value: 35968
+Config: ID: 909 Value: -1275068416
+Config: ID: 910 Value: 402653182
+Config: ID: 911 Value: 12286
+Config: ID: 912 Value: 64200
+Config: ID: 913 Value: 31806247
+Config ID: 933 Value: -1
+Config: ID: 934 Value: -8994776
+Config: ID: 935 Value: 502248
+Config: ID: 936 Value: 1072347574
+Config: ID: 939 Value: 496
+Config: ID: 942 Value: -1981078
+Config: ID: 943 Value: 134217728
+Config: ID: 945 Value: 1619001344
+Config: ID: 946 Value: 536870912
+Config: ID: 947 Value: -2147385515
+Config: ID: 948 Value: -1284447180
+Config: ID: 949 Value: 4194304
+Config ID: 950 Value: 1
+Config ID: 951 Value: -1
+Config ID: 952 Value: -1
+Config ID: 953 Value: -1
+Config ID: 954 Value: -1
+Config ID: 955 Value: -1
+Config ID: 956 Value: -1
+Config ID: 959 Value: -1
+Config ID: 960 Value: -1
+Config ID: 961 Value: -1
+Config ID: 962 Value: -1
+Config ID: 963 Value: -1
+Config: ID: 964 Value: 8954754
+Config: ID: 968 Value: 354882439
+Config: ID: 970 Value: 2883924
+Config ID: 974 Value: 3
+Config: ID: 976 Value: 11230
+Config: ID: 977 Value: 1362
+Config: ID: 978 Value: 130023424
+Config: ID: 980 Value: 130
+Config: ID: 981 Value: 5278384
+Config: ID: 982 Value: 671613056
+Config ID: 983 Value: 1
+Config: ID: 987 Value: 7643680
+Config: ID: 990 Value: 8912896
+Config: ID: 991 Value: 35655712
+Config: ID: 992 Value: 57750
+Config ID: 994 Value: 80
+Config: ID: 995 Value: 100200
+Config ID: 996 Value: 30
+Config: ID: 997 Value: 106254347
+Config: ID: 1000 Value: -1340032003
+Config: ID: 1001 Value: -1610088449
+Config: ID: 1002 Value: 1342181119
+Config: ID: 1003 Value: -234811364
+Config: ID: 1004 Value: 871810294
+Config ID: 1005 Value: 108
+Config ID: 1009 Value: -1
+Config: ID: 1010 Value: 63656
+Config: ID: 1011 Value: 33521023
+Config: ID: 1016 Value: -2011710404
+Config: ID: 1017 Value: 66913408
+Config: ID: 1018 Value: 180224
+Config: ID: 1023 Value: 686527
+Config: ID: 1024 Value: 201326608
+Config: ID: 1044 Value: 262287
+Config: ID: 1045 Value: -163618850
+Config: ID: 1046 Value: -230210687
+Config: ID: 1047 Value: 2147424384
+Config: ID: 1048 Value: -2147483585
+Config: ID: 1049 Value: 1114
+Config: ID: 1050 Value: 4145
+Config ID: 1056 Value: 1
+Config: ID: 1058 Value: 486539264
+Config: ID: 1063 Value: 80584
+Config ID: 1064 Value: 6
+Config ID: 1065 Value: -1
+Config ID: 1066 Value: -1
+Config ID: 1067 Value: -1
+Config ID: 1068 Value: -1
+Config ID: 1069 Value: -1
+Config ID: 1070 Value: -1
+Config: ID: 1071 Value: -517996545
+Config: ID: 1072 Value: -50332036
+Config: ID: 1073 Value: 268443062
+Config: ID: 1077 Value: 1049153
+Config: ID: 1081 Value: 863776
+Config: ID: 1083 Value: 289984
+Config: ID: 1084 Value: 458386
+Config: ID: 1085 Value: 262140
+Config: ID: 1087 Value: 60248
+Config: ID: 1088 Value: 200000
+Config: ID: 1091 Value: 21915532
+Config: ID: 1094 Value: 48318866
+Config: ID: 1095 Value: 135838
+Config: ID: 1104 Value: 18876415
+Config: ID: 1105 Value: 1757
+Config ID: 1106 Value: 7
+Config ID: 1109 Value: -1
+Config ID: 1118 Value: -1
+Config: ID: 1136 Value: 55296
+Config: ID: 1137 Value: -2130649086
+Config: ID: 1138 Value: 131072
+Config ID: 1139 Value: -1
+Config ID: 1140 Value: -1
+Config ID: 1141 Value: -1
+Config ID: 1142 Value: -1
+Config ID: 1143 Value: 27
+Config: ID: 1144 Value: 145
+Config ID: 1146 Value: 12
+Config ID: 1149 Value: -1
+Config: ID: 1158 Value: 192
+Config ID: 1159 Value: -1
+Config: ID: 1160 Value: 243269632
+Config: ID: 1165 Value: 9488060
+Config: ID: 1169 Value: 33556483
+Config: ID: 1170 Value: 16384000
+Config: ID: 1171 Value: 1847296
+Config ID: 1174 Value: -1
+Config: ID: 1175 Value: 1231562
+Config ID: 1177 Value: 60
+Config: ID: 1178 Value: 45277
+Config: ID: 1180 Value: -256
+Config: ID: 1181 Value: 2135306
+Config ID: 1182 Value: 1
+Config: ID: 1183 Value: 134396
+Config: ID: 1184 Value: 1224
+Config: ID: 1185 Value: -524289
+Config: ID: 1189 Value: 239
+Config ID: 1190 Value: 60
+Config: ID: 1193 Value: 1543503872
+Config ID: 1194 Value: -1
+Config ID: 1195 Value: 42
+Config: ID: 1196 Value: 43765188
+Config: ID: 1198 Value: 2499
+Config: ID: 1199 Value: 2739
+Config ID: 1200 Value: -1
+Config: ID: 1201 Value: 93760170
+Config: ID: 1202 Value: -34080833
+Config: ID: 1203 Value: -1157628006
+Config: ID: 1204 Value: 655717
+Config: ID: 1205 Value: 59771808
+Config: ID: 1208 Value: 1931
+Config: ID: 1209 Value: 4353
+Config ID: 1216 Value: -1
+Config: ID: 1218 Value: -2784780
+Config: ID: 1219 Value: 52431760
+Config: ID: 1223 Value: 391000806
+Config: ID: 1224 Value: 1296419843
+Config: ID: 1225 Value: 4194710
+Config ID: 1227 Value: 63
+Config: ID: 1230 Value: -973078528
+Config: ID: 1231 Value: 328704
+Config: ID: 1232 Value: 54112506
+Config: ID: 1233 Value: 786509
+Config: ID: 1234 Value: -2144010187
+Config: ID: 1235 Value: 9216
+Config: ID: 1236 Value: 168169572
+Config: ID: 1237 Value: 24117253
+Config ID: 1238 Value: -1
+Config: ID: 1239 Value: 34406400
+Config: ID: 1240 Value: 1981
+Config: ID: 1245 Value: 1791
+Config: ID: 1246 Value: 13672624
+Config: ID: 1247 Value: 11567182
+Config: ID: 1248 Value: 536895515
+Config: ID: 1249 Value: 150
+Config: ID: 1255 Value: 557057
+Config: ID: 1256 Value: -125829121
+Config: ID: 1257 Value: -1072955393
+Config: ID: 1258 Value: -1073725441
+Config: ID: 1259 Value: 3480
+Config ID: 1267 Value: -1
+Config: ID: 1271 Value: -1774583216
+Config: ID: 1272 Value: 68060672
+Config: ID: 1274 Value: 591828308
+Config: ID: 1275 Value: 63605
+Config ID: 1278 Value: -1
+Config ID: 1282 Value: 90
+Config: ID: 1287 Value: 1095665991
+Config: ID: 1289 Value: 234744
+Config: ID: 1300 Value: 18432
+Config: ID: 1303 Value: 6293504
+Config ID: 1306 Value: 35
+Config: ID: 1307 Value: 3712
+Config: ID: 1311 Value: 1610891770
+Config: ID: 1312 Value: 138082986
+Config: ID: 1327 Value: -14217668
+Config: ID: 1328 Value: 1927561659
+Config: ID: 1330 Value: -16875584
+Config ID: 1338 Value: -1
+Config ID: 1340 Value: -1
+Config ID: 1343 Value: 19
+Config ID: 1345 Value: -1
+Config ID: 1346 Value: -1
+Config: ID: 1348 Value: -1627910838
+Config: ID: 1349 Value: 2090414692
+Config: ID: 1350 Value: 33554087
+Config: ID: 1351 Value: -2147481750
+Config: ID: 1352 Value: 3784
+Config: ID: 1353 Value: 32986
+Config: ID: 1355 Value: 204640
+Config: ID: 1357 Value: -1879047674
+Config: ID: 1358 Value: 1073741823
+Config: ID: 1359 Value: 67238013
+Config ID: 1360 Value: -1
+Config: ID: 1361 Value: 32767
+Config: ID: 1365 Value: 1345326140
+Config ID: 1367 Value: -1
+Config: ID: 1370 Value: 254
+Config: ID: 1372 Value: -503914785
+Config: ID: 1373 Value: 1010563071
+Config: ID: 1374 Value: -2146975379
+Config: ID: 1376 Value: 16402
+Config: ID: 1377 Value: -574357503
+Config: ID: 1378 Value: 21386892
+Config: ID: 1381 Value: 75495344
+Config ID: 1383 Value: 1
+Config: ID: 1384 Value: 2592
+Config ID: 1387 Value: 6
+Config: ID: 1390 Value: 627359854
+Config: ID: 1391 Value: -1392820528
+Config: ID: 1392 Value: 2393
+Config: ID: 1394 Value: 33030144
+Config: ID: 1403 Value: -710598608
+Config: ID: 1404 Value: 123728213
+Config: ID: 1405 Value: 1931
+Config: ID: 1407 Value: 1871098
+Config: ID: 1408 Value: 484033216
+Config: ID: 1410 Value: -1874821108
+Config: ID: 1415 Value: 1392486844
+Config: ID: 1416 Value: 2146918162
+Config: ID: 1417 Value: 557118
+Config: ID: 1420 Value: 83852
+Config ID: 1432 Value: 1
+Config: ID: 1434 Value: -411588232
+Config: ID: 1438 Value: 31458
+Config ID: 1439 Value: -1
+Config: ID: 1444 Value: 48439320
+Config: ID: 1445 Value: 44655
+Config ID: 1447 Value: 17
+Config: ID: 1448 Value: 53416
+Config ID: 1469 Value: -1
+Config: ID: 1475 Value: 108413168
+Config ID: 1496 Value: -1
+Config: ID: 1498 Value: 603193434
+Config ID: 1501 Value: 7
+Config: ID: 1557 Value: 43776290
+Config: ID: 1558 Value: 264837
+Config: ID: 1560 Value: 32768
+Config: ID: 1562 Value: 1090519039
+Config: ID: 1563 Value: 1073807359
+Config: ID: 1564 Value: 6164
+Config: ID: 1565 Value: 98304
+Config: ID: 1572 Value: 134217728
+Config ID: 1576 Value: 15
+Config: ID: 1577 Value: 4645594
+Config: ID: 1578 Value: -2017460024
+Config: ID: 1579 Value: -1452855061
+Config: ID: 1580 Value: 377261
+Config: ID: 1583 Value: 511305630
+Config: ID: 1584 Value: 1073741847
+Config: ID: 1587 Value: 786432
+Config: ID: 1588 Value: 6821528
+Config: ID: 1589 Value: 1825
+Config: ID: 1596 Value: 1320806651
+Config: ID: 1597 Value: 99648848
+Config: ID: 1598 Value: 99328
+Config: ID: 1600 Value: -67608580
+Config: ID: 1605 Value: 536870912
+Config: ID: 1606 Value: 1046
+Config: ID: 1607 Value: 1985
+Config: ID: 1608 Value: 727
+Config: ID: 1609 Value: 1989
+Config ID: 1610 Value: 45
+Config ID: 1618 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1620 Value: -1
+Config: ID: 1621 Value: 2147451119
+Config: ID: 1622 Value: 2147483647
+Config: ID: 1623 Value: 1073741823
+Config: ID: 1624 Value: 1073741823
+Config: ID: 1625 Value: 1073741823
+Config: ID: 1626 Value: 1073741823
+Config: ID: 1628 Value: 905185344
+Config: ID: 1641 Value: 474956135
+Config ID: 1644 Value: 12
+Config: ID: 1646 Value: 603578876
+Config: ID: 1655 Value: 262144
+Config ID: 1660 Value: 1
+Config ID: 1673 Value: -1
+Config ID: 1682 Value: -1
+Config ID: 1683 Value: -1
+Config ID: 1684 Value: -1
+Config ID: 1737 Value: 1
+Config: ID: 1775 Value: 23071498
+Config: ID: 1776 Value: 45056
+Config: ID: 1777 Value: 939524096
+Config: ID: 1778 Value: 12319
+Config: ID: 1779 Value: -2080374760
+Config ID: 1780 Value: 87
+Config: ID: 1781 Value: 1023
+Config: ID: 1782 Value: -2147483648
+Config: ID: 1786 Value: -2147483648
+Config: ID: 1787 Value: 1073709056
+Config: ID: 1792 Value: 326655
+Config: ID: 1793 Value: 222893
+Config ID: 1794 Value: 3
+Config ID: 1795 Value: -1
+Config: ID: 1801 Value: 804206213
+Config: ID: 1802 Value: 522
+Config: ID: 1811 Value: 2013101992
+Config: ID: 1812 Value: 2995912
+Config: ID: 1813 Value: 1627144960
+Config ID: 1815 Value: -1
+Config ID: 1818 Value: -1
+Config: ID: 1819 Value: 165383860
+Config: ID: 1820 Value: 268435456
+Config ID: 1821 Value: 32
+Config: ID: 1836 Value: 1805
+Config: ID: 1837 Value: 393
+Config ID: 1843 Value: 31
+Config: ID: 1844 Value: 6291546
+Config: ID: 1849 Value: 160
+Config: ID: 1861 Value: 788511423
+Config: ID: 1862 Value: -702023185
+Config: ID: 1864 Value: 56319
+Config: ID: 1865 Value: 104785983
+Config: ID: 1871 Value: 1735951115
+Config: ID: 1872 Value: 1714017306
+Config: ID: 1873 Value: 1979713737
+Config: ID: 1874 Value: 235709056
+Config: ID: 1875 Value: 961
+Config ID: 1876 Value: -1
+Config: ID: 1886 Value: -1073709057
+Config: ID: 1887 Value: 4194303
+Config ID: 1893 Value: -1
+Config ID: 1894 Value: -1
+Config ID: 1895 Value: -1
+Config ID: 1896 Value: -1
+Config ID: 1897 Value: -1
+Config ID: 1898 Value: -1
+Config ID: 1899 Value: -1
+Config ID: 1900 Value: -1
+Config ID: 1901 Value: -1
+Config ID: 1902 Value: -1
+Config ID: 1903 Value: -1
+Config ID: 1904 Value: -1
+Config ID: 1905 Value: -1
+Config: ID: 1906 Value: 1073123880
+Config: ID: 1907 Value: 5974
+Config: ID: 1933 Value: 67110166
+Config: ID: 1934 Value: 521216
+Config: ID: 1956 Value: -341460360
+Config: ID: 1957 Value: 428349659
+Config: ID: 1958 Value: 342
+Config: ID: 1959 Value: 239075339
+Config: ID: 1960 Value: 34078594
+Config: ID: 1961 Value: 524160
+Config: ID: 1963 Value: 1249582
+Config: ID: 1964 Value: 1384785
+Config: ID: 1965 Value: 1392979
+Config: ID: 1966 Value: 62402456
+Config: ID: 1967 Value: 4196706
+Config: ID: 1968 Value: 62401432
+Config ID: 1971 Value: 99
+Config ID: 1972 Value: 99
+Config ID: 1975 Value: 99
+Config ID: 1976 Value: 77
+Config ID: 1977 Value: 99
+Config: ID: 1978 Value: 200000000
+Config ID: 1979 Value: 76
+Config ID: 1981 Value: 99
+Config ID: 1987 Value: 94
+Config ID: 1988 Value: 85
+Config ID: 1989 Value: 70
+Config ID: 1991 Value: 87
+Config ID: 1992 Value: 96
+Config ID: 1993 Value: 89
+Config ID: 1996 Value: 93
+Config ID: 1997 Value: 95
+Config ID: 2000 Value: 95
+Config ID: 2001 Value: 75
+Config ID: 2002 Value: 96
+Config: ID: 2003 Value: 23142312
+Config ID: 2004 Value: 74
+Config ID: 2006 Value: 76
+Config ID: 2012 Value: 90
+Config ID: 2013 Value: 73
+Config ID: 2014 Value: 66
+Config ID: 2016 Value: 86
+Config ID: 2017 Value: 88
+Config ID: 2018 Value: 86
+Config: ID: 2019 Value: 980312064
+Config: ID: 2030 Value: 7012959
+Config: ID: 2032 Value: 3181
+Config: ID: 2033 Value: 1064136991
+Config: ID: 2040 Value: 8388608
+Config: ID: 2041 Value: 16399
+Config: ID: 2042 Value: 962763
+Config: ID: 2046 Value: 1073692664
+Config: ID: 2047 Value: 8722
+Config: ID: 2063 Value: 67108864
+Config: ID: 2082 Value: 4235452
+Config: ID: 2088 Value: 536870912
+Config ID: 2157 Value: 3
+Config: ID: 2169 Value: 268435456
+Config: ID: 2181 Value: 16777256
+Config: ID: 2182 Value: 234881061
+Config: ID: 2183 Value: 33554466
+Config: ID: 2184 Value: 285212690
+Config: ID: 2185 Value: 250150
+Config ID: 2187 Value: 1
+Config: ID: 2208 Value: 59122
+Config: ID: 2209 Value: 33972
+Config: ID: 2215 Value: 95911936
+Config: ID: 2225 Value: 8100
+Config: ID: 2229 Value: 128
+Config ID: 2234 Value: 1
+Config: ID: 2246 Value: 8388607
+Config: ID: 2250 Value: 438
+Config ID: 2267 Value: 2
+Config: ID: 2363 Value: 2055
+Config: ID: 2372 Value: 512
+Config: ID: 2376 Value: 201883562
+Config: ID: 2377 Value: -2062909877
+Config: ID: 2378 Value: 1432349116
+Config: ID: 2382 Value: 6259637
+Config: ID: 1962 Value: 8384512
+rn
+fea
+I
+I
+io
+Config ID: 1437 Value: 1
+Config ID: 1440 Value: 0
+Config ID: 1441 Value: 0
+
+
+
+//MUSIC TAB CONFIGS:
+Config: ID: 1434 Value: -411588232
+Config: ID: 464 Value: -134217730
+Config ID: 22 Value: -1
+Config ID: 24 Value: -1
+Config: ID: 598 Value: -8388609
+Config ID: 24 Value: -1
+Config ID: 23 Value: -1
+Config ID: 24 Value: -1
+Config ID: 24 Value: -1
+Config ID: 906 Value: -1
+Config ID: 662 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config: ID: 598 Value: -8388609
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config: ID: 1104 Value: 18876415
+Config: ID: 1202 Value: -34080833
+Config ID: 24 Value: -1
+Config: ID: 1180 Value: -256
+Config ID: 1009 Value: -1
+Config: ID: 1180 Value: -256
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1394 Value: 33030144
+Config: ID: 1394 Value: 33030144
+Config: ID: 1434 Value: -411588232
+Config: ID: 1434 Value: -411588232
+Config: ID: 1434 Value: -411588232
+Config: ID: 1434 Value: -411588232
+Config: ID: 1596 Value: 1320806651
+Config: ID: 1596 Value: 1320806651
+Config: ID: 1596 Value: 1320806651
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 2019 Value: 980312064
+Config: ID: 2019 Value: 980312064
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1618 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1619 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 1620 Value: -1
+Config ID: 20 Value: -1
+Config ID: 21 Value: -1
+Config ID: 346 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 21 Value: -1
+Config ID: 22 Value: -1
+Config ID: 24 Value: -1
+Config ID: 25 Value: -1
+Config ID: 24 Value: -1
+Config ID: 25 Value: -1
+Config ID: 24 Value: -1
+Config: ID: 414 Value: -67108865
+Config ID: 662 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 24 Value: -1
+Config ID: 25 Value: -1
+Config ID: 25 Value: -1
+Config ID: 25 Value: -1
+Config ID: 298 Value: -1
+Config ID: 298 Value: -1
+Config ID: 311 Value: -1
+Config ID: 311 Value: -1
+Config ID: 311 Value: -1
+Config ID: 311 Value: -1
+Config ID: 311 Value: -1
+Config ID: 311 Value: -1
+Config ID: 311 Value: -1
+Config ID: 346 Value: -1
+Config ID: 346 Value: -1
+Config ID: 346 Value: -1
+Config ID: 346 Value: -1
+Config: ID: 414 Value: -67108865
+Config ID: 906 Value: -1
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 414 Value: -67108865
+Config: ID: 464 Value: -134217730
+Config: ID: 464 Value: -134217730
+Config: ID: 464 Value: -134217730
+Config: ID: 464 Value: -134217730
+Config: ID: 464 Value: -134217730
+Config: ID: 464 Value: -134217730
+Config: ID: 464 Value: -134217730
+Config: ID: 464 Value: -134217730
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config: ID: 598 Value: -8388609
+Config ID: 1009 Value: -1
+Config: ID: 1104 Value: 18876415
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 662 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 906 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 906 Value: -1
+Config ID: 721 Value: -1
+Config ID: 721 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config: ID: 1104 Value: 18876415
+Config ID: 906 Value: -1
+Config: ID: 1104 Value: 18876415
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 906 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config ID: 1009 Value: -1
+Config: ID: 1104 Value: 18876415
+Config: ID: 1104 Value: 18876415
+Config: ID: 1104 Value: 18876415
+Config: ID: 1136 Value: 55296
+Config: ID: 1136 Value: 55296
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1180 Value: -256
+Config: ID: 1202 Value: -34080833
+Config: ID: 1180 Value: -256
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1202 Value: -34080833
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1434 Value: -411588232
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1381 Value: 75495344
+Config: ID: 1394 Value: 33030144
+Config: ID: 1394 Value: 33030144
+Config: ID: 1434 Value: -411588232
+Config: ID: 1434 Value: -411588232
+Config: ID: 1596 Value: 1320806651
+Config: ID: 1596 Value: 1320806651
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1865 Value: 104785983
+Config: ID: 1104 Value: 18876415
+Config: ID: 1104 Value: 18876415
+Config: ID: 1104 Value: 18876415
+Config: ID: 1104 Value: 18876415
+Config: ID: 2019 Value: 980312064
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config: ID: 2246 Value: 8388607
+Config ID: 297 Value: 4
+
+
+
+//Lootshare enabling
+Config: ID: 512 Value: 1107296413
+//Lootshare disabling
+Config: ID: 1083 Value: 289984
+Config: ID: 1083 Value: 289984
+Config: ID: 1083 Value: 289984
+Config: ID: 1083 Value: 289984
+Config: ID: 1084 Value: 225856
+Config: ID: 1083 Value: 289984
+Config: ID: 1083 Value: 289984
+Config: ID: 1083 Value: 289984
+Config: ID: 1083 Value: 289984
+Config: ID: 1084 Value: 225856
+
+
+
+=============== SUMMONING ================
+
+Dismiss:
+Config ID: 448 Value: -1
+Config ID: 1176 Value: 0
+Config: ID: 1175 Value: 182986
+jp
+GFX Id: 5046
+Accessmask set: 0, interface: 747 child: 17 start 0, length: 0
+BCONFIG ID: 1000 VALUE: 66
+Config ID: 448 Value: -1
+
+
+
+Config: ID: 448 Value: 12816
+Config: ID: 1174 Value: 7377
+Config: ID: 1175 Value: 51563210
+Config: ID: 1175 Value: 51038922
+Config: ID: 1171 Value: 1847296
+Config: ID: 1171 Value: 1847296
+Config: ID: 1176 Value: 4096
+Config ID: 2044 Value: 0
+Config: ID: 1801 Value: 807463549
+Config ID: 1878 Value: 0
+Config: ID: 1231 Value: 333824
+Config: ID: 1160 Value: 8388608
+Config: ID: 1175 Value: 51038922
+Config: ID: 1175 Value: 51038922
+Config: ID: 1160 Value: 1115684864
+BCONFIG ID: 1602 VALUE: 0
+Send interface - show id: 1, window id: 548, interfaceId: 220, child id: 662.
+Accessmask set: 0, interface: 747 child: 17 start 1, length: 0
+Accessmask set: 0, interface: 662 child: 74 start 1, length: 0
+BCONFIG ID: 1436 VALUE: 0
+BCONFIG ID: 1000 VALUE: 136
+Config: ID: 1170 Value: 31621120
+Config: ID: 1160 Value: 8388608
+Config: ID: 1175 Value: 51038922
+Config: ID: 1175 Value: 51038922
+Config: ID: 1160 Value: 1115684864
+Send interface - show id: 1, window id: 548, interfaceId: 220, child id: 662.
+Accessmask set: 0, interface: 747 child: 17 start 1, length: 0
+Accessmask set: 0, interface: 662 child: 74 start 1, length: 0
+BCONFIG ID: 1436 VALUE: 0
+
+
+/*
+BCONFIG ID: 1416 VALUE: 0
+
+
+Config: ID: 448 Value: 12816
+Config: ID: 1174 Value: 7377
+Config: ID: 1175 Value: 51038922
+Config: ID: 1175 Value: 51038922
+Config: ID: 1171 Value: 1847296
+Config: ID: 1171 Value: 1847296
+Config: ID: 1176 Value: 4096
+Config ID: 2044 Value: 0
+Config: ID: 1801 Value: 807463572
+Config ID: 1878 Value: 0
+Config: ID: 1231 Value: 333824
+Config: ID: 1160 Value: 8388608
+Config: ID: 1175 Value: 51038922
+Config: ID: 1175 Value: 51038922
+Config: ID: 1160 Value: 1115684864
+
+BCONFIG ID: 1602 VALUE: 0
+Send interface - show id: 1, window id: 548, interfaceId: 220, child id: 662.
+Accessmask set: 65536, interface: 747 child: 17 start 0, length: 0
+Accessmask set: 65536, interface: 662 child: 74 start 0, length: 0
+BCONFIG ID: 1436 VALUE: 0
+BCONFIG ID: 1000 VALUE: 136
+Config: ID: 1160 Value: 8388608
+Config: ID: 1175 Value: 51038922
+Config: ID: 1175 Value: 51038922
+Config: ID: 1160 Value: 1115684864
+Send interface - show id: 1, window id: 548, interfaceId: 220, child id: 662.
+Accessmask set: 65536, interface: 747 child: 17 start 0, length: 0
+Accessmask set: 65536, interface: 662 child: 74 start 0, length: 0
+BCONFIG ID: 1436 VALUE: 0

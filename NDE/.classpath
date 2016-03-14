@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/lib/appframework-1.0.3.jar"/>
+	<classpathentry kind="lib" path="dist/lib/beansbinding-1.2.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swing-worker-1.1.jar"/>
+	<classpathentry kind="lib" path="dist/NDE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

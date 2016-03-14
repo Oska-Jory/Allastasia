@@ -1,0 +1,73 @@
+Rune Sword				1		UNCOMMON	1289
+Rune Battleaxe				1		RARE		1373
+Rune 2h Sword				1		VERY RARE	1319
+Dragon 2h Sword				1		RARE		7158
+Corrupt Dragon Scimitar			1		VERY RARE	13979
+Corrupt Dragon Mace			1		VERY RARE	13985
+Statius' Warhammer			1		VERY RARE	13902
+Corrupt Dragon Battleaxe		1		VERY RARE	13973
+Vesta's Longsword			1		VERY RARE	13899
+Zuriel's Staff				1		VERY RARE	13867
+Vesta's Spear				1		VERY RARE	13905
+Dragon Spear				1		VERY RARE	1249
+Rune Square Shield			1		RARE		1185
+Dragon Med Helm				1		VERY RARE	1149
+Zuriel's Hood				1		VERY RARE	13864
+Zuriel's Robe Top			1		VERY RARE	13858
+Zuriel's Robe Bottom			1		VERY RARE	13861
+Statius' Full Helm			1		VERY RARE	13896
+Statius' Platebody			1		VERY RARE	13884
+Corrupt Morrigan's Leather Body		1		VERY RARE	13944
+Morrigan's Leather Body			1		VERY RARE	13870
+Iron Arrow - 1000, 2000			1000-2000	COMMON		884
+Mithril Dart - 800			800		COMMON		809
+Rune Arrow - 82 - 400			82-400		RARE		892
+Corrupt Morrigan's Javelin - 5-10	5-10		RARE		13953
+Air Rune - 1000				1000		COMMON		556
+Death Rune - 90, 1000			90-1000		RARE		560
+Blood Rune - 1000			1000		RARE		565
+Chaos Rune - 200-5000			200-5000	COMMON		562
+Soul Rune - 112				112		RARE		566
+Nature Rune - 142			142		RARE		561
+Strength Potion (1)			1		COMMON		119
+Antipoison (4)				1		COMMON		2446
+Attack Potion (1)			1		COMMON		125
+Defence Potion (1)			1		COMMON		137
+Plain Pizza - 6				6		COMMON		2289
+Tuna - 10				10		COMMON		361
+Strange Fruit 2-12			2-12		COMMON		464
+Shark - 10-20				10-20		COMMON		385
+Weapon Poison				1		UNCOMMON	187
+Stew - 10-20				10-20		UNCOMMON	2003
+Saradomin Brew (2) - 10-12		10-12		UNCOMMON	6689
+Wildblood Seed - 1-3			1-3		COMMON		5311
+Avantoe Seed - 1-3			1-3		UNCOMMON	5298
+Limpwurt Seed - 1-3			1-3		UNCOMMON	5100
+Spirit Weed Seed - 1-3			1-3		UNCOMMON	12176
+Strawberry Seed - 1-3			1-3		COMMON		5323
+Tarromin seed - 1-3			1-3		COMMON		5293
+Ranarr Seed - 1-3			1-3		COMMON		5295
+Toadflax Seed - 1-3			1-3		COMMON		5296
+Jangerberry Seed - 1-3			1-3		COMMON		5104
+Irit Seed - 1-3				1-3		COMMON		5297
+Poison Ivy Seed - 1-3			1-3		COMMON		5106
+Marrentill Seed - 1-3			1-3		COMMON		5292
+Cactus Seed - 1-3			1-3		COMMON		5280
+Kwuarm Seed - 1-3			1-3		COMMON		5299
+Harralander Seed - 1-3			1-3		COMMON		5294
+Belladonna Seed - 1-3			1-3		COMMON		5281
+Cadantine Seed - 1-3			1-3		COMMON		5301
+Snapdragon Seed				1		UNCOMMON	5300
+Whiteberry Seed - 1-3			1-3		COMMON		5105
+Torstol Seed				1		RARE		5304
+Uncut Sapphire 2-4 (noted)		2-4		RARE		1623
+Coins - 520-24,000			520-24000	COMMON		995
+Bones - 8				8		COMMON		526
+Bat Bones - 10				10		COMMON		530
+Big Bones 6-176 (noted)			6-176		COMMON		533
+
+Dragon Bones				1		UNCOMMON	536
+Babydragon Bones 2-4			2-4		UNCOMMON	535
+Rune Bar				1		VERY RARE	2363
+Silver Ore - 100 (noted)		100		VERY RARE	443
+Water Talisman				1		RARE		1444

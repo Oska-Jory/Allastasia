@@ -1,0 +1,355 @@
+~~Summoning gfx's~~
+
+http://www.rune-server.org/runescape-development/rs-503-client-server/configuration/262092-613-interface-icon-packet-new.html
+
+Special bar:
+	This is a quite simple effect to achieve, the config id itself is 1177.
+Usage:
+	setConfig2(1177, *number 1-100*);
+
+
+
+setInterfaceConfig(662, specialConfig, false);
+setInterfaceConfig(662, specialConfig + 1, false); //Get the idea?
+VVVVVV
+Config:Howl:66
+Config:Dreadfoul:Strike:68
+Config:Vampire:Touch:70
+Config:Herbcall:72,
+Config:Stonyshell:74
+Config:Evilflames:76
+Config:Fruitfall:78
+Config:Theiving:fingers:80
+Config:Egg:spawn:82
+Config:Fish:rain:84
+Config:Abbsyal:Stealth:86
+Config:Multichop:88
+Config:Unburden:90
+Config:Crushing:claw:92
+Config:Mantis:strike:94
+Config:Famine:96
+Config:Sandstorm:98
+Config:Venom:shot:100
+Config:Cheeze:feast:102
+Config:Insane:Fearocity:104
+Config:Toad:bark:106
+Config:Artic:blast:108
+Config:Winterstorage:110
+Config:Healing:aura:112
+Config:Ophdian:Incubation:114
+Config:Testudo:116
+Config:Slime:spray:118
+Config:Electric:last:120
+Config:Disslove:122
+Config:Abbsyal:drain:124
+Config:Petrifying:gaze:126
+Config:Tireless:run:128
+Config:Blood:rain:130
+Config:Dust:cloud:132
+Config:Doomsphere:device:134
+Config:Generate:compost:136
+Config:Acorn:missle:138
+Config:Posousisis:Blast:140
+Config:Deadly:claw:142
+Config:Regrowth:144
+Config:Spike:shot:146
+Config:Lighting:up:wtf:148
+Config:Magic:focus:150
+Config:Swallow:hole:152
+Config:Swamp:plauge:154
+Config:Call:to:arms:156
+Config:Titan:constistuon:158
+Config:Boil:160
+Config:Steel:of:legends:162
+Config:Explode:164
+Config:Goad:166
+Config:Ambush:168
+Config:Ebon:thunder:170
+Config:Volcanic:Strength:172
+Config:Essence:Shipment:174
+Config:Pester:176
+Config:Fireball:assault:178
+Config:Rending:180
+Config:Iron:within:182
+Config:Immence:heat:184
+Config:Inferno:186
+
+
+
+Although before you use it, you should know the special's hovers stack so setting everything to true before executing is your best bet:
+Code:
+		for(int i = 0; i < 187; i++) {
+		     setInterfaceConfig(662, i, true);
+		}
+Final essentials:
+Code:
+stringChild:54 //Name
+stringChild:60 //Amount of special scrolls, (*number under wolfs head*)
+stringChild:44 //Time out (Hour glass)
+Usage:
+Code:
+    	setString(itemCountOfSpecialScroll,  662, 60);
+    	setString(thePetsName, 662, 54);
+    	setString(theTimeOut, 662, 44);
+I hope you all enjoy, the idea of this tutorial was for you to create your own system now that you know how everything works.
+
+EDIT:
+The npc popping out effect rather then still head:
+Code:
+         setNPCId(suommedId, 662, 3);
+
+
+
+
+Reserved gfx's (will finish some other time)
+==============
+id = 1312 (compost mound)
+id = 1313 (cure - unicorn)
+id = 1314 (small summon familiar flames)
+id = 1315 (large summon familiar flames)
+id = 1316 (use scroll gfx)
+id = 1319 (small summon familiar flames)
+id = 1320 (acorn missle - moss titan)
+id = 1332 (fruit fall - fruit bat)
+id = 1333 - 1334 (howl - sp. wolf)
+id = 1342 (egg spawn - sp spider)
+id = 1464 (Magic focus - wolpertinger)
+id = 1388 (Ophidian Incubation - Sp. Cobra)
+id = 1389 (Ophidian incubation missle - Sp. cobra)
+id = 1426 (spike shot - sp. dagannoth)
+id = 1427 (sp. dagannoth special attack)
+id = 1428 (spike shot apended - sp. dagannoth)
+id = 1465 (volcanic strength - obsidian golem)
+============
+
+~~=Familiar max hits=~~
+======================
+
+Source for max hits: Rune wiki
+
+Abyssal titan - 22
+Iron titan - 23 
+Steel titan - 24
+Ice titan - 15
+Fire titan - 15
+Moss titan - 15
+Swamp titan - 16
+Geyser titan - 21
+Lava titan - 14
+
+================
+===Steel titan===
+================
+Npc ID: 7343
+
+Scroll effects: Hits 4X in one hit per scroll on the next attack in combat only
+
+GFX's:
+---------
+id = 1443 ( scroll attack anim)
+id = 1445 (range missle)
+id = 1448 (range hit appended)
+id = 1449 (scroll attack)
+id = 1446 (melee smash)
+id = 1448 (range hit append)
+id = 1451 (thunder clap)
+
+emotes:
+---------
+Stand: 8186
+Walk: 8189
+Block: 8185
+Death: 8184
+Melee attack: 8183
+Thunder clap: 7694
+Range attack: 8190
+Special attack: 8190 (couldnt find the original, so just use the range one since it looks almost like the original anim)
+Dissmiss:8184
+Summon/call: 8188
+Taunt: 8187
+
+=================
+===Geyser titan===
+=================
+
+Npc ID: 7339
+
+Scroll effect: does higher damage than normal attacks (max is 22)
+
+GFX's
+--------
+(scroll attacks with "pt" are combined)
+id = 1373 (scroll attack pt 1)
+id = 1374 (scroll attack pt2)
+id = 1377 (scroll attack appended)
+id = 1376 (melee attack)
+id = 1376 (melee attack appended)
+
+Emotes
+-------
+Stand: 7876
+Walk: 7877
+Block: 7878
+Attack: 7879
+Dissmiss: 7880
+Summon/call: 7881
+Special attack: 7883
+
+===================
+===Abyssal titan===
+===================
+
+Npc ID: 7349
+
+GFX's
+--------
+id = 1457 (Essence shipment - Sends all essence from your titan and yourself to the bank)
+
+Emotes
+------
+Stand: 7690
+Walk: 7687
+Block: 7691
+Attack: 7693
+Dissmiss: 7692
+Summon/call: 7688
+Special attack/scroll: None, banks pure essence
+
+==================
+===Lava titan=== (SOME ANIMS ARE INCLUDED WITH THE NPC'S GFX'S, CANNOT FIND ALL)
+==================
+
+Npc ID: 7341
+
+Scroll effect: Drains your target's special energy (can possibly hit 5 extra damage, which is 19 with this attack))
+
+GFX's
+-------
+id = 1490 (???)
+id = 1491 (scroll attack)
+
+
+Emotes
+-------
+Stand: 7978
+Walk: 7977
+Block: 7981
+Attack: 7980
+Dissmiss: 7979
+Summon/call: ?
+Special attack: 7982
+
+================
+===Ice titan===
+================
+
+Npc ID: 7359
+
+GFX's
+-------
+id = 1512 (Titan's constitution - Boosts your attack and hitpoints)
+id = 1295 (scroll on player)
+
+Emotes
+-------
+Stand: 8186
+Walk: 8189
+Block: 8185
+Attack: 8183
+Dissmiss: 8184
+Summon/call: 8188
+Special attack: 8190
+
+================
+===Fire titan===
+================
+
+Npc ID: 7355
+
+GFX's
+-------
+id = 1514 (Titan's constitution - Boosts strength and hitpoints)
+id = 1307 (scroll on player)
+
+Emotes
+-------
+Stand: 7831
+Walk: 7828
+Block: 7832
+Attack: 7834
+Dissmiss: 7833
+Summon/call: 7829
+Special attack: 7835
+
+===================
+===Swamp titan===
+===================
+
+Npc ID: 7329
+
+Scroll effect: poisons your enemy
+
+GFX's
+-------
+id = 1460 (scroll attack appended)
+id = 1461 (stand gfx)
+id = 1462 (scroll attack missle)
+
+Emotes
+-------
+Stand: 8220
+Walk: 8219
+Block: 8224
+Attack: 8222
+Dissmiss: 8226
+Summon/call: 8225
+Special attack: 8223
+
+=================
+===Iron titan===
+=================
+
+Npc ID: 7375
+
+Scroll effect: Hits 3X in one hit per scroll on the next attack in combat only
+
+GFX's
+-------
+id = 1450 (scroll attack)
+id = 1447 (melee smash)
+id = 1452 (thunder clap)
+
+Emotes
+-------
+Stand: 7949
+Walk: 7952
+Block: 7948
+Attack: 7946
+Thunder clap: 7694 
+Dissmiss: 7947
+Summon/call: 7951
+Special attack: 7954
+
+=================
+===Moss titan===
+=================
+
+Npc ID: 7357
+
+GFX's
+-------
+id = 1513 (Titans constitution - Boosts defence and hitpoints)
+id = 1308 (scroll on player)
+
+Emotes
+-------
+Stand: 7841
+Walk: 7838
+Block: 7842
+Attack: 7844
+Dissmiss: 7843
+Summon/call: 7839
+Special attack: 7837
+
+===========
+

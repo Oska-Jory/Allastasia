@@ -1,0 +1,9 @@
+@echo off
+echo Compiling RS2Server...
+"C:\Program Files (x86)\Java\jdk1.6.0_16\bin\javac.exe" -d bin -cp lib/*; -sourcepath src src/org/dementhium/RS2Server.java
+echo Compiling World...
+"C:\Program Files (x86)\Java\jdk1.6.0_16\bin\javac.exe" -d bin -cp lib/*; -sourcepath src src/org/dementhium/model/World.java
+echo Compiling handlers......
+"C:\Program Files (x86)\Java\jdk1.6.0_16\bin\javac.exe" -d bin -cp lib/*; -sourcepath src src/org/dementhium/net/packethandlers/*.java
+echo Complete
+pause

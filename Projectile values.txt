@@ -1,0 +1,99 @@
+By Scu11 & Vastico
+
+----------------------------
+Bows:
+
+Distance	Output
+1		Projectile[angle=36,startX=36,startY=61,lockonIndex=10211,graphicId=9,startHeight=37,endHeight=60,delay=41,speed=51,slope=15,radius=11]
+2		Projectile[angle=46,startX=37,startY=62,lockonIndex=10211,graphicId=9,startHeight=37,endHeight=60,delay=41,speed=56,slope=15,radius=11]
+3		Projectile[angle=47,startX=37,startY=63,lockonIndex=10211,graphicId=9,startHeight=37,endHeight=60,delay=41,speed=61,slope=15,radius=11]
+4		Projectile[angle=40,startX=37,startY=64,lockonIndex=10211,graphicId=9,startHeight=37,endHeight=60,delay=41,speed=66,slope=15,radius=11]
+5		Projectile[angle=41,startX=37,startY=65,lockonIndex=10211,graphicId=9,startHeight=37,endHeight=60,delay=41,speed=71,slope=15,radius=11]
+6		Projectile[angle=42,startX=37,startY=66,lockonIndex=10211,graphicId=9,startHeight=37,endHeight=60,delay=41,speed=76,slope=15,radius=11]
+7		Projectile[angle=43,startX=37,startY=67,lockonIndex=10211,graphicId=9,startHeight=37,endHeight=60,delay=41,speed=81,slope=15,radius=11]
+
+Mage shortbow:
+1 (special)	Projectile[angle=21,startX=26,startY=53,lockonIndex=7969,graphicId=249,startHeight=27,endHeight=53,delay=20,speed=33,slope=15,radius=11]
+		Projectile[angle=21,startX=26,startY=53,lockonIndex=7969,graphicId=249,startHeight=27,endHeight=53,delay=50,speed=53,slope=15,radius=11]
+
+2 (special)	Projectile[angle=31,startX=27,startY=55,lockonIndex=7969,graphicId=249,startHeight=27,endHeight=53,delay=20,speed=36,slope=15,radius=11]
+		Projectile[angle=31,startX=27,startY=55,lockonIndex=7969,graphicId=249,startHeight=27,endHeight=53,delay=50,speed=56,slope=15,radius=11]
+
+3 (special)	Projectile[angle=47,startX=29,startY=55,lockonIndex=7969,graphicId=249,startHeight=26,endHeight=55,delay=20,speed=39,slope=15,radius=11]
+		Projectile[angle=47,startX=29,startY=55,lockonIndex=7969,graphicId=249,startHeight=26,endHeight=55,delay=50,speed=59,slope=15,radius=11]
+
+----------------------------
+
+Crossbows:
+
+Distance	Output
+1		Projectile[angle=43,startX=37,startY=59,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=58,delay=41,speed=51,slope=5,radius=11]
+2		Projectile[angle=46,startX=37,startY=62,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=60,delay=41,speed=56,slope=5,radius=11]
+3		Projectile[angle=40,startX=37,startY=64,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=60,delay=41,speed=66,slope=5,radius=11]
+4		Projectile[angle=41,startX=37,startY=65,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=60,delay=41,speed=71,slope=5,radius=11]
+5		Projectile[angle=42,startX=37,startY=66,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=60,delay=41,speed=76,slope=5,radius=11]
+6		Projectile[angle=42,startX=37,startY=66,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=60,delay=41,speed=81,slope=5,radius=11]
+7		Projectile[angle=44,startX=37,startY=68,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=59,delay=41,speed=86,slope=5,radius=11]
+8		Projectile[angle=44,startX=37,startY=68,lockonIndex=10211,graphicId=27,startHeight=37,endHeight=59,delay=41,speed=91,slope=5,radius=11]
+
+----------------------------
+
+Darkbow:
+
+Distance	Output
+1		Projectile[angle=19,startX=26,startY=51,lockonIndex=7969,graphicId=1120,startHeight=27,endHeight=51,delay=41,speed=51,slope=5,radius=11]
+		Projectile[angle=19,startX=26,startY=51,lockonIndex=7969,graphicId=1120,startHeight=27,endHeight=51,delay=41,speed=65,slope=25,radius=11]
+
+2		Projectile[angle=27,startX=27,startY=51,lockonIndex=7968,graphicId=1120,startHeight=27,endHeight=49,delay=41,speed=56,slope=5,radius=11]
+		Projectile[angle=27,startX=27,startY=51,lockonIndex=7968,graphicId=1120,startHeight=27,endHeight=49,delay=41,speed=75,slope=25,radius=11]
+
+1 (special)	Projectile[angle=20,startX=26,startY=52,lockonIndex=7969,graphicId=1099,startHeight=26,endHeight=51,delay=41,speed=51,slope=5,radius=11]
+		Projectile[angle=20,startX=26,startY=52,lockonIndex=7969,graphicId=1120,startHeight=26,endHeight=51,delay=41,speed=51,slope=5,radius=11]
+		Projectile[angle=20,startX=26,startY=52,lockonIndex=7969,graphicId=1099,startHeight=26,endHeight=51,delay=41,speed=65,slope=25,radius=11]
+		Projectile[angle=20,startX=26,startY=52,lockonIndex=7969,graphicId=1120,startHeight=26,endHeight=51,delay=41,speed=65,slope=25,radius=11]
+
+
+
+2 (special)	Projectile[angle=13,startX=25,startY=53,lockonIndex=7969,graphicId=1099,startHeight=25,endHeight=55,delay=41,speed=56,slope=5,radius=11]
+		Projectile[angle=13,startX=25,startY=53,lockonIndex=7969,graphicId=1120,startHeight=25,endHeight=55,delay=41,speed=56,slope=5,radius=11]
+		Projectile[angle=13,startX=25,startY=53,lockonIndex=7969,graphicId=1099,startHeight=25,endHeight=55,delay=41,speed=75,slope=25,radius=11]
+		Projectile[angle=13,startX=25,startY=53,lockonIndex=7969,graphicId=1120,startHeight=25,endHeight=55,delay=41,speed=75,slope=25,radius=11]
+
+----------------------------
+
+Thrown knives:
+
+Distance	Output
+1		Projectile[angle=14,startX=25,startY=54,lockonIndex=7969,graphicId=218,startHeight=25,endHeight=55,delay=32,speed=37,slope=15,radius=11]
+2		Projectile[angle=18,startX=26,startY=50,lockonIndex=7968,graphicId=218,startHeight=24,endHeight=50,delay=32,speed=42,slope=15,radius=11]
+3		Projectile[angle=18,startX=24,startY=50,lockonIndex=7969,graphicId=218,startHeight=24,endHeight=53,delay=32,speed=47,slope=15,radius=11]
+
+----------------------------
+
+Darts:
+
+Distance	Output
+1		Projectile[angle=2,startX=24,startY=50,lockonIndex=7968,graphicId=231,startHeight=24,endHeight=49,delay=12,speed=17,slope=15,radius=11]
+2		Projectile[angle=11,startX=25,startY=51,lockonIndex=7969,graphicId=231,startHeight=27,endHeight=51,delay=12,speed=22,slope=15,radius=11]
+3		Projectile[angle=18,startX=26,startY=50,lockonIndex=7969,graphicId=231,startHeight=26,endHeight=53,delay=12,speed=27,slope=15,radius=11]
+
+----------------------------
+
+Thrown axes:
+
+Distance	Output
+1		Projectile[angle=18,startX=26,startY=50,lockonIndex=7968,graphicId=41,startHeight=27,endHeight=50,delay=32,speed=37,slope=15,radius=11]
+2		Projectile[angle=37,startX=28,startY=53,lockonIndex=7969,graphicId=41,startHeight=28,endHeight=51,delay=32,speed=42,slope=15,radius=11]
+3		Projectile[angle=11,startX=25,startY=51,lockonIndex=7969,graphicId=41,startHeight=28,endHeight=51,delay=32,speed=47,slope=15,radius=11]
+
+Rune thrownaxe spec:
+1		Projectile[angle=2,startX=24,startY=50,lockonIndex=7963,graphicId=258,startHeight=24,endHeight=51,delay=41,speed=51,slope=0,radius=11]
+
+----------------------------
+
+Javelins:
+
+Distance	Output
+1		Projectile[angle=23,startX=26,startY=47,lockonIndex=7968,graphicId=205,startHeight=26,endHeight=46,delay=32,speed=37,slope=15,radius=11]
+2		Projectile[angle=29,startX=27,startY=53,lockonIndex=7969,graphicId=205,startHeight=25,endHeight=53,delay=32,speed=42,slope=15,radius=11]
+3		Projectile[angle=9,startX=25,startY=49,lockonIndex=7968,graphicId=205,startHeight=25,endHeight=46,delay=32,speed=47,slope=15,radius=11]

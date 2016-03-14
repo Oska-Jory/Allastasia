@@ -1,0 +1,960 @@
+0 = Npc = Al-Kharid warrior  |||  Emote:Turn 180 Animation
+1 = Npc = White Knight  |||  Emote:Turn 180 Animation
+2 = Npc = Paladin  |||  Emote:Turn 180 Animation
+3 = Npc = Hans  |||  Emote:Turn 180 Animation
+4 = Npc = Man  |||  Emote:Turn 180 Animation
+5 = Npc = Man  |||  Emote:Turn 180 Animation
+6 = Npc = Man  |||  Emote:Turn 180 Animation
+7 = Npc = Woman  |||  Emote:Turn 180 Animation
+8 = Npc = Woman  |||  Emote:Turn 180 Animation
+9 = Npc = Woman  |||  Emote:Turn 180 Animation
+10 = Npc = Farmer  |||  Emote:Turn 180 Animation
+11 = Npc = Thief  |||  Emote:Turn 180 Animation
+12 = Npc = Guard  |||  Emote:Turn 180 Animation
+13 = Npc = Guard  |||  Emote:Turn 180 Animation
+14 = Npc = Tramp  |||  Emote:Turn 180 Animation
+15 = Npc = Barbarian  |||  Emote:Turn 180 Animation
+16 = Npc = Wizard  |||  Emote:Turn 180 Animation
+17 = Npc = Druid  |||  Emote:Turn 180 Animation
+18 = Npc = Warrior woman  |||  Emote:Turn 180 Animation
+19 = Npc = Man  |||  Emote:Turn 180 Animation
+21 = Npc = Baby dragon  |||  Emote:Walk Animation
+27 = Npc = Baby dragon  |||  Emote:Stand Animation
+29 = Npc = Giant bat  |||  Emote:Walk Animation
+35 = Npc = Giant bat  |||  Emote:Stand Animation
+37 = Npc = Bear  |||  Emote:Walk Animation
+43 = Npc = Bear  |||  Emote:Stand Animation
+45 = Npc = Camel  |||  Emote:Walk Animation
+51 = Npc = Camel  |||  Emote:Stand Animation
+53 = Npc = Chicken  |||  Emote:Walk Animation
+54 = Npc = Chicken  |||  Emote:Stand Animation
+58 = Npc = Cow  |||  Emote:Walk Animation
+61 = Npc = Plagued Cow  |||  Emote:Stand Animation
+63 = Npc = Lesser demon  |||  Emote:Walk Animation
+66 = Npc = Lesser demon  |||  Emote:Stand Animation
+70 = Npc = Weakened Delrith  |||  Emote:Stand Animation
+74 = Npc = Wolf  |||  Emote:Walk Animation
+77 = Npc = Wolf  |||  Emote:Stand Animation
+79 = Npc = King black dragon  |||  Emote:Walk Animation
+90 = Npc = King black dragon  |||  Emote:Stand Animation
+93 = Npc = Dryad  |||  Emote:Walk Animation
+96 = Npc = Dryad  |||  Emote:Stand Animation
+98 = Npc = Dwarf  |||  Emote:Walk Animation
+101 = Npc = Dwarf  |||  Emote:Stand Animation
+104 = Npc = Drunken Dwarf  |||  Emote:Walk Animation
+106 = Npc = Fairy  |||  Emote:Walk Animation
+112 = Npc = Fairy  |||  Emote:Stand Animation
+114 = Npc = Entrana Fire Bird  |||  Emote:Walk Animation
+117 = Npc = Entrana Fire Bird  |||  Emote:Stand Animation
+119 = Npc = Ghost  |||  Emote:Walk Animation
+123 = Npc = null  |||  Emote:Stand Animation
+125 = Npc = Ghost  |||  Emote:Stand Animation
+127 = Npc = Fire giant  |||  Emote:Walk Animation
+130 = Npc = Fire giant  |||  Emote:Stand Animation
+137 = Npc = Giant rat  |||  Emote:Walk Animation
+140 = Npc = Giant rat  |||  Emote:Stand Animation
+142 = Npc = Shadow spider  |||  Emote:Walk Animation
+145 = Npc = Shadow spider  |||  Emote:Stand Animation
+152 = Npc = Golem  |||  Emote:Walk Animation
+155 = Npc = Golem  |||  Emote:Stand Animation
+157 = Npc = Hellhound  |||  Emote:Walk Animation
+160 = Npc = Hellhound  |||  Emote:Stand Animation
+162 = Npc = Hobgoblin  |||  Emote:Walk Animation
+166 = Npc = Hobgoblin  |||  Emote:Stand Animation
+168 = Npc = Imp  |||  Emote:Walk Animation
+171 = Npc = Imp  |||  Emote:Stand Animation
+176 = Npc = Lizard man  |||  Emote:Walk Animation
+179 = Npc = Lizard man  |||  Emote:Stand Animation
+181 = Npc = Magic axe  |||  Emote:Walk Animation
+187 = Npc = Magic axe  |||  Emote:Stand Animation
+189 = Npc = Leprechaun  |||  Emote:Walk Animation
+195 = Npc = Leprechaun  |||  Emote:Stand Animation
+205 = Npc = Gnome baller  |||  Emote:Stand Animation
+208 = Npc = Gnome baller  |||  Emote:Stand Animation
+219 = Npc = Monkey  |||  Emote:Walk Animation
+222 = Npc = Monkey  |||  Emote:Stand Animation
+225 = Npc = Cave crawler  |||  Emote:Walk Animation
+226 = Npc = Cave crawler  |||  Emote:Stand Animation
+229 = Npc = Orc  |||  Emote:Walk Animation
+232 = Npc = Orc  |||  Emote:Stand Animation
+234 = Npc = Penguin  |||  Emote:Walk Animation
+235 = Npc = Penguin  |||  Emote:Stand Animation
+239 = Npc = Mouse  |||  Emote:Walk Animation
+242 = Npc = Mouse  |||  Emote:Stand Animation
+244 = Npc = Scorpion  |||  Emote:Walk Animation
+245 = Npc = Scorpion  |||  Emote:Stand Animation
+249 = Npc = Sheep  |||  Emote:Walk Animation
+252 = Npc = Sheep  |||  Emote:Stand Animation
+254 = Npc = Skavid  |||  Emote:Walk Animation
+257 = Npc = Skavid  |||  Emote:Stand Animation
+259 = Npc = Skeleton  |||  Emote:Walk Animation
+262 = Npc = Skeleton  |||  Emote:Stand Animation
+264 = Npc = San Tojalon  |||  Emote:Walk Animation
+267 = Npc = San Tojalon  |||  Emote:Stand Animation
+269 = Npc = Pit Scorpion  |||  Emote:Walk Animation
+272 = Npc = Pit Scorpion  |||  Emote:Stand Animation
+274 = Npc = Snake  |||  Emote:Walk Animation
+277 = Npc = Snake  |||  Emote:Stand Animation
+279 = Npc = Spider  |||  Emote:Walk Animation
+283 = Npc = Troll  |||  Emote:Walk Animation
+286 = Npc = Troll  |||  Emote:Stand Animation
+288 = Npc = Unicorn  |||  Emote:Walk Animation
+291 = Npc = Unicorn  |||  Emote:Stand Animation
+293 = Npc = Yeti  |||  Emote:Walk Animation
+296 = Npc = Yeti  |||  Emote:Stand Animation
+298 = Npc = Zombie  |||  Emote:Walk Animation
+301 = Npc = Zombie  |||  Emote:Stand Animation
+303 = Npc = Mammoth  |||  Emote:Walk Animation
+306 = Npc = Mammoth  |||  Emote:Stand Animation
+308 = Npc = Goblin  |||  Emote:Walk Animation
+311 = Npc = Goblin  |||  Emote:Stand Animation
+314 = Npc = Gertrude's cat  |||  Emote:Walk Animation
+317 = Npc = Gertrude's cat  |||  Emote:Stand Animation
+321 = Npc = Terrorbird  |||  Emote:Walk Animation
+324 = Npc = Terrorbird  |||  Emote:Stand Animation
+326 = Npc = Mounted terrorbird gnome  |||  Emote:Walk Animation
+330 = Npc = Mounted terrorbird gnome  |||  Emote:Stand Animation
+332 = Npc = Spirit tree  |||  Emote:Stand Animation
+336 = Npc = Souless  |||  Emote:Walk Animation
+337 = Npc = Souless  |||  Emote:Stand Animation
+341 = Npc = Gull  |||  Emote:Walk Animation
+342 = Npc = Gull  |||  Emote:Stand Animation
+346 = Npc = Lord Iban  |||  Emote:Stand Animation
+349 = Npc = Strange plant  |||  Emote:Stand Animation
+352 = Npc = Strange plant  |||  Emote:Stand Animation
+356 = Npc = Strange plant  |||  Emote:Walk Animation
+357 = Npc = Ogre  |||  Emote:Stand Animation
+358 = Npc = Ogre  |||  Emote:Walk Animation
+362 = Npc = Butterfly  |||  Emote:Stand Animation
+364 = Npc = Alrena  |||  Emote:Stand Animation
+402 = Player = Dragon Dagger stab emote
+403 = Player = Block with shield defensive emote
+404 = Player = Block no shield defensive emote
+405 = Player = Dragon spear special
+406 = Player = 2h crush style emote
+407 = Player = 2h slash style emote
+408 = Player = Scythe 'REAP' attack style
+410 = Player = Defensive block when 2h weapon equiped
+412 = Player = Stab
+422 = Player = PUNCH
+423 = Player = KICK
+424 = Player = Fore-arm block
+426 = Player = Range (Bow)
+427 = Player = Range (Cross-Bow)
+439 = Player = lol SPIN ATTACK
+440 = Npc = Farmer  |||  Emote:Stand Animation
+447 = Npc = Fishing spot  |||  Emote:Stand Animation
+448 = Npc = Fishing spot  |||  Emote:Walk Animation
+451 = Player = Slash attack style (longsword, shortsword, ect.)
+456 = Npc = Fishing spot  |||  Emote:Stand Animation
+475 = Npc = Barricade  |||  Emote:Stand Animation
+505 = Player = Arms dislocate and revolve around you... well would ya look at that...
+525 = Npc = Fishing spot  |||  Emote:Stand Animation
+528 = Player = WHIRLPOOL!!! *cough* *choke* *gurggle*
+618 = Player = Harpoon fishing (slight paus)
+619 = Npc = Tegid  |||  Emote:Stand Animation
+622 = Player = Fishing Rod fishing
+623 = Npc = Fisherman  |||  Emote:Stand Animation
+625 = Player = Mining emote (one of them)
+645 = Player = Praying at Alter emote
+663 = Npc = null  |||  Emote:Stand Animation
+708 = Player = IBAN STAFF ATTACK EMOTE
+712 = Player = Low Alch
+713 = Player = High Alch
+714 = Player = Teleport emote
+716 = Player = Curse, Weaken, or Confuse
+722 = Player = Superheat
+724 = Player = Crumble Undead
+725 = Player = Looks like you're holding onto something that's floating over top of you, you grab it, and then let it go and stumble forward
+729 = Player = Curse, Weaken, or Confuse
+733 = Player = Lighting Logs Emote
+734 = Player = Wall Monster attack without spiney helmet on
+750 = Player = Looks like you're pushed by someone, 2 squares backward, and you stumble
+755 = Player = Skate boarding rofl, facing right
+760 = Player = Turn Right and face plant rofl
+776 = Player = Pull rope emote from waterfall
+784 = Npc = Knight  |||  Emote:Stand Animation
+791 = Player = Runecrafting emote
+792 = Npc = Genie  |||  Emote:Stand Animation
+794 = Player = Balloon Stomp
+800 = Npc = Half-Souless  |||  Emote:Stand Animation
+804 = Player = Disapearing when jumping into puddle at mage arena
+808 = Npc = Hans  |||  Emote:Stand Animation
+809 = Npc = Ceril Carnillean  |||  Emote:Stand Animation
+811 = Player = CHARGE
+812 = Player = CHARGE (as a ghost?)
+813 = Npc = Barbarian woman  |||  Emote:Stand Animation
+819 = Npc = Hans  |||  Emote:Walk Animation
+822 = Npc = Hans  |||  Emote: Turn <90 Animation
+827 = Player = Burying Bones emote
+828 = Player = LADDER EMOTE
+830 = Npc = Slave  |||  Emote:Stand Animation
+831 = Player = Digging emote
+837 = Player = ROFL Drop dead :P
+841 = Npc = Ice warrior  |||  Emote:Walk Animation
+842 = Npc = Ice warrior  |||  Emote:Stand Animation
+844 = Player = Crawling
+847 = Npc = Death  |||  Emote:Stand Animation
+855 = Player = Yes
+856 = Player = No
+857 = Player = Thinking
+858 = Player = Bow
+859 = Player = Angry
+860 = Player = Cry
+861 = Player = Laugh
+862 = Player = Cheer
+863 = Player = Wave
+864 = Player = Beckon
+865 = Player = Clap
+866 = Player = Dance
+875 = Player = Woodcutting emote
+881 = Player = Pickpocket emote
+883 = Player = Cooking (range)
+884 = Player = Blowing Glass
+885 = Player = Cutting gems
+894 = Player = Spinning wheel
+897 = Player = Cooking (fire)
+898 = Player = Smithing (anvil)
+899 = Player = Smelting (furnace)
+900 = Npc = Drunken Dwarf  |||  Emote:Stand Animation
+921 = Player = toy horsey emote
+925 = Npc = Dad  |||  Emote:Stand Animation
+926 = Npc = Pee Hat  |||  Emote:Stand Animation
+927 = Npc = Rock  |||  Emote:Stand Animation
+932 = Npc = Sea slug  |||  Emote:Stand Animation
+933 = Npc = Sea slug  |||  Emote:Walk Animation
+1007 = Npc = Chompy bird  |||  Emote:Walk Animation
+1008 = Npc = Chompy bird  |||  Emote:Stand Animation
+1010 = Npc = Chompy bird  |||  Emote:Stand Animation
+1018 = Npc = Swamp toad  |||  Emote:Stand Animation
+1020 = Npc = Bloated Toad  |||  Emote:Stand Animation
+1021 = Npc = Swamp toad  |||  Emote:Walk Animation
+1027 = Npc = Fire elemental  |||  Emote:Stand Animation
+1028 = Npc = Fire elemental  |||  Emote:Walk Animation
+1033 = Npc = Earth elemental  |||  Emote:Stand Animation
+1034 = Npc = Earth elemental  |||  Emote:Walk Animation
+1039 = Npc = Air elemental  |||  Emote:Stand Animation
+1045 = Npc = Water elemental  |||  Emote:Stand Animation
+1047 = Npc = Water elemental  |||  Emote:Walk Animation
+1060 = Player = drag mace spec
+1071 = Npc = Will o' the wisp  |||  Emote:Stand Animation
+1079 = Npc = Wolfman  |||  Emote:Walk Animation
+1083 = Npc = Wolfman  |||  Emote:Stand Animation
+1085 = Npc = Ghast  |||  Emote:Walk Animation
+1086 = Npc = Ghast  |||  Emote:Stand Animation
+1091 = Npc = Ghast  |||  Emote:Walk Animation
+1092 = Npc = Ghast  |||  Emote:Stand Animation
+1110 = Player = MATRIX
+1114 = Player = hit by darts
+1115 = Player = jumping over spikes or rocks
+1117 = Player = part of hand holds
+1118 = Player = /
+1119 = Player = falling from hand holds
+1120 = Player = hand holds
+1125 = Player = hit by rocks + stumbles back
+1128 = Player = GLASS WALL-MIME
+1129 = Player = LEAN      -MIME
+1130 = Player = CLIMB ROPE-MIME
+1131 = Player = GLASS BOX -MIME
+1137 = Npc = Strange watcher  |||  Emote:Stand Animation
+1139 = Npc = Pee Hat  |||  Emote:Walk Animation
+1140 = Npc = Dad  |||  Emote:Walk Animation
+1141 = Npc = Rock  |||  Emote:Walk Animation
+1144 = Npc = Soldier  |||  Emote:Stand Animation
+1146 = Npc = Tenzing  |||  Emote:Walk Animation
+1147 = Npc = Soldier  |||  Emote:Stand Animation
+1159 = Npc = Twig  |||  Emote:Stand Animation
+1176 = Npc = Kalphite Queen  |||  Emote:Stand Animation
+1183 = Npc = Kalphite Worker  |||  Emote:Stand Animation
+1189 = Npc = Kalphite Worker  |||  Emote:Walk Animation
+1197 = Npc = The Shaikahan  |||  Emote:Walk Animation
+1198 = Npc = The Shaikahan  |||  Emote:Stand Animation
+1205 = Npc = Turael  |||  Emote:Walk Animation
+1208 = Npc = Turael  |||  Emote: Turn <90 Animation
+1242 = Npc = Rabbit  |||  Emote:Stand Animation
+1243 = Npc = Rabbit  |||  Emote:Walk Animation
+1261 = Npc = Mist  |||  Emote:Stand Animation
+1269 = Npc = Leech  |||  Emote:Walk Animation
+1270 = Npc = Leech  |||  Emote:Stand Animation
+1274 = Npc = Myre Blamish Snail  |||  Emote:Walk Animation
+1275 = Npc = Ghoul  |||  Emote:Stand Animation
+1276 = Npc = Myre Blamish Snail  |||  Emote:Stand Animation
+1281 = Npc = Loar Shade  |||  Emote:Walk Animation
+1282 = Npc = Loar Shade  |||  Emote:Stand Animation
+1289 = Npc = Loar Shadow  |||  Emote:Walk Animation
+1290 = Npc = Loar Shadow  |||  Emote:Stand Animation
+1306 = Npc = Afflicted(Ulsquire)  |||  Emote:Walk Animation
+1308 = Npc = Shade Spirit  |||  Emote:Stand Animation
+1310 = Npc = Rock Crab  |||  Emote:Stand Animation
+1311 = Npc = Rock Crab  |||  Emote:Walk Animation
+1315 = Npc = Rocks  |||  Emote:Stand Animation
+1318 = Npc = Olaf the Bard  |||  Emote:Stand Animation
+1321 = Npc = Prince Brand  |||  Emote:Stand Animation
+1322 = Npc = Da Vinci  |||  Emote:Stand Animation
+1323 = Npc = Da Vinci  |||  Emote:Walk Animation
+1326 = Npc = Da Vinci  |||  Emote: Turn <90 Animation
+1327 = Player = drinking beer!
+1329 = Player = KEG!
+1330 = Player = "  "
+1331 = Player = Kneeling
+1332 = Player = Kneeling
+1333 = Player = STROKE PET ROCK
+1338 = Npc = Dagannoth  |||  Emote:Stand Animation
+1339 = Npc = Dagannoth  |||  Emote:Walk Animation
+1344 = Npc = Dagannoth  |||  Emote:Stand Animation
+1345 = Npc = Dagannoth  |||  Emote:Stand Animation
+1346 = Npc = Dagannoth  |||  Emote:Stand Animation
+1350 = Player = reading
+1351 = Player = sitting looking down
+1352 = Player = sitting using think emote
+1353 = Player = sitting and smoking
+1363 = Npc = Fisherman Frodi  |||  Emote:Stand Animation
+1364 = Npc = Miner Magnus  |||  Emote:Stand Animation
+1365 = Npc = Lumberjack Leif  |||  Emote:Stand Animation
+1375 = Player = blinking
+1380 = Npc = Dugopul  |||  Emote:Walk Animation
+1382 = Npc = Monkey Zombie  |||  Emote:Walk Animation
+1385 = Npc = Kruk  |||  Emote:Walk Animation
+1386 = Npc = Dugopul  |||  Emote:Stand Animation
+1387 = Npc = Denadu  |||  Emote:Stand Animation
+1388 = Npc = Sleeping Monkey  |||  Emote:Stand Animation
+1399 = Npc = Trefaji  |||  Emote:Walk Animation
+1401 = Npc = Trefaji  |||  Emote:Stand Animation
+1405 = Npc = Monkey  |||  Emote:Stand Animation
+1412 = Npc = Karam  |||  Emote:Stand Animation
+1414 = Npc = Gnome  |||  Emote:Stand Animation
+1415 = Npc = Gnome  |||  Emote:Stand Animation
+1421 = Npc = Gravingas  |||  Emote:Stand Animation
+1422 = Npc = Gravingas  |||  Emote:Walk Animation
+1425 = Npc = Gravingas  |||  Emote: Turn <90 Animation
+1436 = Npc = Ghost  |||  Emote:Stand Animation
+1442 = Npc = Corpse  |||  Emote:Stand Animation
+1445 = Npc = Bronze pickaxe  |||  Emote:Stand Animation
+1450 = Npc = Innocent looking key  |||  Emote:Stand Animation
+1451 = Npc = Innocent looking key  |||  Emote:Walk Animation
+1457 = Player = yo-yo
+1458 = Player = spin-yo-yo
+1459 = Player = walk yo-yo emote
+1460 = Player = crazy yo-yo
+1461 = Player = bending down 1
+1462 = Player = 1470-bending down cape waving
+1474 = Npc = Ug  |||  Emote:Stand Animation
+1476 = Npc = Troll child  |||  Emote:Stand Animation
+1480 = Npc = Ug  |||  Emote:Stand Animation
+1493 = Npc = Skeleton Hellhound  |||  Emote:Walk Animation
+1494 = Npc = Skeleton Hellhound  |||  Emote:Stand Animation
+1499 = Npc = Vanstrom Klause  |||  Emote:Stand Animation
+1500 = Player = FLoats up
+1501 = Npc = Vanstrom Klause  |||  Emote:Stand Animation
+1502 = Player = swim?
+1505 = Npc = Aberrant specter  |||  Emote:Walk Animation
+1506 = Npc = Aberrant specter  |||  Emote:Stand Animation
+1510 = Npc = Kurask  |||  Emote:Walk Animation
+1511 = Npc = Kurask  |||  Emote:Stand Animation
+1515 = Npc = Gargoyle  |||  Emote:Walk Animation
+1516 = Npc = Gargoyle  |||  Emote:Stand Animation
+1521 = Npc = Banshee  |||  Emote:Walk Animation
+1522 = Npc = Banshee  |||  Emote:Stand Animation
+1526 = Npc = Nechryael  |||  Emote:Walk Animation
+1527 = Npc = Nechryael  |||  Emote:Stand Animation
+1534 = Npc = Abyssal demon  |||  Emote:Walk Animation
+1536 = Npc = Abyssal demon  |||  Emote:Stand Animation
+1539 = Npc = Death spawn  |||  Emote:Stand Animation
+1540 = Player = punch in the air, floating
+1542 = Player = ""
+1544 = Npc = Basilisk  |||  Emote:Walk Animation
+1545 = Npc = Basilisk  |||  Emote:Stand Animation
+1549 = Npc = Bloodveld  |||  Emote:Walk Animation
+1551 = Npc = Bloodveld  |||  Emote:Stand Animation
+1554 = Npc = Dust devil  |||  Emote:Walk Animation
+1556 = Npc = Dust devil  |||  Emote:Stand Animation
+1559 = Npc = Cockatrice  |||  Emote:Walk Animation
+1561 = Npc = Cockatrice  |||  Emote:Stand Animation
+1564 = Npc = Rockslug  |||  Emote:Walk Animation
+1566 = Npc = Rockslug  |||  Emote:Stand Animation
+1578 = Npc = Pyrefiend  |||  Emote:Stand Animation
+1579 = Npc = Pyrefiend  |||  Emote:Walk Animation
+1583 = Npc = Jelly  |||  Emote:Stand Animation
+1584 = Npc = Jelly  |||  Emote:Walk Animation
+1588 = Npc = Crawling Hand  |||  Emote:Stand Animation
+1589 = Npc = Crawling Hand  |||  Emote:Walk Animation
+1593 = Npc = Turoth  |||  Emote:Walk Animation
+1594 = Npc = Turoth  |||  Emote:Stand Animation
+1607 = Npc = Skullball  |||  Emote:Stand Animation
+1608 = Npc = Skullball  |||  Emote:Walk Animation
+1609 = Npc = Experiment  |||  Emote:Stand Animation
+1610 = Npc = Experiment  |||  Emote:Walk Animation
+1614 = Npc = Experiment  |||  Emote:Stand Animation
+1615 = Npc = Experiment  |||  Emote:Walk Animation
+1622 = Npc = null  |||  Emote:Walk Animation
+1623 = Npc = null  |||  Emote:Stand Animation
+1624 = Npc = Experiment  |||  Emote:Walk Animation
+1625 = Npc = Experiment  |||  Emote:Stand Animation
+1639 = Npc = Ghost (?)  |||  Emote:Stand Animation
+1640 = Npc = Ghost (?)  |||  Emote:Walk Animation
+1644 = Npc = null  |||  Emote:Stand Animation
+1645 = Npc = null  |||  Emote:Walk Animation
+1646 = Npc = null  |||  Emote:Stand Animation
+1647 = Npc = null  |||  Emote:Walk Animation
+1648 = Player = cranking wheel ectophuntus
+1649 = Player = putting bones into machine
+1651 = Player = ectophuntus pray emote
+1652 = Player = ""
+1654 = Player = dies in chair
+1655 = Player = motionless, dies in chair
+1656 = Player = leans back in chair 
+1658 = Player = Whip attack
+1659 = Player = Whip block
+1660 = Player = Whip walk
+1661 = Player = Whip run
+1662 = Player = Granite Maul stand
+1663 = Player = Granite Maul walk
+1664 = Player = Granite Maul run
+1665 = Player = Granite maul attack
+1666 = Player = Granite Maul block
+1667 = Player = Granite Maul special
+1670 = Player = prayer book preach
+1673 = Npc = H.A.M. Member  |||  Emote:Stand Animation
+1675 = Npc = Tree  |||  Emote:Stand Animation
+1677 = Npc = Tree  |||  Emote:Stand Animation
+1679 = Npc = Dead tree  |||  Emote:Stand Animation
+1681 = Npc = Dead tree  |||  Emote:Stand Animation
+1683 = Npc = Dead tree  |||  Emote:Stand Animation
+1685 = Npc = Dead tree  |||  Emote:Stand Animation
+1687 = Npc = Dead tree  |||  Emote:Stand Animation
+1689 = Npc = Dramen tree  |||  Emote:Stand Animation
+1691 = Npc = Magic tree  |||  Emote:Stand Animation
+1693 = Npc = Maple tree  |||  Emote:Stand Animation
+1695 = Npc = Willow  |||  Emote:Stand Animation
+1697 = Npc = Willow  |||  Emote:Stand Animation
+1699 = Npc = Willow  |||  Emote:Stand Animation
+1701 = Npc = Yew  |||  Emote:Stand Animation
+1703 = Npc = Evergreen  |||  Emote:Stand Animation
+1705 = Npc = Evergreen  |||  Emote:Stand Animation
+1707 = Npc = Evergreen  |||  Emote:Stand Animation
+1709 = Npc = Tree  |||  Emote:Stand Animation
+1711 = Npc = Dead tree  |||  Emote:Stand Animation
+1713 = Npc = Achey Tree  |||  Emote:Stand Animation
+1715 = Npc = Tree  |||  Emote:Stand Animation
+1717 = Npc = Hollow tree  |||  Emote:Stand Animation
+1719 = Npc = Hollow tree  |||  Emote:Stand Animation
+1721 = Npc = Oak  |||  Emote:Stand Animation
+1722 = Npc = Crow  |||  Emote:Walk Animation
+1723 = Npc = Crow  |||  Emote:Stand Animation
+1724 = Npc = Crow  |||  Emote:Stand Animation
+1725 = Npc = Crow  |||  Emote:Stand Animation
+1728 = Npc = Farmer  |||  Emote:Stand Animation
+1737 = Npc = Goblin  |||  Emote:Stand Animation
+1738 = Npc = Goblin  |||  Emote:Walk Animation
+1739 = Npc = William  |||  Emote:Walk Animation
+1740 = Npc = William  |||  Emote:Stand Animation
+1742 = Npc = Jungle Tree  |||  Emote:Stand Animation
+1745 = Player = walking stomp
+1746 = Player = crazy lol, funny!
+1748 = Npc = Slagilith  |||  Emote:Walk Animation
+1749 = Npc = Slagilith  |||  Emote:Stand Animation
+1753 = Npc = Slagilith  |||  Emote:Stand Animation
+1754 = Npc = Rock pile  |||  Emote:Stand Animation
+1756 = Npc = null  |||  Emote:Stand Animation
+1757 = Npc = null  |||  Emote:Walk Animation
+1765 = Player = 1769-Straight up funny
+1770 = Player = HILARIOUS ( makes it look like you have a big **** )
+1773 = Npc = Bald Headed Eagle  |||  Emote:Stand Animation
+1774 = Npc = Cave Bug  |||  Emote:Walk Animation
+1776 = Npc = Cave Bug  |||  Emote:Stand Animation
+1781 = Npc = Cave bug larva  |||  Emote:Walk Animation
+1782 = Npc = Cave bug larva  |||  Emote:Stand Animation
+1783 = Npc = Cave goblin  |||  Emote:Stand Animation
+1784 = Npc = Cave goblin  |||  Emote:Walk Animation
+1788 = Npc = Cave Slime  |||  Emote:Walk Animation
+1790 = Npc = Cave Slime  |||  Emote:Stand Animation
+1796 = Npc = Giant frog  |||  Emote:Stand Animation
+1797 = Npc = Giant frog  |||  Emote:Walk Animation
+1798 = Npc = Hole in the wall  |||  Emote:Stand Animation
+1799 = Npc = Wall Beast  |||  Emote:Stand Animation
+1810 = Player = wall monster caught by head
+1811 = Player = twitch-push stand
+1816 = Player = teleother-person being teled
+1818 = Player = teleother-cast on player
+1819 = Player = teleblock-cast
+1820 = Player = teleblock-cast
+1828 = Npc = Easter Bunny  |||  Emote:Walk Animation
+1829 = Npc = Easter Bunny  |||  Emote:Stand Animation
+1833 = Player = drag baxe attack
+1835 = Player = chicken dance
+1836 = Player = SKIPPING!!!
+1838 = Npc = Arzinian Avatar of Strength  |||  Emote:Stand Animation
+1839 = Npc = Arzinian Avatar of Strength  |||  Emote:Walk Animation
+1851 = Player = super man
+1861 = Player = glare to right
+1871 = Npc = Gardener Gunnhild  |||  Emote:Stand Animation
+1877 = Player = snake charmer
+1879 = Npc = Ali the Snake Charmer  |||  Emote:Stand Animation
+1895 = Player = sneaks a peek at something
+1900 = Npc = Snake  |||  Emote:Stand Animation
+1902 = Player = Spinning plate
+1906 = Player = dropping
+1911 = Player = turning head to the right
+1912 = Npc = null  |||  Emote:Walk Animation
+1913 = Npc = null  |||  Emote:Stand Animation
+1914 = Player = breaking out of something
+1925 = Npc = Mummy  |||  Emote:Walk Animation
+1928 = Npc = Mummy  |||  Emote:Stand Animation
+1934 = Npc = Mummy  |||  Emote:Stand Animation
+1935 = Npc = Mummy  |||  Emote:Stand Animation
+1938 = Player = head throbbing
+1945 = Npc = Scarabs  |||  Emote:Walk Animation
+1947 = Npc = Scarabs  |||  Emote:Stand Animation
+1950 = Player = falling in pyramid-Desert treasure
+1952 = Npc = Bandit  |||  Emote:Stand Animation
+1953 = Npc = Bandit  |||  Emote:Stand Animation
+1954 = Npc = Bandit  |||  Emote:Stand Animation
+1955 = Npc = Bandit  |||  Emote:Stand Animation
+1972 = Player = evil laugh emote
+1978 = Player = Blitz
+1979 = Player = Barrage
+1991 = Player = 1997-some weird ones
+2011 = Npc = Locust  |||  Emote:Walk Animation
+2012 = Npc = Locust  |||  Emote:Stand Animation
+2016 = Npc = Vulture  |||  Emote:Walk Animation
+2017 = Npc = Vulture  |||  Emote:Stand Animation
+2024 = Npc = Vulture  |||  Emote:Stand Animation
+2027 = Npc = Sphinx  |||  Emote:Walk Animation
+2028 = Npc = Sphinx  |||  Emote:Stand Animation
+2036 = Npc = Crocodile  |||  Emote:Walk Animation
+2037 = Npc = Crocodile  |||  Emote:Stand Animation
+2046 = Player = 2048-in the air doing somethin2g
+2051 = Npc = Light creature  |||  Emote:Stand Animation
+2060 = Npc = Verac the Defiled  |||  Emote:Walk Animation
+2061 = Npc = Verac the Defiled  |||  Emote:Stand Animation
+2062 = Player = veracs attack!!
+2063 = Player = veracs block
+2064 = Npc = Dharok the Wretched  |||  Emote:Walk Animation
+2065 = Npc = Dharok the Wretched  |||  Emote:Stand Animation
+2066 = Player = dharoks crush
+2067 = Player = dharoks slash
+2068 = Player = torags attack
+2069 = Npc = Bloodworm  |||  Emote:Walk Animation
+2071 = Npc = Bloodworm  |||  Emote:Stand Animation
+2074 = Player = karils holding bow
+2075 = Player = karils shooting
+2076 = Player = karils walking
+2077 = Player = karils running
+2078 = Player = ahrims attack non-magic
+2079 = Player = ahrims block
+2080 = Player = guthans 'poke'?
+2081 = Player = guthans slash
+2082 = Player = guthans crush
+2088 = Npc = Pilg  |||  Emote:Stand Animation
+2089 = Npc = Grug  |||  Emote:Stand Animation
+2099 = Npc = Skogre  |||  Emote:Stand Animation
+2100 = Npc = Zogre  |||  Emote:Stand Animation
+2104 = Npc = Zogre  |||  Emote:Walk Animation
+2105 = Player = panic emote
+2106 = Player = slow jig emote
+2107 = Player = spin emote
+2108 = Player = headbang emote
+2109 = Player = joy jump emote
+2110 = Player = rasp' berry emote
+2111 = Player = yawn emote
+2112 = Player = salute emote
+2113 = Player = shrug emote
+2118 = Npc = Cave goblin miner  |||  Emote:Stand Animation
+2119 = Npc = Cave goblin guard  |||  Emote:Walk Animation
+2124 = Npc = Cave goblin guard  |||  Emote:Stand Animation
+2126 = Npc = Fishing spot  |||  Emote:Stand Animation
+2134 = Npc = Dromund's cat  |||  Emote:Stand Animation
+2149 = Npc = Dark mage  |||  Emote:Stand Animation
+2150 = Npc = Dwarven Miner  |||  Emote:Stand Animation
+2151 = Npc = Purple Pewter Director  |||  Emote:Stand Animation
+2152 = Npc = White Chisel Director  |||  Emote:Stand Animation
+2153 = Npc = Yellow Fortune Director  |||  Emote:Stand Animation
+2154 = Npc = Red Axe Director  |||  Emote:Walk Animation
+2155 = Npc = Red Axe Director  |||  Emote:Stand Animation
+2156 = Npc = Secretary  |||  Emote:Walk Animation
+2157 = Npc = Secretary  |||  Emote:Stand Animation
+2158 = Npc = Blue Opal Secretary  |||  Emote:Stand Animation
+2159 = Npc = Red Axe Cat  |||  Emote:Stand Animation
+2162 = Npc = Cow  |||  Emote:Stand Animation
+2163 = Npc = Master Farmer  |||  Emote:Stand Animation
+2164 = Npc = Master Farmer  |||  Emote:Walk Animation
+2165 = Npc = Pig  |||  Emote:Walk Animation
+2166 = Npc = Pig  |||  Emote:Stand Animation
+2170 = Npc = Bed  |||  Emote:Stand Animation
+2179 = Npc = Abyssal leech  |||  Emote:Walk Animation
+2180 = Npc = Abyssal leech  |||  Emote:Stand Animation
+2184 = Npc = Abyssal guardian  |||  Emote:Walk Animation
+2185 = Npc = Abyssal guardian  |||  Emote:Stand Animation
+2190 = Npc = Abyssal walker  |||  Emote:Walk Animation
+2191 = Npc = Abyssal walker  |||  Emote:Stand Animation
+2212 = Npc = Spin Blades  |||  Emote:Walk Animation
+2239 = Player = BOOM!!! shoots in the air-rogues den
+2240 = Player = going through bent bars-rogues den 
+2241 = Player = poison gas-rogues den
+2242 = Player = launch in air, hit floor-rogues den
+2243 = Player = disable wall trap-rogues den
+2244 = Player = disable floor trap-rogues den
+2245 = Player = side wall trap?-rogues den
+2246 = Player = picking lock-roges den
+2247 = Player = listening to lock-rogues den
+2252 = Npc = Sir Tiffy Cashien  |||  Emote:Stand Animation
+2253 = Npc = Sir Spishyus  |||  Emote:Stand Animation
+2255 = Npc = Ms. Hynn Terprett  |||  Emote:Stand Animation
+2256 = Npc = Lady Table  |||  Emote:Stand Animation
+2261 = Player = FLYING CARPET
+2262 = Player = flying carpet-take off
+2264 = Player = flying carpet-landing
+2268 = Npc = Sheepdog  |||  Emote:Stand Animation
+2273 = Player = raking-farming
+2297 = Npc = Chicken  |||  Emote:Walk Animation
+2298 = Npc = Chicken  |||  Emote:Stand Animation
+2304 = Player = dead emote
+2306 = Player = jumping on something alot then jjumping off
+2316 = Player = standing holding toad shooter (fixed defice)
+2318 = Player = walking holding toad shooter
+2323 = Player = kick attack while wielding fixed device
+2333 = Npc = null  |||  Emote:Walk Animation
+2334 = Npc = null  |||  Emote:Stand Animation
+2335 = Npc = Red Axe Henchman  |||  Emote:Walk Animation
+2336 = Npc = Red Axe Henchman  |||  Emote:Stand Animation
+2337 = Npc = Gauss  |||  Emote:Stand Animation
+2338 = Player = on knees looking foward
+2339 = Player = sitting moving arms
+2340 = Player = falls backwards while sitting down
+2341 = Npc = Red Axe Henchman  |||  Emote:Stand Animation
+2351 = Npc = Door  |||  Emote:Stand Animation
+2352 = Npc = Door  |||  Emote:Stand Animation
+2353 = Npc = Door  |||  Emote:Stand Animation
+2354 = Npc = Door-support  |||  Emote:Stand Animation
+2355 = Npc = Door  |||  Emote:Stand Animation
+2356 = Npc = Door  |||  Emote:Stand Animation
+2357 = Npc = Door-support  |||  Emote:Stand Animation
+2358 = Npc = Door  |||  Emote:Stand Animation
+2361 = Npc = Dagannoth spawn  |||  Emote:Walk Animation
+2362 = Npc = Egg  |||  Emote:Stand Animation
+2363 = Npc = Wallasalki  |||  Emote:Walk Animation
+2364 = Npc = Wallasalki  |||  Emote:Stand Animation
+2369 = Npc = Pheasant  |||  Emote:Walk Animation
+2370 = Npc = Pheasant  |||  Emote:Stand Animation
+2383 = Player = twitching
+2389 = Player = ti bwoi wanna or we.. thing
+2390 = Player = backstepping, something in face?
+2391 = Npc = Jungle Spider  |||  Emote:Walk Animation
+2392 = Npc = Bush Snake  |||  Emote:Walk Animation
+2395 = Npc = Large mosquito  |||  Emote:Stand Animation
+2396 = Npc = Large mosquito  |||  Emote:Walk Animation
+2400 = Npc = Tribesman  |||  Emote:Stand Animation
+2401 = Npc = Broodoo victim  |||  Emote:Stand Animation
+2406 = Npc = Teak  |||  Emote:Stand Animation
+2408 = Npc = Mahogany  |||  Emote:Stand Animation
+2412 = Player = dr jekkel emote!
+2555 = Player = fairy kick
+2561 = Npc = White Knight  |||  Emote:Stand Animation
+2562 = Npc = White Knight  |||  Emote: Turn <90 Animation
+2571 = Npc = Trolley  |||  Emote:Walk Animation
+2578 = Npc = Ellamaria  |||  Emote:Stand Animation
+2588 = Player = jumping in the air
+2592 = Player = stand sideways and knod head
+2601 = Npc = TzHaar-Mej  |||  Emote:Walk Animation
+2602 = Npc = TzHaar-Mej  |||  Emote:Walk Animation
+2603 = Npc = TzHaar-Mej  |||  Emote:Stand Animation
+2604 = Npc = TzHaar-Mej  |||  Emote:Stand Animation
+2618 = Npc = Tz-Kih  |||  Emote:Stand Animation
+2619 = Npc = Tz-Kih  |||  Emote:Walk Animation
+2623 = Npc = Tz-Kek  |||  Emote:Walk Animation
+2624 = Npc = Tz-Kek  |||  Emote:Stand Animation
+2631 = Npc = Tok-Xil  |||  Emote:Stand Animation
+2632 = Npc = Tok-Xil  |||  Emote:Walk Animation
+2634 = Npc = Yt-MejKot  |||  Emote:Walk Animation
+2636 = Npc = Yt-MejKot  |||  Emote:Stand Animation
+2642 = Npc = Ket-Zek  |||  Emote:Stand Animation
+2643 = Npc = Ket-Zek  |||  Emote:Walk Animation
+2650 = Npc = TzTok-Jad  |||  Emote:Stand Animation
+2651 = Npc = TzTok-Jad  |||  Emote:Walk Animation
+2662 = Npc = Kitten  |||  Emote:Walk Animation
+2664 = Npc = Beite  |||  Emote:Stand Animation
+2666 = Npc = Odysseus  |||  Emote:Stand Animation
+2667 = Npc = Odysseus  |||  Emote:Walk Animation
+2668 = Npc = Odysseus  |||  Emote:Stand Animation
+2671 = Npc = Love Cats  |||  Emote:Stand Animation
+2672 = Npc = Love Cats  |||  Emote:Walk Animation
+2673 = Npc = Love Cats  |||  Emote:Stand Animation
+2688 = Npc = Dragonkin  |||  Emote:Stand Animation
+2689 = Npc = Dragonkin  |||  Emote:Walk Animation
+2691 = Npc = Gnome  |||  Emote:Stand Animation
+2694 = Npc = Neite  |||  Emote:Stand Animation
+2700 = Npc = Guard  |||  Emote:Stand Animation
+2701 = Npc = Pirate  |||  Emote:Stand Animation
+2702 = Npc = Thief  |||  Emote:Stand Animation
+2703 = Npc = Rat  |||  Emote:Walk Animation
+2704 = Npc = Rat  |||  Emote:Stand Animation
+2712 = Npc = Hops  |||  Emote:Stand Animation
+2713 = Npc = Chancy  |||  Emote:Stand Animation
+2720 = Player = scrapes the air with a weapon?
+2724 = Npc = Lord Daquarius  |||  Emote:Stand Animation
+2726 = Npc = Mage of Zamorak  |||  Emote:Stand Animation
+2727 = Npc = Mage of Zamorak  |||  Emote:Stand Animation
+2728 = Npc = Ranger  |||  Emote:Stand Animation
+2729 = Npc = Dark Beast  |||  Emote:Stand Animation
+2731 = Npc = Dark Beast  |||  Emote:Walk Animation
+2737 = Npc = Shadow  |||  Emote:Walk Animation
+2740 = Npc = Shadow  |||  Emote:Stand Animation
+2750 = Player = jump over fence emote
+2753 = Player = huge jump to side
+2756 = Player = Push-Ups-Drill seargent random
+2761 = Player = jumping jacks-Drill seargent random
+2763 = Player = sit-ups-Drill seargent random
+2764 = Player = jog in place-Drill seargent random
+2769 = Npc = null  |||  Emote:Walk Animation
+2770 = Npc = null  |||  Emote:Stand Animation
+2774 = Npc = Lizard  |||  Emote:Stand Animation
+2775 = Npc = Lizard  |||  Emote:Walk Animation
+2780 = Player = throws item in hand in the air
+2797 = Npc = Zombie Protester  |||  Emote:Stand Animation
+2798 = Npc = Karamthulhu  |||  Emote:Walk Animation
+2799 = Npc = Karamthulhu  |||  Emote:Stand Animation
+2801 = Npc = 50% Luke  |||  Emote:Walk Animation
+2802 = Npc = Evil Spirit  |||  Emote:Walk Animation
+2803 = Npc = Evil Spirit  |||  Emote:Stand Animation
+2815 = Npc = Most of a Zombie  |||  Emote:Walk Animation
+2816 = Npc = Most of a Zombie  |||  Emote:Stand Animation
+2818 = Npc = Zombie Head  |||  Emote:Stand Animation
+2820 = Player = dying emote + fades away..
+2823 = Npc = Half-Zombie  |||  Emote:Walk Animation
+2824 = Npc = Other Half-Zombie  |||  Emote:Walk Animation
+2825 = Npc = Half-Zombie  |||  Emote:Stand Animation
+2826 = Npc = Other Half-Zombie  |||  Emote:Stand Animation
+2836 = Player = SCARED EMOTE!
+2840 = Player = ALAS emote
+2844 = Player = SHOW HEAD EMOTE 'Muahahahah'
+2849 = Npc = Dagannoth Supreme  |||  Emote:Walk Animation
+2850 = Npc = Dagannoth Supreme  |||  Emote:Stand Animation
+2857 = Npc = Rock lobster  |||  Emote:Walk Animation
+2858 = Npc = Rock lobster  |||  Emote:Stand Animation
+2863 = Npc = Spinolyp  |||  Emote:Walk Animation
+2867 = Npc = Spinolyp  |||  Emote:Stand Animation
+2876 = Player = DRAG AXE SPEC!!
+2882 = Npc = null  |||  Emote:Stand Animation
+2890 = Player = DARKLIGHT SPEC!
+2893 = Npc = Melina  |||  Emote:Stand Animation
+2895 = Player = flying away
+2904 = Npc = Tool Leprechaun  |||  Emote:Stand Animation
+2906 = Npc = Nirrie  |||  Emote:Stand Animation
+2907 = Npc = Nirrie  |||  Emote:Walk Animation
+2908 = Npc = Tirrie  |||  Emote:Stand Animation
+2910 = Player = spinning something and then throwing it
+2911 = Npc = Rokuh  |||  Emote:Stand Animation
+2912 = Npc = Rokuh  |||  Emote:Walk Animation
+2927 = Player = twirling weapon then hitting something
+2928 = Npc = Zombies Champion  |||  Emote:Stand Animation
+2929 = Npc = Zombies Champion  |||  Emote:Walk Animation
+2931 = Npc = Jogre Champion  |||  Emote:Stand Animation
+2932 = Npc = Jogre Champion  |||  Emote:Walk Animation
+2933 = Npc = Giant Champion  |||  Emote:Stand Animation
+2934 = Npc = Giant Champion  |||  Emote:Walk Animation
+2939 = Npc = Mystery figure  |||  Emote:Stand Animation
+2940 = Npc = Mystery figure  |||  Emote:Stand Animation
+2941 = Npc = Mystery figure  |||  Emote:Stand Animation
+2942 = Npc = Mystery figure  |||  Emote:Stand Animation
+2943 = Npc = Mystery figure  |||  Emote:Stand Animation
+2944 = Npc = Mystery figure  |||  Emote:Stand Animation
+2945 = Npc = Earth Warrior Champion  |||  Emote:Stand Animation
+2947 = Npc = Earth Warrior Champion  |||  Emote:Walk Animation
+2950 = Npc = Earth Warrior Champion  |||  Emote: Turn <90 Animation
+2953 = Npc = Imp Champion  |||  Emote:Stand Animation
+2958 = Npc = Hobgoblin Champion  |||  Emote:Stand Animation
+2962 = Npc = Goblin Champion  |||  Emote:Stand Animation
+2968 = Player = something
+2971 = Npc = Lesser Demon Champion  |||  Emote:Stand Animation
+2982 = Npc = Skeletal Wyvern  |||  Emote:Walk Animation
+2984 = Npc = Skeletal Wyvern  |||  Emote:Stand Animation
+2993 = Npc = Monk  |||  Emote:Stand Animation
+2994 = Npc = Monk  |||  Emote:Walk Animation
+2995 = Npc = null  |||  Emote:Stand Animation
+3001 = Player = boot to the nuts
+3003 = Player = marionette jump
+3004 = Player = marionette walk
+3005 = Player = marionette bow
+3006 = Player = mationette dance
+3007 = Player = shaking the imps emote
+3008 = Npc = Rosie  |||  Emote:Stand Animation
+3012 = Npc = Rosie  |||  Emote:Walk Animation
+3023 = Npc = Flying Book  |||  Emote:Stand Animation
+3026 = Npc = Charmed Warrior  |||  Emote:Stand Animation
+3027 = Npc = Charmed Warrior  |||  Emote:Walk Animation
+3033 = Npc = Entrance Guardian  |||  Emote:Stand Animation
+3034 = Npc = Entrance Guardian  |||  Emote:Walk Animation
+3035 = Npc = Alchemy Guardian  |||  Emote:Walk Animation
+3036 = Npc = null  |||  Emote:Stand Animation
+3039 = Npc = Dr Harlow  |||  Emote:Walk Animation
+3040 = Npc = Dr Harlow  |||  Emote:Stand Animation
+3042 = Npc = Sandwich lady  |||  Emote:Walk Animation
+3043 = Npc = Sandwich lady  |||  Emote:Stand Animation
+3048 = Npc = Balloon Animal  |||  Emote:Walk Animation
+3049 = Npc = Balloon Animal  |||  Emote:Stand Animation
+3050 = Npc = Balloon Animal  |||  Emote:Walk Animation
+3063 = Player = climb up a wall, then climb down
+3067 = Player = jumping over something, landing nicely
+3068 = Player = jumping over something, not landing very nicely...
+3073 = Npc = null  |||  Emote:Stand Animation
+3078 = Npc = Boneguard  |||  Emote:Walk Animation
+3094 = Player = looses balance falls forward
+3103 = Player = sits up brushes self off
+3108 = Npc = Harpie Bug Swarm  |||  Emote:Stand Animation
+3114 = Player = rises from the grave!
+3129 = Player = holding on to something like you're flying
+3141 = Player = turning pages in a book
+3144 = Npc = Chaos Elemental  |||  Emote:Stand Animation
+3145 = Npc = Chaos Elemental  |||  Emote:Walk Animation
+3157 = Player = Dragon 2h special
+3159 = Npc = Killerwatt  |||  Emote:Stand Animation
+3160 = Npc = Killerwatt  |||  Emote:Stand Animation
+3161 = Npc = Killerwatt  |||  Emote:Walk Animation
+3167 = Npc = Storm Cloud  |||  Emote:Walk Animation
+3168 = Npc = Storm Cloud  |||  Emote:Stand Animation
+3169 = Npc = Storm Cloud  |||  Emote:Stand Animation
+3170 = Player = ELECTRICUTED!
+3183 = Npc = Taper  |||  Emote:Stand Animation
+3185 = Npc = Alrena  |||  Emote:Stand Animation
+3186 = Npc = Bravek  |||  Emote:Stand Animation
+3207 = Npc = Engineering assistant  |||  Emote:Walk Animation
+3208 = Npc = Engineering assistant  |||  Emote:Stand Animation
+3210 = Npc = Squirrel  |||  Emote:Walk Animation
+3211 = Npc = Squirrel  |||  Emote:Stand Animation
+3212 = Npc = Squirrel  |||  Emote:Stand Animation
+3213 = Npc = Raccoon  |||  Emote:Stand Animation
+3214 = Npc = Raccoon  |||  Emote:Walk Animation
+3215 = Npc = Raccoon  |||  Emote:Stand Animation
+3216 = Npc = Raccoon  |||  Emote:Stand Animation
+3220 = Npc = null  |||  Emote:Walk Animation
+3241 = Npc = Swan  |||  Emote:Walk Animation
+3242 = Npc = Swan  |||  Emote:Stand Animation
+3244 = Npc = Sweeper  |||  Emote:Stand Animation
+3245 = Npc = Sweeper  |||  Emote:Walk Animation
+3248 = Npc = null  |||  Emote:Stand Animation
+3249 = Npc = null  |||  Emote:Walk Animation
+3252 = Npc = Zanaris Choir  |||  Emote:Stand Animation
+3253 = Npc = Zanaris Choir  |||  Emote:Walk Animation
+3259 = Npc = Tanglefoot  |||  Emote:Stand Animation
+3261 = Npc = Tanglefoot  |||  Emote:Walk Animation
+3281 = Npc = Martina Scorsby  |||  Emote:Stand Animation
+3282 = Npc = Jeremy Clerksin  |||  Emote:Stand Animation
+3309 = Npc = Giant Mole  |||  Emote:Stand Animation
+3313 = Npc = Giant Mole  |||  Emote:Walk Animation
+3322 = Npc = Zygomite  |||  Emote:Walk Animation
+3323 = Npc = Zygomite  |||  Emote:Walk Animation
+3324 = Npc = Zygomite  |||  Emote:Stand Animation
+3328 = Npc = Fungi  |||  Emote:Stand Animation
+3346 = Npc = K'klik  |||  Emote:Stand Animation
+3357 = Npc = Culinaromancer  |||  Emote:Stand Animation
+3362 = Npc = Lumbridge Guide  |||  Emote:Stand Animation
+3365 = Npc = Culinaromancer  |||  Emote:Stand Animation
+3371 = Npc = Sir Amik Varze  |||  Emote:Stand Animation
+3374 = Npc = Pirate Pete  |||  Emote:Stand Animation
+3379 = Npc = Mountain Dwarf  |||  Emote:Stand Animation
+3383 = Npc = Skrach Uglogwee  |||  Emote:Stand Animation
+3385 = Npc = General Wartface  |||  Emote:Stand Animation
+3387 = Npc = General Bentnoze  |||  Emote:Stand Animation
+3389 = Npc = General Bentnoze  |||  Emote:Stand Animation
+3391 = Npc = General Wartface  |||  Emote:Stand Animation
+3395 = Npc = Awowogei  |||  Emote:Stand Animation
+3396 = Npc = Sir Amik Varze  |||  Emote:Stand Animation
+3401 = Npc = Goblin Cook  |||  Emote:Stand Animation
+3424 = Npc = Crab  |||  Emote:Stand Animation
+3426 = Npc = Crab  |||  Emote:Walk Animation
+3431 = Npc = Mudskipper  |||  Emote:Stand Animation
+3432 = Npc = Mudskipper  |||  Emote:Walk Animation
+3436 = Npc = Mogre Guard  |||  Emote:Stand Animation
+3437 = Npc = Mogre Guard  |||  Emote:Walk Animation
+3441 = Npc = Fish  |||  Emote:Walk Animation
+3442 = Npc = Fish  |||  Emote:Stand Animation
+3443 = Npc = Fish  |||  Emote:Walk Animation
+3444 = Npc = Fish  |||  Emote:Stand Animation
+3460 = Npc = Rantz  |||  Emote:Stand Animation
+3462 = Npc = Rantz  |||  Emote:Stand Animation
+3463 = Npc = Jubbly bird  |||  Emote:Stand Animation
+3464 = Npc = Jubbly bird  |||  Emote:Walk Animation
+3467 = Npc = Jubbly bird  |||  Emote:Stand Animation
+3469 = Npc = Balloon Toad  |||  Emote:Stand Animation
+3472 = Npc = Balloon Toad  |||  Emote:Stand Animation
+3473 = Npc = null  |||  Emote:Stand Animation
+3474 = Npc = null  |||  Emote:Walk Animation
+3498 = Npc = Agrith-Na-Na  |||  Emote:Stand Animation
+3499 = Npc = Agrith-Na-Na  |||  Emote:Walk Animation
+3504 = Npc = Dessourt  |||  Emote:Stand Animation
+3506 = Npc = Dessourt  |||  Emote:Walk Animation
+3523 = Npc = Kikazaru  |||  Emote:Stand Animation
+3524 = Npc = Iwazaru  |||  Emote:Stand Animation
+3525 = Npc = Mizaru  |||  Emote:Stand Animation
+3535 = Npc = Big Snake  |||  Emote:Stand Animation
+3537 = Npc = Big Snake  |||  Emote:Walk Animation
+3551 = Npc = Held Vampyre Juvinate  |||  Emote:Stand Animation
+3557 = Npc = Vasile  |||  Emote:Stand Animation
+3563 = Npc = Gadderanks  |||  Emote:Stand Animation
+3568 = Npc = Sheep  |||  Emote:Walk Animation
+3569 = Npc = Sheep  |||  Emote:Stand Animation
+3617 = Npc = Tentacle  |||  Emote:Stand Animation
+3707 = Npc = Rocnar  |||  Emote:Stand Animation
+3708 = Npc = Rocnar  |||  Emote:Walk Animation
+3712 = Npc = Toy Soldier  |||  Emote:Stand Animation
+3713 = Npc = Toy Soldier  |||  Emote:Walk Animation
+3716 = Npc = Toy Doll  |||  Emote:Stand Animation
+3717 = Npc = Toy Doll  |||  Emote:Walk Animation
+3718 = Npc = Toy Mouse  |||  Emote:Stand Animation
+3721 = Npc = Giant snail  |||  Emote:Walk Animation
+3722 = Npc = Giant snail  |||  Emote:Stand Animation
+3728 = Npc = Head  |||  Emote:Stand Animation
+3729 = Npc = Tentacle  |||  Emote:Stand Animation
+3730 = Npc = Head  |||  Emote:Stand Animation
+3738 = Npc = Dead swamp snake  |||  Emote:Stand Animation
+3809 = Npc = Fear reaper  |||  Emote:Walk Animation
+3810 = Npc = Fear reaper  |||  Emote:Stand Animation
+3815 = Npc = Confusion beast  |||  Emote:Stand Animation
+3819 = Npc = Confusion beast  |||  Emote:Walk Animation
+3822 = Npc = Hopeless creature  |||  Emote:Stand Animation
+3825 = Npc = Hopeless creature  |||  Emote:Walk Animation
+3828 = Npc = Tolna  |||  Emote:Stand Animation
+3840 = Npc = Bones  |||  Emote:Stand Animation
+3845 = Npc = Morris  |||  Emote:Stand Animation
+3846 = Npc = Culinaromancer  |||  Emote:Stand Animation
+3849 = Npc = Egg  |||  Emote:Walk Animation
+3850 = Npc = Easter egg bird  |||  Emote:Stand Animation
+3851 = Npc = Easter egg bird  |||  Emote:Walk Animation
+3855 = Npc = Child  |||  Emote:Walk Animation
+3856 = Npc = Child  |||  Emote:Stand Animation
+3867 = Npc = Rabbit  |||  Emote:Stand Animation
+3870 = Npc = Rabbit  |||  Emote:Walk Animation
+3871 = Npc = Rabbit  |||  Emote:Walk Animation
+3872 = Npc = Rabbit  |||  Emote:Stand Animation
+3873 = Npc = Easter Bunny  |||  Emote:Stand Animation
+3878 = Npc = Torcher  |||  Emote:Stand Animation
+3879 = Npc = Torcher  |||  Emote:Walk Animation
+3886 = Npc = Splatter  |||  Emote:Stand Animation
+3887 = Npc = Splatter  |||  Emote:Walk Animation
+3892 = Npc = Brawler  |||  Emote:Walk Animation
+3893 = Npc = Brawler  |||  Emote:Stand Animation
+3898 = Npc = Shifter  |||  Emote:Walk Animation
+3899 = Npc = Shifter  |||  Emote:Stand Animation
+3906 = Npc = Spinner  |||  Emote:Stand Animation
+3907 = Npc = Spinner  |||  Emote:Walk Animation
+3913 = Npc = Ravager  |||  Emote:Stand Animation
+3914 = Npc = Ravager  |||  Emote:Walk Animation
+3918 = Npc = Defiler  |||  Emote:Stand Animation
+3919 = Npc = Defiler  |||  Emote:Walk Animation
+3926 = Npc = Void Knight  |||  Emote:Stand Animation
+3928 = Npc = Portal  |||  Emote:Stand Animation
+3933 = Npc = Portal  |||  Emote:Stand Animation
+3936 = Npc = Portal  |||  Emote:Stand Animation
+3947 = Npc = Postie Pete  |||  Emote:Walk Animation
+3948 = Npc = Postie Pete  |||  Emote:Stand Animation
+3950 = Npc = Gillie Groats  |||  Emote:Stand Animation
+3952 = Npc = Tortoise  |||  Emote:Stand Animation
+3953 = Npc = Tortoise  |||  Emote:Walk Animation
+3963 = Npc = Trainer Nacklepen  |||  Emote:Walk Animation
+3965 = Npc = Trainer Nacklepen  |||  Emote:Stand Animation
+3970 = Npc = Wise Old Man  |||  Emote:Stand Animation
+3977 = Npc = Sea Troll General  |||  Emote:Walk Animation
+3978 = Npc = Sea Troll General  |||  Emote:Stand Animation
+3984 = Npc = Sea troll  |||  Emote:Walk Animation
+3987 = Npc = Sea troll  |||  Emote:Stand Animation
+3989 = Npc = Sea Troll Queen  |||  Emote:Stand Animation

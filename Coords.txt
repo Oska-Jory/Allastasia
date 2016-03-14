@@ -1,0 +1,3 @@
+2889 5258 = saradomin
+2930 5321 = Zamorak
+2871 5355 = Bandos

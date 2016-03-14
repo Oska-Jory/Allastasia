@@ -1,0 +1,394 @@
+Spirit Wolf
+ID: 6830
+attack: 8292
+death: 8295
+
+dreadfowl
+ID: 6826
+attack: 5387
+death: 5389
+
+spirit spider
+ID: 6842
+Attack: 5327
+Death: 5329
+
+thorny snail
+ID: 6807
+Attack: 8148
+Death: 8147
+
+granite crab
+ID: 6797
+Attack: 8104
+Death: 8106
+
+spirit mosquito
+ID: 7332
+Attack: 8032
+Death: 8033
+
+desert wyrm
+ID: 6832
+Attack: 7795
+Death: 7797
+
+spirit scorpian
+ID: 6838
+Attack: 6254
+Death: 6256
+
+spirit tz-kih
+ID: 7362
+Attack: 8257
+Death: 8258
+
+albino rat
+ID: 6848
+Attack: 4933
+Death: 4935
+
+spirit kalphite
+ID: 6995
+Attack: 8519
+Death: 8517
+
+compost mound
+ID: 6872
+Attack: 7769
+Death: 7770
+
+giant chinchompa
+ID: 7354
+Attack: 7755
+Death: 7756
+
+vampire bat
+ID: 6836
+Attack: 8275
+Death: 8276
+
+honey badger
+ID: 6846
+Attack: 7928
+Death: 7925
+
+beaver
+ID: 6808
+Attack: 7722 - UNKNOWN
+Death: 7718 - UNKNOWN
+
+void ravager
+ID: 7371
+Attack: 8093
+Death: 8087
+
+void spinner
+ID: 7334
+Attack: 8172
+Death: 8176
+
+void torcher
+ID: 7352
+Attack: 8235
+Death: 8236
+
+void shifter
+ID: 7369
+Attack: 8131
+Death: 8133
+
+bronze minotaur
+ID: 6854
+Attack: 8024
+Death: 8025 
+
+bull ant
+ID: 6868
+Attack: 7896
+Death: 7897
+
+macaw
+ID: 6852
+Attack: 8010
+Death: 8011
+
+evil turnip
+ID: 6834
+Attack: 8248
+Death: 8250
+
+spirit cockatrice
+ID: 6876
+Attack: 7762
+Death: 7763
+
+spirit guthatrice
+ID: 6878
+Attack: 7762
+Death: 7763
+
+spirit saratrice
+ID: 6880
+Attack: 7762
+Death: 7763
+
+spirit zamatrice
+ID: 6882
+Attack: 7762
+Death: 7763
+
+spirit pengatrice
+ID: 6884
+Attack: 7762
+Death: 7763
+
+spirit coraxatrice
+ID: 6886
+Attack: 7762
+Death: 7763
+
+spirit vulatrice
+ID: 6888
+Attack: 7762
+Death: 7763
+
+iron minotaur
+ID: 6856
+Attack: 8024
+Death: 8025 
+
+pyrelord
+ID: 7378
+Attack: 8080
+Death: 8078
+
+magpie
+ID: 6824
+Attack: 8010
+Death: 8012
+
+magpie
+ID: 6824
+Attack: 8010
+Death: 8012
+
+bloated leech
+ID: 6844
+Attack: 7657
+Death: 7656
+
+spirit terrorbird
+ID: 6795
+Attack: 1010
+Death: 1012
+
+abyssal parasite
+ID: 6819
+Attack: 7672
+Death: 7671
+
+spirit jelly
+ID: 6993
+Attack: 8575
+Death: 8576
+
+steel minotaur
+ID: 6858
+Attack: 8024
+Death: 8025
+
+ibis pouch
+ID: 6991
+Attack: 8200 - UNKNOWN
+Death: 8201 - UNKNOWN
+
+spirit kyatt
+ID: 7364
+Attack: 5229
+Death: 5230
+
+spirit laurpia
+ID: 7366
+Attack: 5229
+Death: 5230
+
+spirit graahk
+ID: 7338
+Attack: 5229
+Death: 5230
+
+karamthulu overlord
+ID: 6810
+Attack: 7970
+Death: 7967
+
+smoke devil
+ID: 6866
+Attack: 7817
+Death: 7818
+
+abyssal lurker
+ID: 6821
+Attack: 7680
+Death: 7684
+
+spirit cobra
+ID: 6803
+Attack: 8152
+Death: 8153
+
+stranger plant
+ID: 6828
+Attack: 8208
+Death: 8209
+
+mithril minotaur
+ID: 6860
+Attack: 8024
+Death: 8025
+
+barker toad
+ID: 6890
+Attack: UNKNOWN
+Death: UNKNOWN
+
+war tortoise
+ID: 6816
+Attack: 8286
+Death: 8285
+
+bunyip
+ID: 6814
+Attack: 7741
+Death: 7740
+
+fruit bat
+ID: 6817
+Attack: 8275
+Death: 8276
+
+ravenous locust
+ID: 7374
+Attack: 7998
+Death: 7996
+
+arctic bear
+ID: 6840
+Attack: 4925
+Death: 4929
+
+pheonix
+ID: 8549
+Attack: UNKNOWN
+Death: UNKNOWN
+
+obsidian golem
+ID: 7346
+Attack: 8050
+Death: 8052
+
+granite lobster
+ID: 6850
+Attack: 8118
+Death: 8113
+
+praying mantis
+ID: 6799
+Attack: 8070
+Death: 8065
+
+forge regent
+ID: 7336
+Attack: 7865
+Death: 7864
+
+adamant minotaur
+ID: 6862
+Attack: 8024
+Death: 8025
+
+talon beast
+ID: 7348
+Attack: 5989
+Death: 5990
+
+giant ent
+ID: 6801
+Attack: 7853
+Death: 7854
+
+fire titan
+ID: 7356
+Attack: 7834
+Death: 7833
+
+moss titan
+ID: 7358
+Attack: 7845
+Death: 7843
+
+ice titan
+ID: 7360
+Attack: 8183
+Death: 8184
+
+hydra
+ID: 6812
+Attack: 7935
+Death: 7937
+
+spirit dagannoth
+ID: 6805
+Attack: 7787
+Death: 7780
+
+lava titan
+ID: 7342
+Attack: 7980
+Death: 7979
+
+swamp titan
+ID: 7330
+Attack: 8222
+Death: 8226
+
+rune minotaur
+ID: 6864
+Attack: 8024
+Death: 8025
+
+unicorn stallion
+ID: 6823
+Attack: 6376
+Death: 6377
+
+geyser titan
+ID: 7340
+Attack: 7879
+Death: 7880
+
+wolpertinger
+ID: 6870
+Attack: 8303
+Death: 8306
+
+abyssal titan
+ID: 7350
+Attack: 7693
+Death: 7692
+
+iron titan
+ID: 7376
+Attack: 7946
+Death: 7947
+
+pack yak
+ID: 6874
+Attack: 5782
+Death: 5784
+
+steel titan
+ID: 7344
+Attack: 8183
+Death: 8184

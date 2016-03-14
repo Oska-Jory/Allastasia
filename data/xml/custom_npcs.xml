@@ -1,0 +1,126 @@
+<map>
+	<npc>
+		<handler>org.dementhium.model.npc.impl.ChromaticDragon</handler>
+		<!-- Elvarg -->
+			<id>742</id>
+			<id>6087</id>
+		<!-- Green dragon -->
+			<id>941</id>
+			<id>4677</id>
+			<id>4678</id>
+			<id>4679</id>
+			<id>4680</id>
+			<id>10604</id>
+			<id>10605</id>
+			<id>10606</id>
+			<id>10607</id>
+			<id>10608</id>
+			<id>10609</id>
+		<!-- Blue dragon -->
+			<id>55</id>
+			<id>4681</id>
+			<id>4682</id>
+			<id>4683</id>
+			<id>4684</id>
+			<id>5178</id>
+		<!-- Red dragon -->
+			<id>53</id>
+			<id>4669</id>
+			<id>4670</id>
+			<id>4671</id>
+			<id>4672</id>
+			<id>10815</id>
+			<id>10816</id>
+			<id>10817</id>
+			<id>10818</id>
+			<id>10819</id>
+			<id>10820</id>
+		<!-- Black dragon -->
+			<id>54</id>
+			<id>4673</id>
+			<id>4674</id>
+			<id>4675</id>
+			<id>4676</id>
+			<id>10219</id>
+			<id>10220</id>
+			<id>10221</id>
+			<id>10222</id>
+			<id>10223</id>
+			<id>10224</id>
+	</npc>
+	 <npc>
+		<handler>org.dementhium.model.npc.impl.MetalDragon</handler>
+		<!-- Bronze dragon -->
+			<id>1590</id>
+		<!-- Iron dragon -->
+			<id>1591</id>
+			<id>10776</id>
+			<id>10777</id>
+			<id>10778</id>
+			<id>10779</id>
+			<id>10780</id>
+			<id>10781</id>
+			<id>11567</id>
+			<id>11594</id>
+			<id>11595</id>
+		<!-- Steel dragon -->
+			<id>1592</id>
+			<id>3590</id>
+	</npc>
+	 <npc>
+		<handler>org.dementhium.model.npc.impl.KingBlackDragon</handler>
+		<id>50</id>
+	</npc>
+	 <npc>
+		<handler>org.dementhium.model.npc.impl.ChaosElemental</handler>
+		<id>3200</id>
+	</npc>
+	 <npc>
+		<handler>org.dementhium.model.npc.impl.TormentedDemon</handler>
+		<id>8349</id>
+		<id>8350</id>
+		<id>8351</id>
+		<id>8352</id>
+		<id>8353</id>
+		<id>8354</id>
+		<id>8355</id>
+		<id>8356</id>
+		<id>8357</id>
+		<id>8358</id>
+		<id>8359</id>
+		<id>8360</id>
+		<id>8361</id>
+		<id>8362</id>
+		<id>8363</id>
+		<id>8364</id>
+		<id>8365</id>
+		<id>8366</id>
+	</npc>
+	 <npc>
+		<handler>org.dementhium.model.npc.impl.Impling</handler>
+		<!-- Baby impling -->
+			<id>1028</id>
+		<!-- Young impling -->
+			<id>1029</id>
+		<!-- Gourmet impling -->
+			<id>1030</id>
+		<!-- Earth impling -->
+			<id>1031</id>
+		<!-- Essence impling -->
+			<id>1032</id>
+		<!-- Eclectic impling -->
+			<id>1033</id>
+		<!-- Spirit impling -->
+			<id>7866</id>
+		<!-- Nature impling -->
+			<id>1034</id>
+		<!-- Magpie impling -->
+			<id>1035</id>
+		<!-- Ninja impling -->
+			<id>6053</id>
+		<!-- Dragon impling -->
+			<id>6054</id>
+		<!-- Kingly impling -->
+			<id>7903</id>
+	</npc>
+</map>

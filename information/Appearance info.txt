@@ -1,0 +1,10 @@
+----------HAIR-----------
+0 = bald
+5 = Short (SH 1)
+6 = Close-cropped (SH 2)
+
+
+--------ADVENTURER--------
+#1:
+
+Hair: 3

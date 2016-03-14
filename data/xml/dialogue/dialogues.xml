@@ -1,0 +1,624 @@
+<map>
+<!-- Dragonfire shield forging -->
+	<dialogue>
+		<id>0</id>
+		<type>ITEM_BOX</type>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>11286</arg>
+				<arg>1</arg>
+		</req>
+		<fail>2</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>1540</arg>
+				<arg>1</arg>
+		</req>
+		<fail>3</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>2347</arg>
+				<arg>1</arg>
+		</req>
+		<fail>4</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>13</arg>
+				<arg>90</arg>
+		</req>
+		<fail>5</fail>
+		<item>11286</item>
+		<message>You set to work, trying to attach the ancient draconic 
+		visage to your anti-dragonbreath shield. It's not easy to 
+		work with the ancient artifact and it takes all of your 
+		skill as a master smith.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+				<arg>1</arg>
+			<action>REMOVE_AND_ADD</action>
+				<string>REMOVE</string>
+					<arg>11286</arg>
+					<arg>1</arg>
+				<string>REMOVE</string>
+					<arg>1540</arg>
+					<arg>1</arg>
+				<string>ADD</string>
+					<arg>11283</arg>
+					<arg>1</arg>
+			<string>END</string>
+			<action>EXPERIENCE</action>
+				<arg>13</arg>
+				<arg>2000</arg>
+			<action>ANIMATE</action>
+				<arg>898</arg> <!-- Animation -->
+		</option>
+	</dialogue>
+	<!-- Crafting the dragonfire shield. -->
+	 <dialogue>
+	 	<id>1</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>11283</item>
+		<message>Even for an expert armourer it is not an easy task, 
+		but eventually it is ready. You have crafted the 
+		draconic visage and anti-dragonbreath shield into a 
+		dragonfire shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Without a draconic visage in the inventory. -->
+	 <dialogue>
+	 	<id>2</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>11286</item>
+		<message>You need a draconic visage to forge a dragonfire shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Without an anti-dragon shield in the inventory. -->
+	 <dialogue>
+	 	<id>3</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>1540</item>
+		<message>You need an anti-dragonbreath shield to forge a dragonfire shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Without a hammer in the inventory. -->
+	 <dialogue>
+	 	<id>4</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>2347</item>
+		<message>You need a hammer to forge this.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Not high enough Smithing level. -->
+	 <dialogue>
+	 	<id>5</id>
+	 	<type>DISPLAY_BOX</type>
+		<message>You need a Smithing level of 90 to forge a Dragonfire shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+<!-- Elnock Inquisitor: Talk-to option -->
+	<dialogue>
+		<id>6</id>
+		<speaker>6070</speaker>
+		<type>NORMAL</type>
+		<message>Well hello there, adventurer!</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>7</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>7</id>
+		<type>NORMAL</type>
+		<anim>9830</anim>
+		<message>Hello, what is this place?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>8</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>8</id>
+		<speaker>6070</speaker>
+		<type>NORMAL</type>
+		<anim>9785</anim>
+		<message>This is Puro-puro, the home town of those pesky implings.</message>
+		<message>Please keep an eye out for your items, these implings tend</message>
+		<message>to steal anything shiny.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>9</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>9</id>
+		<speaker>-1</speaker>
+		<type>NORMAL</type>
+		<message>Anything I can do to prevent it?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>10</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>10</id>
+		<speaker>6070</speaker>
+		<type>NORMAL</type>
+		<message>Unlikely, but if you do notice something missing,</message>
+		<message>I'll be happy to sell you an impling jar and butterfly net.</message>
+		<message>That way you should be able to recover your items.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>11</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>11</id>
+		<type>OPTION</type>
+		<message>What am I supposed to do again?</message>
+		<message>Can't the implings use the crop circle?</message>
+		<message>Alright, thanks.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>12</arg>
+		</option>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>15</arg>
+		</option>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>14</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>12</id>
+		<speaker>-1</speaker>
+		<type>NORMAL</type>
+		<message>What am I supposed to do again?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>13</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>13</id>
+		<speaker>6070</speaker>
+		<type>NORMAL</type>
+		<message>If you spot an impling and you think it stole items,</message>
+		<message>all you have to do is go through the wheat and try to</message>
+		<message>catch the impling and squeeze it in a jar.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>14</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>14</id>
+		<speaker>-1</speaker>
+		<type>NORMAL</type>
+		<message>Alright, thanks.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>15</id>
+		<speaker>-1</speaker>
+		<type>NORMAL</type>
+		<message>Can't the implings use the crop circle?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>16</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>16</id>
+		<speaker>6070</speaker>
+		<type>NORMAL</type>
+		<message>By Guthix, I hope not!</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>14</arg>
+		</option>
+	</dialogue>
+<!-- Spirit shield forging -->
+	<!-- Arcane -->
+	<dialogue>
+		<id>17</id>
+		<type>DISPLAY_BOX</type>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13746</arg>
+				<arg>1</arg>
+		</req>
+		<fail>19</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13736</arg>
+				<arg>1</arg>
+		</req>
+		<fail>20</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>2347</arg>
+				<arg>1</arg>
+		</req>
+		<fail>4</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>13</arg>
+				<arg>85</arg>
+		</req>
+		<fail>21</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>5</arg>
+				<arg>90</arg>
+		</req>
+		<fail>22</fail>
+		<message>Are you sure you want to attach the arcane sigil to the blessed</message>
+		<message>spirit shield?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>18</arg>
+		</option>
+	</dialogue>
+	<!-- Crafting the arcane spirit shield. -->
+	 <dialogue>
+	 	<id>18</id>
+	 	<type>OPTION</type>
+		<message>Yes.</message>
+		<message>No.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+				<arg>23</arg>
+			<action>REMOVE_AND_ADD</action>
+				<string>REMOVE</string>
+					<arg>13746</arg>
+					<arg>1</arg>
+				<string>REMOVE</string>
+					<arg>13736</arg>
+					<arg>1</arg>
+				<string>ADD</string>
+					<arg>13738</arg>
+					<arg>1</arg>
+			<string>END</string>
+			<action>EXPERIENCE</action>
+				<arg>13</arg>
+				<arg>1800</arg>
+			<action>ANIMATE</action>
+				<arg>898</arg> <!-- Animation -->
+		</option>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Without a sigil in the inventory. -->
+	 <dialogue>
+	 	<id>19</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>13746</item>
+	 	<item>13750</item>
+		<message>You need a sigil to forge a spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Without an blessed spirit shield in the inventory. -->
+	 <dialogue>
+	 	<id>20</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>13736</item>
+		<message>You need a blessed spirit shield to forge a spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Not high enough Smithing level. -->
+	 <dialogue>
+	 	<id>21</id>
+	 	<type>DISPLAY_BOX</type>
+		<message>You need a Smithing level of 85 to forge this spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Not high enough Prayer level. -->
+	 <dialogue>
+	 	<id>22</id>
+	 	<type>DISPLAY_BOX</type>
+		<message>You need a Prayer level of 90 to forge this spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	<!-- Message when arcane spirit shield has been made. -->
+	 <dialogue>
+	 	<id>23</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>13738</item>
+		<message>You successfully attach the arcane sigil to the blessed 
+					spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	<!-- Message when divine spirit shield has been made. -->
+	 <dialogue>
+	 	<id>24</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>13740</item>
+		<message>You successfully attach the divine sigil to the blessed 
+		spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	<!-- Message when elysian spirit shield has been made. -->
+	 <dialogue>
+	 	<id>25</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>13750</item>
+		<message>You successfully attach the elysian sigil to the blessed 
+		spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	<!-- Message when spectral spirit shield has been made. -->
+	 <dialogue>
+	 	<id>26</id>
+	 	<type>ITEM_BOX</type>
+	 	<item>13752</item>
+		<message>You successfully attach the spectral sigil to the blessed 
+		spirit shield.</message>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Divine -->
+	<dialogue>
+		<id>27</id>
+		<type>DISPLAY_BOX</type>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13748</arg>
+				<arg>1</arg>
+		</req>
+		<fail>19</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13736</arg>
+				<arg>1</arg>
+		</req>
+		<fail>20</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>2347</arg>
+				<arg>1</arg>
+		</req>
+		<fail>4</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>13</arg>
+				<arg>85</arg>
+		</req>
+		<fail>21</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>5</arg>
+				<arg>90</arg>
+		</req>
+		<fail>22</fail>
+		<message>Are you sure you want to attach the divine sigil to the blessed</message>
+		<message>spirit shield?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>28</arg>
+		</option>
+	</dialogue>
+	<!-- Crafting the divine spirit shield. -->
+	 <dialogue>
+	 	<id>28</id>
+	 	<type>OPTION</type>
+		<message>Yes.</message>
+		<message>No.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+				<arg>24</arg>
+			<action>REMOVE_AND_ADD</action>
+				<string>REMOVE</string>
+					<arg>13748</arg>
+					<arg>1</arg>
+				<string>REMOVE</string>
+					<arg>13736</arg>
+					<arg>1</arg>
+				<string>ADD</string>
+					<arg>13740</arg>
+					<arg>1</arg>
+			<string>END</string>
+			<action>EXPERIENCE</action>
+				<arg>13</arg>
+				<arg>1800</arg>
+			<action>ANIMATE</action>
+				<arg>898</arg> <!-- Animation -->
+		</option>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Elysian -->
+	<dialogue>
+		<id>29</id>
+		<type>DISPLAY_BOX</type>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13750</arg>
+				<arg>1</arg>
+		</req>
+		<fail>19</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13736</arg>
+				<arg>1</arg>
+		</req>
+		<fail>20</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>2347</arg>
+				<arg>1</arg>
+		</req>
+		<fail>4</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>13</arg>
+				<arg>85</arg>
+		</req>
+		<fail>21</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>5</arg>
+				<arg>90</arg>
+		</req>
+		<fail>22</fail>
+		<message>Are you sure you want to attach the elysian sigil to the blessed</message>
+		<message>spirit shield?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>30</arg>
+		</option>
+	</dialogue>
+	<!-- Crafting the elysian spirit shield. -->
+	 <dialogue>
+	 	<id>30</id>
+	 	<type>OPTION</type>
+		<message>Yes.</message>
+		<message>No.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+				<arg>25</arg>
+			<action>REMOVE_AND_ADD</action>
+				<string>REMOVE</string>
+					<arg>13750</arg>
+					<arg>1</arg>
+				<string>REMOVE</string>
+					<arg>13736</arg>
+					<arg>1</arg>
+				<string>ADD</string>
+					<arg>13742</arg>
+					<arg>1</arg>
+			<string>END</string>
+			<action>EXPERIENCE</action>
+				<arg>13</arg>
+				<arg>1800</arg>
+			<action>ANIMATE</action>
+				<arg>898</arg> <!-- Animation -->
+		</option>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+	 <!-- Spectral -->
+	<dialogue>
+		<id>31</id>
+		<type>DISPLAY_BOX</type>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13752</arg>
+				<arg>1</arg>
+		</req>
+		<fail>19</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>13736</arg>
+				<arg>1</arg>
+		</req>
+		<fail>20</fail>
+		<req>
+			<type>INVENTORY_ITEM</type>
+				<arg>2347</arg>
+				<arg>1</arg>
+		</req>
+		<fail>4</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>13</arg>
+				<arg>85</arg>
+		</req>
+		<fail>21</fail>
+		<req>
+			<type>SKILL_LEVEL</type>
+				<arg>5</arg>
+				<arg>90</arg>
+		</req>
+		<fail>22</fail>
+		<message>Are you sure you want to attach the spectral sigil to the blessed</message>
+		<message>spirit shield?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>32</arg>
+		</option>
+	</dialogue>
+	<!-- Crafting the spectral spirit shield. -->
+	 <dialogue>
+	 	<id>32</id>
+	 	<type>OPTION</type>
+		<message>Yes.</message>
+		<message>No.</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+				<arg>26</arg>
+			<action>REMOVE_AND_ADD</action>
+				<string>REMOVE</string>
+					<arg>13752</arg>
+					<arg>1</arg>
+				<string>REMOVE</string>
+					<arg>13736</arg>
+					<arg>1</arg>
+				<string>ADD</string>
+					<arg>13744</arg>
+					<arg>1</arg>
+			<string>END</string>
+			<action>EXPERIENCE</action>
+				<arg>13</arg>
+				<arg>1800</arg>
+			<action>ANIMATE</action>
+				<arg>898</arg> <!-- Animation -->
+		</option>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	 </dialogue>
+<!-- Familiar dismiss -->
+	<dialogue>
+		<id>33</id>
+		<type>DISPLAY_BOX</type>
+		<message>Are you sure you want to dismiss your familiar?</message>
+		<option>
+			<type>NEXT_DIALOGUE</type>
+			<arg>34</arg>
+		</option>
+	</dialogue>
+	<dialogue>
+		<id>34</id>
+		<type>OPTION</type>
+		<message>Yes.</message>
+		<message>No.</message>
+		<option> <!-- We change this in the FamiliarInterfaceListener class -->
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+		<option>
+			<type>CLOSE_DIALOGUE</type>
+		</option>
+	</dialogue>
+</map>

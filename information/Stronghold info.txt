@@ -1,0 +1,40 @@
+F1: 
+
+Door ids: 16123, 16124
+Passing a door: Anim 4282 > tele > Anim 4283
+Ladder: anim 828 > tele (climb down) > anim 828
+
+LADDER 1:
+LADDER 2:
+LADDER 4:
+LADDER 5:
+
+PORTAL ID: 16150
+
+F2:
+
+Door ids: 16065, 16066
+
+Portal id: 16083
+
+Position: 2042, 5243
+
+F3: 
+
+Position: 2123 5252
+
+Door ids: 16089, 16090
+Portal: 16091
+
+F4:
+
+     2148 5283
+pos: 2358 5215
+
+Cradle of life position: 2345, 5211
+
+Door ids: 16044, 16043
+
+Portal: 16050
+
+Climbup chain: 16048

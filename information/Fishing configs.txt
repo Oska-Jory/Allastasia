@@ -1,0 +1,71 @@
+233: Bait
+234: Bait
+235: Bait
+236: Bait
+309: Lure, Bait
+310: Lure, Bait
+311: Lure, Bait
+312: Cage, Harpoon
+313: Net, Harpoon
+314: Lure, Bait
+315: Lure, Bait
+316: Net, Bait
+317: Lure, Bait
+318: Lure, Bait
+319: Net, Bait
+320: Net, Bait
+321: Cage, Harpoon
+322: Net, Harpoon
+323: Net, Bait
+324: Cage, Harpoon
+325: Net, Bait
+326: Net, Bait
+327: Net, Bait
+328: Lure, Bait
+329: Lure, Bait
+330: Net, Bait
+331: Lure, Bait
+332: Net, Bait
+333: Cage, Harpoon
+334: Net, Harpoon
+403: Lure, Bait
+404: Net, Bait
+405: Cage, Harpoon
+406: Net, Harpoon
+800: Bait
+927: Lure, Bait
+952: Net
+1174: Net
+1175: Net
+1176: Fish
+1177: Fish
+1178: Fish
+1189: Lure, Bait
+1190: Lure, Bait
+1191: Net, Harpoon
+1236: Bait
+1237: Bait
+1238: Bait
+1331: Net, Bait
+1332: Cage, Harpoon
+1333: Net, Harpoon
+1399: Cage, Harpoon
+1405: Net, Harpoon
+1406: Net, Harpoon
+2067: Net, Bait
+2068: Net, Bait
+2722: Use-rod
+2723: Use-rod
+2724: Net, Bait
+2859: Fish
+3019: Lure, Bait
+3574: Net, Harpoon
+3575: Net, Harpoon
+3804: Cage, Harpoon
+3848: Harpoon, Net
+3849: Harpoon, Net
+4908: Net, Bait
+5470: Cage, Harpoon
+5471: Net, Harpoon
+5748: Net, Bait
+5749: Net, Bait

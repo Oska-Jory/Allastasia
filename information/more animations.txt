@@ -1,0 +1,126 @@
+3877 5525 1 - Inside catacomb entrance (lummy)
+2533 5805 0 // Tormented Demons 
+11096 11224 - Dungeoneering room 3, small
+
+
+13038 - Staff of Light Attack
+13048 - Staff Of Light Block
+
+13055 - New Maul Attack
+13054 - New Maul Block
+13040 - New dagger Attack
+13038 - New dagger Block
+
+---------------------------------------------------
+Ticket Vendor (ID:8088)
+10319 - Hand coming out
+10320 - Hand stuck out
+
+10139 4311 - Inside the Circus Area
+
+10271 - Tear Ticket
+
+FAIL - 10290
+Small hop - 10292
+One-leg Balance - 10291
+No-hand Cartwheel - 10299
+Forward Roll 10300
+Juggle - 10303 (10313: Fail)
+Flip - 10301
+1781 - Juggle balls GFX
+1782 - Juggle balls fail GFX
+
+4069 - Alchemy Tablet
+4070 - Alchemy Tablet
+
+10262 - Throw axe (target)
+10261 - Throw knife (target)
+
+---------------------------------------------------
+
+2603 - Dungeoneering teleport GFX
+13652 - Dungeoneering Start tele
+13654 - Dungeoneering End Tele
+13760 - Sliding down the broken ledge
+
+
+12658 - Dramatic Point ANIM
+11044 - Freeze ANIM
+10530 - Trick ANIM
+8770 - Safety First ANIM
+12664 - Spin (Candy cane operate) ANIM
+12490 - Play with Eek ANIM
+3003 - Marionette ANIM
+11542 - Around the world in Eggty days
+2936 - Sleuth (Magnifying glass operate)
+5439 - Attack with UNDEAD CHICKEN
+5441 - Block with UNDEAD CHICKEN
+
+
+---------------------------------------------------
+Name: 4679 - Green Dragon
+4678 
+4677 
+
+Anims:
+14245 - Fire attack
+12251 - Block
+12250 - Die
+12252 - Attack
+
+---------------------------------------------------
+Name: 10835 - Mysterious shade
+10837
+10833
+
+Anims:
+13398 - Magic attack
+13406 - Block
+13396 - Attack
+13407 - Die
+---------------------------------------------------
+Name 10762 - Ice Giant
+
+Anims:
+4672 - Attack
+4671 - Block
+4673 - Die
+---------------------------------------------------
+Name: 10334 - Forgotten Ranger
+
+Anims:
+426 - Attack
+425 - Block
+10394 - Die
+---------------------------------------------------
+Name: 10791 - Thrower Troll
+
+Anims:
+13790 - Throw Rock
+13786 - Block
+13785 - Die
+---------------------------------------------------
+Name: 10616 - Hydra
+
+Anims
+7934 - Magic attack
+7936 - Block
+7937 - Die
+---------------------------------------------------
+Name: 10048 - Icy Bones
+
+Anims:
+13636 - Summon Ice (block) (also attack?)
+13629 - Throw ice (mage)
+13624 - Attack (maybe bring ice from ground)
+13631 - Attack?
+13628 - Another attack 
+13692 - Standing? (I think this is casting freeze)
+13785 - Die
+---------------------------------------------------
+Name: 11092 - Gallimastyx
+
+Anims
+13259 - Block
+13255 - Attack
+13262 - Die

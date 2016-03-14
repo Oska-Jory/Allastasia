@@ -1,0 +1,9 @@
+634 coords
+ 
+Nex: 2925, 5203, 0
+
+Nex bank room: 2903, 5203, 0
+
+Nex killcount room: 2878, 5207, 0
+
+A dungeoneering dungeon?: 64, 1920, 0

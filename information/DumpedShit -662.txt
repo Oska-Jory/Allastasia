@@ -1,0 +1,215 @@
+Iiissssssii, [757, 5177360, 8, 10, Infuse<col=ff9040>, Infuse-5<col=ff9040>, Infuse-10<col=ff9040>, Infuse-All<col=ff9040>, Infuse-X<col=ff9040>, List<col=ff9040>, 1, 78]
+Mask2 0, 5177360, 462, 190
+Iiisssssii, [763, 5177361, 8, 10, Transform<col=ff9040>, Transform-5<col=ff9040>, Transform-10<col=ff9040>, Transform-All<col=ff9040>, Transform-X<col=ff9040>, 1, 78]
+Mask2 0, 5177361, 462, 126
+
+
+yes i gave him what he needs
+Lumby zegt
+because atm we only have the bottom half of the shop
+Emperor varg zegt
+k
+dumping now
+inb4 update in 5 seconds
+Lumby zegt
+LOL
+Emperor varg zegt
+Mask2 -1, 851992, -1, 1
+pi
+li
+Mask2 0, 49938525, 516, 2622718
+Mask2 0, 50003968, 27, 2361214
+Mask2 0, 43712519, 14, 4261378
+Mask2 0, 50003970, 27, 4261378
+bank shit right der
+doesn't this dump configs?
+to set currently viewed tab
+Do any areas
+need dumping?
+map keys
+Oh boy do I love talking to my fucking self
+Lumby zegt
+relekka but they're different
+Emperor varg zegt
+oh
+sucks
+Lumby zegt
+and yeah thats bank
+dump shops
+Emperor varg zegt
+steven
+Lumby zegt
+one that has free items
+Emperor varg zegt
+do we have ge tunnel?
+Lumby zegt
+yeah we do
+Emperor varg zegt
+0, -3, 0, , 0, 33, 60, 0
+wildy jump
+Steven Galarza zegt
+we got that already
+-_-
+Emperor varg zegt
+kai
+Lumby zegt
+why does that deob have 100 errors in my eclipse o.O
+Steven Galarza zegt
+cos u noo
+noob&
+Lumby zegt
+-__-
+no srs
+Emperor varg zegt
+wait a second
+do you get autoskulled
+when entering the abyss
+Steven Galarza zegt
+yes
+Emperor varg zegt
+o
+add that in pls
+k gf
+didn't take a hatchet
+or tinderbox
+to enter this shit
+>.>
+Steven Galarza zegt
+l0l
+Emperor varg zegt
+thanks for telling me guys
+i appreciate it
+>.<
+Lumby zegt
+i've never entered the real abyss >.>
+Emperor varg zegt
+neither
+lol
+Lumby zegt
+rune wiki never said anything  
+when does it tell you?
+before tele?
+Emperor varg zegt
+getting owned by a level 81 abyssal walker
+how kewl
+?
+the guy?
+Lumby zegt
+or when you try to squeeze though
+through
+Emperor varg zegt
+euhm
+nothing
+idk
+Lumby zegt
+he tells you that you need one?
+Emperor varg zegt
+no
+when you try to chop the vines
+it's
+"You need a hatchet to chop through the tendrils."
+Lumby zegt
+oh
+Emperor varg zegt
+trying to burn something = "You don't have a tinderbox to burn it."
+i'll tell you messages of walking through in a bit
+did 639
+have that interface
+on death?
+lumby
+you need the zamorak mage's text?
+GF
+it's not force walk
+Steven Galarza zegt
+then it's just walkTo
+Emperor varg zegt
+and
+the camera
+gets focused
+on you entering the thingy
+Steven Galarza zegt
+Codeusa
+is such a retard
+Emperor varg zegt
+can't move it till you're through
+Steven Galarza zegt
+We need to ddos
+his server
+Emperor varg zegt
+lool
+Steven Galarza zegt
+actually what am I thinking
+I can easily crash his server
+Emperor varg zegt
+Message for chopping through: "You attempt to chop your way through..."
+"...and manage to cut a way through the tendrils."
+Lumby zegt
+k
+Emperor varg zegt
+the zamorak mage
+yells "Veniens! Sallakar! Rinnesset!"
+on teleport
+like aubury's text
+Steven Galarza zegt
+Reaching for something in the distanceee
+Lumby zegt
+yeah
+Steven Galarza zegt
+so close you can almost taste ittt
+Lumby zegt
+i have that added already
+mage tele is perfect
+text, emote, and gfx
+are all good
+Emperor varg zegt
+iight
+Mask2 0, 20250634, 63, 2
+Mask2 0, 20250640, 49, 2
+hair-cut interface masks
+1, 0, 0, , 0, 15, 105, 3 force walk over the crumbling wall @ fally
+Steven Galarza zegt
+http://i.imgur.com/K31Jy.png
+im a comedian lelelel
+Emperor varg zegt
+-2, 0, 0, , 0, 45, 100, 1
+-2, 0, 0, , 0, 45, 100, 1
+force walk through pipeline
+euhm
+obstacle pipe*
+@ blue dragons
+Steven Galarza zegt
+you should be writting this down somewhere
+lol.
+Emperor varg zegt
+i am
+Steven Galarza zegt
+k
+Emperor varg zegt
+right here on msn
+
+//Summoning
+Iiissssssii, [757, 5177360, 8, 10, Infuse<col=ff9040>, Infuse-5<col=ff9040>, Infuse-10<col=ff9040>, Infuse-All<col=ff9040>, Infuse-X<col=ff9040>, List<col=ff9040>, 1, 78]
+Mask2 0, 5177360, 462, 190
+Iiisssssii, [763, 5177361, 8, 10, Transform<col=ff9040>, Transform-5<col=ff9040>, Transform-10<col=ff9040>, Transform-All<col=ff9040>, Transform-X<col=ff9040>, 1, 78]
+Mask2 0, 5177361, 462, 126
+
+
+Iiissssssii, [757, 5177360, 8, 10, Infuse<col=ff9040>, Infuse-5<col=ff9040>, Infuse-10<col=ff9040>, Infuse-All<col=ff9040>, Infuse-X<col=ff9040>, List<col=ff9040>, 1, 78]
+Mask2 0, 5177360, 462, 190
+Iiisssssii, [763, 5177361, 8, 10, Transform<col=ff9040>, Transform-5<col=ff9040>, Transform-10<col=ff9040>, Transform-All<col=ff9040>, Transform-X<col=ff9040>, 1, 78]
+Mask2 0, 5177361, 462, 126
+
+
+Mask2 -1, 29425685, -1, 0
+Mask2 -1, 29425685, -1, 0
+IviiiIsssss, [149, 40697856, 93, 4, 7, 1, -1, Value, Sell 1, Sell 5, Sell 10, Sell 50]
+Mask2 0, 40697856, 27, 2360382
+Mask2 0, 40632346, 12, 1150
+Mask2 0, 40632345, 132, 1150
+qja
+shop shit
+with 3 free items
+
+
+"You attempt to steal some spice from the spice stall."
+"You steal a pot of spice."

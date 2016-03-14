@@ -1,0 +1,36 @@
+<NpcDefinition>		<CombatLevel>1</CombatLevel> 
+<Examine>Examine not added</Examine> 
+<Bonus0>25</Bonus0> 
+<Bonus1>15</Bonus1> 
+<Bonus2>25</Bonus2> 
+<Bonus3>25</Bonus3> 
+<Bonus4>25</Bonus4> 
+<Bonus5>25</Bonus5> 
+<Bonus6>15</Bonus6> 
+<Bonus7>25</Bonus7> 
+<Bonus8>25</Bonus8> 
+<Bonus9>25</Bonus9> 
+<Bonus10>15</Bonus10> 
+<Bonus11>25</Bonus11> 
+<Bonus12>25</Bonus12> 
+<Bonus13>25</Bonus13> 
+<LifePoints>230</LifePoints> 
+<Respawn>30</Respawn> 
+<AttackAnimation>5568</AttackAnimation> 
+<DefenceAnimation>5567</DefenceAnimation> 
+ <DeathAnimation>5569</DeathAnimation> 
+<StrengthLevel>0</StrengthLevel> 
+<AttackLevel>24</AttackLevel> 
+<DefenceLevel>25</DefenceLevel> 
+<RangeLevel>0</RangeLevel> 
+<MagicLevel>0</MagicLevel> 
+<AttackSpeed>5</AttackSpeed> 
+<StartGraphics>-1</StartGraphics> 
+<ProjectileId>-1</ProjectileId> 
+<EndGraphics>-1</EndGraphics> 
+<UsingMelee>true</UsingMelee> 
+<UsingRange>false</UsingRange> 
+<UsingMagic>false</UsingMagic> 
+<Aggressive>false</Aggressive> 
+<PoisonImmune>false</PoisonImmune> 
+</NpcDefinition>

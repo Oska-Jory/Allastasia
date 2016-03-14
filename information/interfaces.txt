@@ -1,0 +1,2532 @@
+0
+1
+2
+3
+4
+	Water Collected
+	Time Left
+5
+6
+	Pirate's hook (800)
+	Snapdragon (10)
+7
+	Text
+8
+	8-East
+	6-South
+9
+	Rune-Draw
+	Your Score
+10
+	Windspeed:
+	high
+11
+	The Bank of RuneScape - Deposit Box
+12
+13
+	I don't know it.
+	Exit
+759
+	0
+	1
+14
+	Bank PIN Settings
+	Your Bank PIN status:
+15
+	Water
+	Activity
+16
+	Message of the Week
+17
+	Message of the Week
+18
+	Message of the Week
+19
+	Message of the Week
+20
+	Message of the Week
+21
+	Message of the Week
+22
+	Message of the Week
+23
+	Message of the Week
+24
+	None
+	Brothers slain:
+25
+	Which is the next shape in the above sequence?
+	1.
+26
+	Click here to continue
+27
+	Summer 2010
+	Summer 2010
+28
+	Perfect gold: %1
+	Coal to add: %2
+29
+	Blast Furnace Plan
+	Stove
+30
+	Blast Furnace Temp Gauge
+31
+	Challenge: Select Game
+	Select
+32
+	Insert a very long name here!
+	Insert a very long name here!
+33
+	Message of the Week
+34
+	Notes
+	Delete
+35
+	Getting Status....
+	Getting Status....
+36
+	Insert a very long name here!
+	Insert a very long name here!
+37
+	Fwd
+	Rt
+38
+	Rescue Scenario
+	-------
+39
+	View next squad
+	#10
+40
+	Insert a very long name here!
+	Insert a very long name here!
+41
+	title
+	Current reward credits:
+42
+	Getting Status....
+	Getting Status....
+43
+	status 1
+	status 2
+44
+	status 1
+	status 2
+45
+	Formation Options
+	Accept Selection
+46
+	0
+	time
+47
+	Scenario Selection
+	Select the scenario you'd like to play !
+48
+49
+50
+	Brooch
+51
+	Canifis
+	Mort Myre<br>Swamp
+52
+	WHAT SORT OF CANOE WOULD YOU LIKE TO MAKE   ?
+	A Stable Dugout.
+53
+	Barbarian <br> Village
+	Edgeville
+54
+	Catapult Controls
+	Ammo: 
+55
+	Total Wins This Season!
+	Saradomin: 0
+56
+57
+	Waiting for players to join the other team.
+58
+	Zamorak = %1
+	%1 = Saradomin
+59
+	Zamorak = %1
+	%1 = Saradomin
+60
+	Miscellaneous
+	Consumables
+61
+	A
+	A
+62
+63
+	Congratulations!
+	Well done, you defeated the Champion!
+64
+	Name
+	Line1
+65
+	Name
+	Line1
+66
+	Name
+	Line1
+67
+	Name
+	Line1
+68
+	Name
+	Line1
+69
+	Name
+	Line1
+70
+	Name
+	Line1
+71
+	Name
+	Line1
+72
+	Common jadinko
+	 70 Hunter
+73
+74
+	Scentless potion
+	Guthix's gift
+75
+76
+	I can't believe I'm going to starve down here.<br><br>If you've found this, I hope you have better luck than me. I was carrying tools for the Death Guard when shadows attacked us. The team outside died while I got pulled in to the Temple and was teleported to this...place.<br><br>I've just about given up trying to understand the trees here. They reflect light, and I could rotate them when I first came here, but I just don't have the strength any more .<br><br>I hope this helps you: the cores not only reflect, but can be charged. If light enters from behind, it passes through and mixes lights together. As for the receivers, perhaps they have something to do with the colour wheel?
+77
+	Message of the Week
+78
+	Summoning Pouch Trade-In
+	Scroll Trade-In
+79
+	Summoning Pouch Creation  
+	Scroll Creation  
+80
+	Stairs to<br>Dig Site<br>exhibit
+	Stairs to<br>Timeline<br>exhibit
+81
+	Level up
+	Stairs to<br>Dig Site<br>exhibit
+82
+	Level down
+	Stairs to<br>Timeline<br>exhibit
+83
+	Stairs to<br>Natural History<br>exhibit
+	Stairs to<br>Timeline<br>exhibit
+84
+	Choose a banner
+	Confirm
+85
+86
+	I am ill prepared for this mission. I must abandon my duties or I shall perish.<br><br>Despair not, for I have found the enclosed artefact. It will help you enter the fortress, where more of theses strange globes can be found.<br><br>Had I been able to draw them to me just a short distance, I could have succeeded!<br><br>Oh, to come so close, yet be held back for want of runes!
+	Your humble servant,
+87
+88
+	Choose a character
+89
+90
+	Name
+	Line 1
+91
+	Name
+	Line1
+92
+	Name
+	Line1
+93
+	Name
+	Line1
+94
+	Are you sure you want to destroy this object?
+	Yes.
+95
+	Port Tyras
+	Port Phasmatys
+96
+97
+98
+99
+	Harold
+	Player
+100
+101
+102
+	Items Kept on Death
+	Items you will keep on death (if not skulled):
+103
+	What comes next?
+104
+	Aquarius
+	Aries
+105
+	Dismiss
+	Grand Exchange
+107
+106
+	Grand Exchange
+	Shown below is a summary of all your current offers.
+108
+109
+	 Collection Box
+110
+	Grand Exchange
+	Buy Offer
+111
+112
+	Line1
+	Click to continue
+113
+	That's it, it all makes sense now! If you were a dwarf, that is...
+114
+	Schematic 1
+	Schematic 2
+115
+116
+	Title
+117
+118
+119
+	 
+120
+	 
+121
+	 
+122
+	 
+123
+	Certificate of Advanced Healing
+	From PoxStead College.
+124
+	List of Fairy Queen's Symptoms.
+	 Extremely weak<br>Slow discorporation of ethereal body<br>Drifting in and out of coma<br>Shallow breath<br>Fading magical energy<br>High fever
+125
+	Amazing Farming Equipment Store
+126
+	Rake
+	Dibber
+127
+	***************
+	**********
+128
+	x%1
+	x%1
+129
+	x%1
+	x%1
+130
+	x%1
+	x%1
+131
+	Line1
+	Click here to continue
+132
+	>>>
+	<<<
+133
+	[A]
+	[B]
+134
+	Choose the stat you wish to be advanced
+	Confirm
+135
+	To the NORTH
+	To the NORTH
+136
+	Both
+	Argh!
+137
+	0
+	Please select an option from the list below:
+138
+	Ta Quir Priw
+	Priw Gnomo<br>Andralo
+139
+	Gnomeball
+	Score
+140
+	Select an Option
+141
+142
+143
+144
+	Points Settings
+	< To Lift
+145
+	Dwarf
+	Wartface & Bentnoze
+146
+147
+148
+149
+150
+151
+	Five hundred years have passed since the rule of King Alvis,
+	saviour of Keldagrim, victim of his own inventions.
+152
+	The Giant<br>Dwarf
+	Keldagrim
+153
+	Never show me this again
+	You can buy a new tinderbox from the general store.
+154
+	Bolrie's Diary
+	Chapter 1. Meeting the elves
+155
+156
+	lj_title
+	lj1
+157
+	Page 1 of 7
+	Shortcut keys
+158
+159
+160
+161
+	XXXX
+	Buy
+162
+163
+	XXXX
+	Buy
+164
+	XXXX
+	Buy
+165
+166
+167
+168
+169
+	Hide
+	30 min
+170
+	 
+171
+	 
+172
+173
+	Name
+	Line1
+174
+	wom1
+	wom2
+175
+176
+177
+	 
+178
+	( ? )
+	( ? )
+179
+180
+181
+	Rotate mirror.
+	N
+182
+183
+	-Drogokishuun-<br>Goblins of the<br>Fierce Blades
+	-Huzamogaarb-<br>Live-Flesh Eaters<br>of the Chaos God
+184
+	Is this:
+185
+	U N L O C K
+	For each column,<br>click the arrows until the <col=ff0000>middle</col> picture shows the correct object.<br><br>Then click <col=ff0000>Unlock</col>.
+186
+	Evil Bob wants fish from the Fishing spots beyond this statue.
+187
+	Playing.............................
+	Unlocked:<br>???
+188
+	Think
+	Cry
+189
+190
+	Quests
+	Quest Points: 0
+191
+	Pick the odd one out.
+192
+193
+194
+	Alchemy
+	Pizazz Points:
+195
+	Bonus:
+	Enchantment
+196
+	4
+	3
+197
+	Magic Training Arena Shop
+	Telekinetic Pizazz Points
+198
+	Telekinetic
+	Pizazz Points:
+199
+	New Game In: 23:00
+200
+	Click here to continue
+201
+	Cash in your points for costume items
+202
+	Choose your reward
+	Scroll down for more options!
+203
+204
+	Date of Birth Entry
+	Submit
+205
+	Combined
+	Skilling
+206
+	Price Checker
+207
+208
+209
+	Complete the Maze as fast as possible!
+	There is...
+210
+	Line1
+	Click here to continue
+211
+	Line1
+	Line2
+212
+	Line1
+	Line2
+213
+	Line1
+	Line2
+214
+	Line1
+	Line2
+215
+	Line1
+216
+	Line1
+	Line2
+217
+	Line1
+	Line2
+218
+	Line1
+	Line2
+219
+	Line1
+	Line2
+220
+221
+222
+223
+224
+	Waterbirth Island
+	Miscellania
+225
+226
+227
+	List of needed items:
+	mourning_deathalter_item1
+228
+	Select an Option
+	option1
+229
+	Select an Option
+	option1
+230
+	Select an Option
+	option1
+231
+	Select an Option
+	option1
+232
+	Select an Option
+	option1
+233
+	Select an Option
+	option1
+234
+	Select an Option
+	option1
+235
+	Select an Option
+	option1
+236
+	Select an Option
+	option1
+237
+	Select an Option
+	option1
+238
+	Select an Option
+	option1
+239
+	To: Engineer Claus Mousetrap
+	This morning I received a complaint about your inability to repair the Camp Tyras catapult, arriving without the tools and materials required.  To avoid further delay, I'll repeat your instructions:
+240
+	Tries = 3
+241
+	Name
+	Line1
+242
+	Name
+	Line1
+243
+	Name
+	Line1
+244
+	Name
+	Line1
+245
+	Name
+	Line1
+246
+	Name
+	Line1
+247
+	Name
+	Line1
+248
+	Name
+	Line 1
+249
+	Surok Magis,
+	Your actions are being watched. We know what you are trying to do and the VPSG will stop you! Do not attempt to leave the palace or you will be arrested on sight. We will not hesitate to kill you if you disobey King Roald's orders.                                                                                            Rat Burgiss
+250
+	To My Business Partner,
+	All is well here, my friend.                  I will continue with my work. You do not need worry. They suspect nothing, the fools! In three days there will be a new King in Varrock!                                                                        Surok Magis
+251
+	Instructions for Beacon Ring
+	Use this ring when you are ready to summon me to your aid. It is a daunting task, yet you must battle the king to allow me to remove the spell from him. When the king is almost dead, use this ring and I will teleport to your aid. Be warned - Though I am skilled with magic, I am no fighter! Should you summon me too early I will have to teleport us out of danger! When our mission is completed, I will remove the summon ability from this ring, but you may keep it for protection.                                   Zaff
+252
+253
+254
+255
+256
+	Current team
+	-----
+257
+258
+259
+	Free Tasks
+	Lumbridge/Draynor
+260
+	Cyrisus's Bank
+	Chest
+261
+	Options
+262
+263
+	Score: 0
+264
+265
+	Players:
+	Kills:
+266
+	---
+267
+	Attack
+	Strength
+268
+269
+270
+	Misthalin & Asgarnia
+	Lumbridge
+271
+	Show stat adjustments
+	+15%
+272
+	Grave Monument
+	Saradomin<br><br>lights my way<br><br>through<br><br>the darkness of life
+273
+	Pop the correct balloon animal to find a key
+274
+275
+	ifquestname
+	<u=000080>Get QuestHelp</u>
+276
+	Other
+	Charms
+277
+	Congratulations!
+	You have completed Death Plateau!
+278
+	Ranging Guild Ticket Exchange
+279
+	Player's Cat
+	Opponent's Cat
+280
+	YES
+	NO
+281
+	Your cat has been
+	Defeated
+282
+	Page 1 of 8
+	PLAY
+283
+284
+285
+	E N T E R
+	A
+286
+	Fractional still
+	Heat
+287
+288
+	open casket
+289
+	open casket
+290
+291
+	Scenario Options
+	Back
+292
+	Squad Contract Management
+	Cost: 999999
+293
+294
+	Rum
+	Deal
+295
+	Rum
+	Deal
+296
+297
+	Menu
+	Look at the Sandwich Lady's stock.<br><br>Then return to the previous display and select the item she offered you.
+298
+	E N T E R
+	A
+299
+	Ape
+	Asgarnia
+300
+	Smithing
+	Dagger
+301
+	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	Runecrafting XP
+302
+	Message of the Week
+303
+304
+	Save yourself!
+305
+306
+	Hit the red button<br>to discard an item.
+	Correct 4/4
+307
+	Message of the week
+308
+	Cancel
+	Statue Selection
+309
+	Hairdresser's Salon
+310
+	Cancel
+311
+	?
+	Ward Off
+312
+	This sneaky gublinch wanted to set up a webcam conversation with a player! The player refused and sensibly used the Report Abuse button to enable us to catch him.
+313
+314
+	Select an Option
+315
+	Rage level. 
+316
+317
+318
+319
+	Cancel
+320
+	50
+	50
+321
+322
+323
+	Tai Bwo Wannai Parcel service
+324
+	Cost
+	Cost
+325
+	Shots
+	Score:
+326
+	...wants to teleport you to...
+	Do you accept?
+327
+	Warning!
+	This area is so cold that you will experience<br> a constant, slow drain of your stats while<br> you remain within it.
+328
+	Repair State :
+	****
+329
+	Burgh <br>De Rott
+	Mort'ton
+330
+331
+	Whatever text you need goes here!
+	Combi for lock
+332
+	Water Battlestaff
+	Air Battlestaff
+333
+334
+	You are about to give:
+	You will receive:
+335
+	Trading With: Unknown
+	Accept
+336
+337
+	1S
+	3E
+338
+339
+	3N
+	2E
+340
+	2N
+	3W
+341
+	8N
+	7W
+342
+343
+344
+345
+	The quick brown fox jumped over the 
+	The quick brown fox jumped over the 
+346
+	2E
+347
+	1N
+	6E
+348
+	2W
+	4S
+349
+	3E
+	3N
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+	Hint
+364
+365
+	Get Location
+366
+	Water:
+	Net:
+367
+	Trawler Catch
+	Drag items here to send them to your bank.
+368
+	Trawler: How To Play
+	If the Trawler's nets break, you can use rope to repair them.
+369
+	A
+	A
+370
+371
+	% Done
+	Tutorial Island Progress
+372
+	Title
+	Line1
+373
+	Current Champion: TzHaar-Xil-Huz
+	Foes Remaining:
+374
+	Stop Viewing
+	Centre
+375
+	Unmorph
+376
+377
+	****
+	<col=00ff00>* <col=ffff00>Tai Bwo Favour <col=00ff00>*
+378
+	XXXX
+	Buy
+379
+	Time
+	4:17
+380
+	Congratulations!
+	You have completed Death Plateau!
+381
+	Target:
+	nnnnnnnnnnnnnnnnnnnnnn
+382
+	Enter Wilderness
+	Don't Enter
+383
+	Pick a colour
+384
+385
+386
+387
+388
+	Cancel
+389
+	To search for an item, start by typing part of its name.<br>Then, simply select the item you want from the results on display.
+390
+	Show riddle
+391
+	Kingdom of Miscellania
+	Help
+392
+	Resources Collected
+393
+	A
+	B
+394
+	Select a piece of furniture to build. 
+	Wooden Chair
+395
+396
+	Select a piece of furniture to build. 
+	Wooden Chair
+397
+	Armchairs
+	Bookcases
+398
+	Off
+	House Options
+399
+	There's no place like home...
+400
+401
+	PLAYER 
+	SHOTS
+402
+	Room  Creation Menu
+	Parlour: Lvl 1
+403
+	What wood do you want converting to planks?
+	Wood<br>Cost = 100
+404
+405
+	Message of the Week
+406
+	Cancel
+407
+	eeeeeeeeeeeeee
+	Next Departure: 5 min
+408
+	%1 Min
+	%100
+409
+	Choose a tool to use on each of the moving parts.
+410
+	Spiky ball. Use stab defence.
+	Anvil. Use blunt defence.
+411
+	Defence style
+	Use stab defence
+412
+	Attack Dummy Key
+	Accurate
+413
+414
+	Congratulations!  Your team won!
+	The final score was:
+415
+	0
+	0
+416
+	Bridge Section
+	Pipe Section
+417
+	Bamboo pipe
+	Bridge section
+418
+	0
+	0
+419
+	Performance Equipment
+	Hat and eye-patch
+732
+	Druidic Mage Top 
+	Lvl. Req. 20 Magic, 10 Defence
+420
+	LID
+	UPPER<br>MIDDLE
+421
+	Line1
+	Line2
+422
+423
+	Certificate of Advanced Healing
+	From PoxStead College.
+424
+	THE GODFATHER<br>ATTACKED US.<br> WE HAVE<br>FLED TO SAFETY.<br> IF YOU ARE LOYAL TO <br> HER MAJESTY, FIND<br>US BY USING<br>COORDINATES<br>AIR DLR DJQ AJS
+425
+	COSMIC<br>RUNEe<br>ALTAR
+426
+427
+	I (insert full name here) do hereby swear fealty   
+	and indebtedness to the Fairy Godfather until
+428
+429
+	Achtryn
+	Cyrisus
+430
+431
+	Pirates'<br> Cove
+	Moonclan<br> Island
+432
+	Enchant Crossbow Bolt
+	Magic 4
+433
+	%1
+	%1
+434
+	%1/4
+	%1/1
+435
+	%1/4
+	%1/2
+436
+	%1/2
+	%1/1
+437
+	%1/2
+	%1/1
+438
+	Silver Casting
+	Make<br> Saradomin <br>Symbol
+439
+440
+	Certificate of Qualification
+	Earth Sciences Level 1<br>This is to certify that
+441
+	Certificate of Qualification
+	Earth Sciences Level 2<br>This is to certify that
+442
+443
+444
+	Certificate of Qualification
+	Earth Sciences Level 3<br>This is to certify that
+445
+	Click here to cancel
+	Visit the Website
+446
+	What would you like to make?
+	Rings
+447
+	Message of the week
+448
+449
+	Item information
+	Buy
+450
+451
+	Select an Option
+	option1
+452
+453
+454
+455
+456
+457
+458
+	Select an Option
+	option1
+459
+	Dark pit
+	Pond
+460
+	That's it, it all makes sense now! 
+461
+	Island
+	Witchaven
+462
+	Piece 1
+	Piece 2
+463
+464
+465
+	Varrock Herald
+	Covering all of Misthalin and beyond.
+466
+467
+468
+	Diango Item Return
+469
+	Castle
+	Wars
+470
+471
+	Balloon Controls
+	%1
+472
+473
+	Attacker Honour Points:
+	Defender Honour Points:
+474
+475
+	Press 'Escape' to exit
+	Messages to player here!
+476
+	Collect
+	You
+477
+	Custom Fur Clothing
+	Right-click an item in the shop to have it made for you.
+478
+	Imp Release Negotiation Form
+	Select an item or stack of items to deposit. <br>You can deposit up to 2 items or stacks.
+479
+480
+481
+482
+483
+484
+	Attacker :
+	Defender :
+485
+	Wave 1
+	Controlled/
+486
+	Wave 1
+	Red eggs
+487
+	Wave 1
+	Tofu
+488 //Barbarian assault.
+	------
+	HP 500/780
+489
+	# Players in room:
+	Attackers:
+490
+	Player status for:
+	Role
+491
+	Pickenmix Pouches
+492
+	Player 1 Interface Screen
+	Decline
+493
+	Player 2 Interface Screen
+	Decline
+494
+	XX
+	Time until next wave:
+495
+	Poison
+	Explosive
+496
+	Tutorial Progress
+	Introduction to the Arena
+497
+	Wave Complete!
+	Runners that got past
+498
+	Kaleef<br><br>Your mission is to contact our agent inside Menaphos.<br>Use the tunnels beneath the temple of lesser gods.<br>Be vigilant of traps and the hostile natives.<br> They're about as welcoming as the Menaphites only slightly better looking.<br><br>Os
+499
+	Skill
+	Description
+500
+501
+	Cannon barrel
+	Fuse
+502
+	Rope
+	Hammer
+503
+	Clockwork Toys - A Clockwork Mechanism, Chapter 1.0
+	Making a clockwork toy is very simple and a good place to start for new crafters. Simply create a clockwork mechanism on your Crafting table, then use it and a wood plank to make a toy soldier or a doll. Wind them up and watch them go!
+504
+505
+	Waterbirth <br>Island
+	Miscellania
+506
+	Jester Controls
+	Talk to puppet
+507
+	A
+	B
+508
+	The World of Magic
+	The World of Logic
+509
+	Place bar
+	Horizontal
+510
+	1
+	2
+511
+512
+513
+	Amazing Potion Storage
+514
+515
+516
+517
+518
+	Follower Inv
+	%1
+519
+	Click here to continue
+520
+	Cyrisus's Courage
+521
+	Guidance System
+	100%
+522
+	Monster name
+	Line1
+523
+	00
+	00
+524
+525
+	This is an interface type test.
+526
+	This is an interface type test.
+527
+	Imp repellent
+	Butterfly net
+528
+	Text
+	Display number
+529
+	This is an interface type test.
+530
+	Text
+	Text
+531
+532
+	Museum Kudos:
+533
+	Text
+	Display number
+534
+	Text
+	Asgarnia
+535
+536
+	Shrink-Me-Quick Recipe
+	1x leaf of tarromin,                        1x shrunken ogleroot.                                                                 Mix the tarromin in a vial of water, then add the shrunken ogleroot. Drink when standing within an area prepared with glyphs for this potion to have full effect. Take one dose only, for a new perspective on the world...
+537
+	E
+	F
+538
+	Things to do:
+	Take out the rubbish<br>Buy a new record for the gramophone<br>Check shrunken ogleroot supply<br>Feed ogleroots to my darlings<br>Wash the bedsheets<br>Hang out the washing<br>Practise the piano<br>Terrorise the little brat with the ball again<br>Trim hedges in the garden<br>Floss warts<br>Plot revenge on Fritz's murderer
+539
+540
+	Elnock's Exchange
+	Make your selection and press confirm
+541
+	 
+542
+543
+544
+545
+546
+547
+752
+751
+	Report Abuse
+	Assist
+137
+	0
+	Please select an option from the list below:
+754
+747
+748
+749
+750
+745
+662
+	S P E C I A L   M O V E
+	9999
+1056
+	Description
+	Rewards
+320
+	50
+	50
+190
+	Quests
+	Quest Points: 0
+149
+387
+271
+	Show stat adjustments
+	+15%
+193
+550
+	Friends List
+	Add Friend
+551
+	Ignore List
+	Add Name
+589
+	Talking in: Not in chat
+	Owner: None
+261
+	Options
+464
+187
+	Playing.............................
+	Unlocked:<br>???
+34
+	Notes
+	Delete
+182
+1055
+	Task Complete!
+550
+	Friends List
+	Add Friend
+551
+	Ignore List
+	Add Name
+552
+553
+	page%1
+	page%2
+554
+	Select an Option
+555
+	Select an option.
+556
+	Select an option.
+557
+	Select an Option
+	option1
+558
+582
+559
+560
+	Warning!
+	Warning! Low level players beware. Goblins have taken over and there are poisonous spiders!
+561
+	Recent Wilderness Kills
+562
+	Warning!
+	This area is very dark. Do not extinguish your light source!
+563
+	Warning!
+	Entering building mode will destroy<br> any items that are on the ground.  Do you want to continue?
+564
+	Warning!
+	Warning! At the top of this tower you will be attacked<br> by archers, who will shoot you without mercy!
+565
+	Warning!
+	The desert is a VERY dangerous place. Do not<br> enter if you are afraid of dying. Beware of high temperatures, sandstorms, robbers and slavers.<br> No responsibility is taken by Shantay if anything<br> bad should happen to you, in any circumstances whatsoever.
+566
+	Warning!
+	Do you need to collect any dropped<br> items?
+567
+	Warning!
+	It's very dark in there. Are you sure you want to<br> go in without a light source?
+568
+	Warning!
+	This area is very dark. Do not extinquish your light source!
+569
+	Warning!
+	It's very dark in there. Are you sure you want to go in without a light source?
+570
+	Warning!
+	The cave is very dark and you don't have a light<br> source. Are you sure you want to go down?
+571
+	Warning!
+	The tunnel is very dark. Are you sure you want<br> to go down without a light source?
+572
+	Warning!
+	If your light source goes out down there you'll<br> be in trouble! Are you sure you want to go in without<br> a tinderbox?
+573
+	Warning!
+	You can run past, but keep in mind that a<br> dangerous area follows!
+574
+	Warning!
+	This area is very dangerous, are you sure you want to continue?
+575
+576
+	Warning!
+	This way leads into the Wilderness and is only<br> one way! Are you sure you want to go down here?
+577
+	Warning!
+	The tunnel is very dark. Are you sure you want to<br> go down without a light source?
+578
+	Warning!
+	This fairy ring code leads to a dark area. Are you<br> sure you want to go there without a light source?
+579
+	Warning!
+	Are you sure you want to climb down?
+580
+	Warning!
+	Mort Myre is a dangerous ghast-infested swamp.<br> Do not enter if you value your life.
+581
+	Warning!
+	Danger! Death Plateau is not named that for<br> a joke! If you continue down this path you will<br> be assailed by trolls! If you are not prepared<br> for that you should turn back now!
+583
+	Reset Warning Messages
+	Body Text
+584
+585
+586
+	Change of address form for the citizens of Seers' Village.
+587
+	Meet at Camel We'll storm She'll ensure w The servants silence.
+588
+	Correct tumbler and height
+	Correct height, wrong tumbler
+589
+	Talking in: Not in chat
+	Owner: None
+590
+	Name:
+	Rank:
+591
+	Target:
+	nnnnnnnnnnnnnnnnnnnnnn
+592
+	Elnock's Equipment Store
+593
+	Cancel report
+	Suggest to mute this player for 48 hours
+594
+	Cancel report
+	Suggest to mute this player for 48 hours
+595
+	Rebuilding the Mummy
+	Completion =
+596
+	Logging In - Please Wait
+	Login
+597
+	Killcounts
+	Armadyl kills:
+601
+	Killcounts
+	Armadyl kills:
+598
+	Killcounts
+	Armadyl kills:
+599
+	Killcounts
+	Armadyl kills:
+600
+	Warning!
+	This way leads into the Wilderness and is only<br> one way! Are you sure you want to go down here?
+602
+603
+604
+605
+606
+607
+608
+609
+610
+611
+612
+613
+614
+615
+616
+617
+	Bolrie's Diary
+	Chapter 1. Bad advice
+618
+619
+	Pay Bank Charge With...
+620
+	Shop
+	Free sample items
+621
+622
+	Message of the Week
+623
+	Message of the Week
+624
+	Fairy Ring Power Relay
+	Assign power to each ring in proportion to its area:
+625
+	Please select your goblin from the options below:
+	Select your Goblin
+626
+	Are you sure you want to fight this duel?
+	You are about to stake:
+627
+	Warning!
+	Duelling is an honourable pastime. Anyone leaving a duel by ANY means, accidentally or deliberately, will lose their duel and their stake. No exceptions.
+628
+629
+	Tournament Value:
+	0
+630
+631
+	Opponent:
+	Opponent's Level:
+632
+	Last fifty duels on this world:
+	Duel Scoreboard
+633
+	You are Victorious!
+	Close
+634
+	You are Victorious!
+	Claim!
+635
+	Style:
+	Options:
+636
+	Upcoming Tournament Rules: Registrar #
+	Tournament Value:
+637
+	Duelling with:
+	Their Combat Level:
+638
+639
+	Are you sure you want to fight this duel?
+	Before the duel starts:
+640
+	Friendly Duel
+	Staked Duel
+641
+	0
+	Tourn. Rank:
+642
+	Message of the Week
+	You can now resize the<br>standard detail game window<br>or even view it fullscreen!
+643
+	Item Back History
+	Offer type
+644
+645
+	Grand Exchange Item Sets
+	Click on this menu to exchange items for sets.<br>Click on your inventory to exchange sets for items.
+646
+	Once your offer is running, just wait.<br>The trade could be very quick, or it might take several days.
+	Click to continue
+647
+	Items ready to be dropped
+	Items being dropped
+648
+649
+	Stop viewing
+	North-west
+650
+	Warning!
+	The Beast is incredibly powerful and will easily kill all but the most skilled warriors.<br><br>Due to the Beast's soul-devouring powers<br><col=ff0000>YOU WILL NOT GET A GRAVESTONE ON DEATH.<br><br>Are you sure that you wish to enter?
+651
+652
+	Gravestones
+653
+	Items offered:
+	Select items from your inventory to exchange for investment credit. You can use investment credit to hire squads, buy special units and invest in a scenario. Prices are based on selling to general stores.
+654
+	Unit
+	Description
+655
+	Scenario Selection
+	Select the scenario you'd like to play!
+656
+657
+	Scenario Investment Options
+	10
+658
+	Select a Snowman Hat
+	 Barbarian hat
+659
+660
+661
+	The runes must be in sets of three, I think, but I have had no luck in completing this conundrum. Perhaps, if my Thieving skills were greater, I could in some way interfere with the mechanism. May those who follow have more luck in this accursed place.<br>-Toralis of Menaphos
+663
+	100%
+	9999
+664
+	%1
+	Summon
+665
+666
+	Scroll Creation  
+667
+	Attack Bonuses
+	Defence Bonuses
+670
+763
+762
+	-
+	-
+668
+	Pick a Puppy
+669
+	Important Information
+	and
+671
+	Familiar Inventory
+672
+	Summoning Pouch Creation  
+673
+	Please send me news and updates (I can unsubscribe at any time).
+	By clicking on the "Continue" button I agree to the:
+674
+675
+	What Would You Like To Make?
+	You need a ring mould to craft rings.
+676
+	Warning!
+	This area is dangerous and death is more than a possibility! Are you sure you want to go down there?
+677
+	Warning!
+	This area is dangerous and death is more than a possibility! Are you sure you want to go down there?
+678
+	Warning!
+	This area is dangerous and death is more than a possibility! Are you sure you want to go down there?
+679
+	Message of the week
+680
+681
+	Close
+	Repairs Complete
+682
+	COUNTERWEIGHT
+	DIRECTION
+683
+	Yes, Restart
+	No, Cancel
+684
+	Watch out for rabbits wandering around the farmyard. They are hungry and will look for flags, as they often mean hidden food! If a rabbit eats the seed under a flag, you will not get any points for it and will lose the flag. 
+	You can improve your Hunter skill by finding ogleroots in the farmyard and feeding them to the rabbits. Ogleroots are magical vegetables and will cause the rabbit to disappear for a short amount of time.
+685
+	Farmer Blinkin's Vinesweeper Instructions
+	1. Speak to either Mrs. Winkin in the barn or Farmer Blinkin outside to buy some flags.
+686
+	Right-click on an item in the shop to see the available options.
+	Proceed
+687
+	Use a spade to dig in the farmer's field and try to work out where the seeds have been planted. Try not to dig up the seeds, as this will lose you points! Usually, when you dig a square, you will uncover a number, which shows how many seeds are in the holes next to it.
+	Plant your flags in holes where you think that seeds may be found. If you are correct, you will get lots of points, but if you are wrong, you will lose the flag. If you are close to other players, you might get some points if they find seeds, too!"
+688
+	While you are in the area, you will be able to see your points total in the top-right corner of your screen. Your points are saved, so you can leave if you wish and return another time to pick up from where you left off.
+	You can trade your points in for prizes or Farming experience by speaking to Mrs. Winkin in the Winkin shop.
+689
+	Points
+	None
+690
+	Farmers wander the area looking for seeds that have been dug up by mistake. They will also collect any flags you have placed, resetting the nearby area and giving you points if the flag is in the right place.
+	If you place a flag over a seed, you will be able to get the flag back from Mrs. Winkin or Farmer Blinkin. If you placed a flag wrongly, you will have to pay 500gp for a new one.
+691
+692
+693
+	Congratulations
+	Congratulations
+694
+	However nice your friend is in RuneScape, they are still a stranger to you in real life. We would suggest that you have fun and enjoy the player's company in-game, but leave it there. 
+	Incorrect.
+695
+	This naughty gublinchette gave a player her email address. The wise player hit the Report Abuse button straight away, allowing us to catch her!
+696
+	Question:
+	Player Safety Test
+697
+	Question:
+	Player Safety Test
+698
+	This cheeky gublinch claimed to be a Jagex Moderator! He was reported straight away and dealt with.
+699
+	Question:
+	Player Safety Test
+700
+	9 MO x 64 D4
+	Naval
+701
+	This wretched gublinch was asking a player for his telephone number. The player helped us catch him by refusing to give their information away and reporting the gublinch straight away!
+702
+	This foul-mouthed gublinch was flaming and insulting other players. They used the Report Abuse button and he was instantly apprehended.
+703
+	This vile gublinchette was asking a player for his home address. The clever player didn't give her their address, but used the Report Abuse button to report her instead.
+704
+	Question:
+	Player Safety Test
+705
+	Question:
+	Player Safety Test
+706
+	This sly gublinch wanted to meet one of his player friends in the real world. The player obviously refused and reported him straight away.
+707
+	Question:
+	Player Safety Test
+708
+	Question:
+	Player Safety Test
+709
+	End of Exam
+	Player Safety Exam 101
+710
+	Question:
+	Player Safety Test
+711
+	This evil gublinch asked a player where she went to college. The player was smart enough to not tell the gublinch and reported him instead.
+712
+	Dear friend,
+	Come and meet me at the entrance to the Legends' Guild as soon as possible. There are things I would like to discuss with you, but it is difficult to talk in Witchaven...
+713
+714
+715
+	Message of the week
+716
+	Chocatrice
+	Waiting
+717
+	Temperature reached!<br><br>New target<br>temperature set.
+718
+	Select an Option
+	option1
+719
+	COAL AND WATER SUPPLIES:<br> For your convenience, the incubator has a coal scuttle and water tank, which can hold up to twelve buckets of coal or water respectively.  Simply use a bucket of coal or water on the coal scuttle or water tank to add to the supplies.<br><br>ADJUSTING THE INCUBATOR TEMPERATURE:<br>The control panel to the left of the incubator allows you to use the coal and water supplies you have added to the incubator to heat or cool it.<br><br>INCUBATING AN EGG:<br>>  Place a suitable egg inside the incubation chamber.<br>>  Add supplies to the water tank and coal scuttle<br>>  Using the incubator controls, adjust the temperature.  The temperature gauge has a needle which shows the current temperature.  The top of the temperature gauge also has an arrow showing the temperature needed to reach the next phase of incubation.<br>> Some eggs may require you to reach several different temperatures before they hatch.<br><br>The very best of luck with hatching your eggs!
+	Operating your incubator
+720
+	Here, the player will see an interface anim of the chocatrice hatching.
+721
+722
+723
+	Part1 - Waking the Musaph
+	Part2 - Missing My Mummy
+724
+725
+	Reinald's Smithing Emporium
+	500 Coins
+726
+727
+	Ice<br>Path
+	Waterbirth<br>Island
+728
+	Yrsa's Shoe Store
+729
+	Thessalia's Makeovers
+730
+	Please pick up a stone!
+	Charge:
+731
+	Rating
+	Text
+732
+	Druidic Mage Top 
+	Lvl. Req. 20 Magic, 10 Defence
+733
+	Ivandis Flail
+	Ivandis flail requires silvthril chain to connect blessed silver sickle to. However, to increase charges for the flail, need to add an emerald to the sickle before chain is attached.<br><br>Find it difficult to make big hole for emerald to fit in sickle and am just frustrated. More effort to make this work is just crazy, why won't it just work??
+734
+	Choose a combination
+	Teleport to this location
+735
+	Travel Log
+736
+737
+	Pick a Kitten
+738
+	Tok-Xil-Im
+	Tok-Ket-Hurt
+739
+	TzHaar Numbers
+	a
+740
+	Open your stats menu and click on the flashing icon for more information.
+	Click here to continue
+741
+	Congratulations!
+	<u=0000FF>Open Skill Advance Guide</u>
+742
+	Graphics Options
+978
+	If the game runs slowly on your computer, please try reducing these settings.
+	Screen Sizing
+742
+	Graphics Options
+743
+	Audio Options
+	Mono
+744
+	PvP World
+	Warning: This is a PvP World. Players can attack you throughout RuneScape.<br><br>If you die, you may lose all of your items.<br><br>You have been warned.
+596
+	Logging In - Please Wait
+	Login
+882
+	Options
+	Back
+978
+	If the game runs slowly on your computer, please try reducing these settings.
+	Screen Sizing
+744
+	PvP World
+	Warning: This is a PvP World. Players can attack you throughout RuneScape.<br><br>If you die, you may lose all of your items.<br><br>You have been warned.
+882
+	Options
+	Back
+745
+746
+	00:00
+	XP:
+662
+	S P E C I A L   M O V E
+	9999
+747
+748
+749
+750
+751
+	Report Abuse
+	Assist
+752
+753
+754
+755
+	200%
+	Search the map by typing here.
+756
+	Challenge
+	Challenge
+757
+	Name
+	Line1
+758
+	Lumbridge
+	Champion's Guild
+759
+	0
+	1
+760
+761
+	Sir Vant's Requests
+	Click on the request you wish to know more about:
+667
+	Attack Bonuses
+	Defence Bonuses
+764
+	Melee - Inflicts damage 1 radius AoE
+	Magic - Spell chains through targets
+765
+766
+	Large Task:
+	100
+767
+	Item/note withdrawal: Clicking this button toggles how you withdraw items from your bank. `Item' mode places the actual item in your inventory; `Note' mode places a `noted' version of that object in your inventory. A note is worth the exact same value as the item it depicts, but is not the item itself and cannot be used as such. Notes are typically used for trading in bulk, as noted items can be stacked even if the actual item cannot be.
+	Deposit carried items and worn items. One button empties all of the items from your inventory, while the other moves all of the items you are wearing into your bank, if there is space. Items that cannot be placed in your bank will stay where they are.    
+768
+769
+	Insert a very long name here!
+	Insert a very long name here!
+770
+	Race:
+	Desc:
+771
+773
+774
+	Where do you want to rub the key?
+	Present
+775
+776
+777
+778
+779
+	Air
+	X Ticket(s)
+780
+	You are here
+	Asgarnia
+781
+	The portal is open
+	0
+782
+783
+784
+785
+	Circus Rewards
+786
+	Performance Equipment
+	Choose equipment to use in your performance. Take as many as you like, but you can't leave the big top with any of it.
+787
+	Discovered by:
+	Landing time:
+788
+	Last fifty performances on this world:
+	Circus Performance Scoreboard
+789
+	On death:
+	Go north to fight...
+790
+791
+	Victory
+	Knock-out<br>(No run-ins)
+792
+	Game overview
+793
+	Don't show this again
+	Cancel
+794
+795
+796
+797
+	Cancel
+798
+	WARNING
+	You are currently carrying a lot of items. You have been warned.
+799
+	Rat Pen
+	Snail Pen
+800
+	Message of the Week
+801
+	Quick Chat
+	Please note that your account has been restricted to Quick Chat, as you are currently ineligible for full chat - see our Terms and Conditions for more information.<br><br>To find out more about accessing our full chat features, your parent or guardian should click <col=6266FA><u=6266FAA>here</u></col>.
+802
+	Personal score: 
+803
+804
+	Game start:
+	You
+805
+	Giving items to: Unknown
+	Accept
+806
+	Basic<br>clay
+	S<br>p<br>o<br>t<br>s<br><br>l<br>e<br>f<br>t
+807
+808
+809
+	%1 min
+	Personal score: 
+810
+	Awards
+	Scores
+811
+	Purchase
+	Stealing Creation Reward Shop
+812
+	Clan leader:
+	Allied leaders:
+813
+	What would you like to make?
+	Weapons
+814
+	While Guthix Sleeps
+	Chapter 2
+815
+	The stone circle slowly lifts up, locks into place within the square recesses of the door, spins slowly, and unlocks the door. The door slowly goes down as the stone circle returns to its original position.
+816
+817
+818
+819
+820
+821
+822
+	While Guthix Sleeps
+	Chapter 3
+823
+824
+826
+	While Guthix Sleeps
+	Chapter 1
+827
+828
+829
+	FURTHER ACC0SS PR42IBIT13
+	FURTHER ACC0SS PR42IBIT13
+830
+831
+832
+833
+834
+	Blue
+	0
+835
+	Click here to continue
+836
+	Blue
+	---
+837
+	Blue:
+	-
+838
+839
+840
+	Forfeit Game
+	Forfeit the game?
+859
+	...unit name...
+	..weight..
+841
+842
+	Quest Kit
+	If you complete a game of Mobilising Armies, your quest kit will replenish.
+Error: Class247.method3148:2039 Class247.method3153:3782 Class247.method3150:3247 Class247.method3155:3859 Class323.method3677:82 PacketParser.method3967:246 Class98_Sub10_Sub24.method1076:90 Class185.method2629:43 client.method108:2636 client.method86:2276 Applet_Sub1.method85:215 Applet_Sub1.run:405 java.lang.Thread.run | java.lang.RuntimeException: C3408-1 -1-0 | CS2: 2567 op: 3408
+843
+	Squad Contract
+844
+	Charges left:
+	Resource Locator
+845
+	Special Unit Contract
+	Cannon
+846
+	Click here to continue
+847
+	Siege Scenario
+	---------
+848
+	Spoils of War
+	Buy Spoils
+849
+	Scenario Options
+	<col=FCAF61>Winning conditions:<br>Just one - kill all other opponents.<br><br><col=FCAF61>Special tasks:<br>None.
+850
+	string1
+	string1
+851
+	Nobody yet
+	Nobody yet
+852
+	Limit:
+	Scenario Investment Options
+291
+	Scenario Options
+	Back
+853
+	-
+	+
+854
+	Rewards
+	Extra information
+855
+	Cannon
+	0
+856
+	Name
+857
+	--------
+	---------
+858
+	Conflict Scenario
+	-------
+860
+	Commodities
+	A list of items that can be traded with Mal for investment credit.<br>Items highlighted with a green rectangle are present in your bank or inventory.
+861
+	Hoard Scenario
+	-------
+862
+	Items offered:
+	Current investment credits:
+863
+	Race:
+	Desc:
+864
+	Spirit Tree
+	Where would you like to go?
+865
+	Change
+	Cancel
+866
+	A   
+	B
+867
+868
+	ifquestname
+	qj1
+869
+870
+871
+872
+873
+874
+875
+876
+877
+	Insert what you wish here:
+878
+879
+	~ Pet House ~
+880
+	Left-click option:
+	Confirm
+881
+883
+	Accept this setting?
+	Confirm
+884
+	%1
+	Combat Lvl: %1
+885
+	Common Item Costs : *type*
+886
+	Close screen to stop viewing
+887
+888
+889
+	Grand Exchange
+	White Wolf Mountain
+890
+	New Character Name
+	Unfortunately, your character name is no longer available for use.<br>Please enter a new character name in the box below.
+892
+	Warning!
+	This area is dangerous and death is more than a possibility! Are you sure you want to go down there?
+893
+	Abort<br>tutorial
+	Follow the hint-arrow on your minimap to reach your destination.
+894
+	Abort<br>tutorial
+	Tutorial: Catching shrimp with a net. Step 1/5
+895
+	Advisor
+	Text
+896
+	Skip Tutorial
+897
+	Controls
+	Arrow keys rotate the camera.
+898
+	Please follow the instructions below.
+899
+900
+	Select skin colour and gender
+	MALE
+901
+	~ Sawmill Job Board ~
+	Large Jobs:
+902
+	What cuts would you like to make?
+	Curve Cut
+903
+	Contents of the Cart
+	Curved Planks
+904
+	Insert a very long name here!
+	Insert a very long name here!
+905
+916
+906
+	PvP World
+	Warning: This is a PvP World. Players can attack you throughout RuneScape.<br><br>If you die, you may lose all of your items.<br><br>You have been warned.
+911
+	Back
+	Volume
+907
+	You last logged in earlier today from: loading...
+	Messages
+908
+	Message of the Week
+910
+	Please wait...
+	Refresh
+909
+	Friends List
+	Click on your friends to send them a private message.
+912
+	Clan Chat
+	Report Abuse
+978
+	If the game runs slowly on your computer, please try reducing these settings.
+	Screen Sizing
+906
+	PvP World
+	Warning: This is a PvP World. Players can attack you throughout RuneScape.<br><br>If you die, you may lose all of your items.<br><br>You have been warned.
+911
+	Back
+	Volume
+907
+	You last logged in earlier today from: loading...
+	Messages
+908
+	Message of the Week
+909
+	Friends List
+	Click on your friends to send them a private message.
+910
+	Please wait...
+	Refresh
+912
+	Clan Chat
+	Report Abuse
+913
+	Ignore?
+	No, don't ignore them.
+914
+	Page 1/2
+	Report Abuse
+915
+	Honour
+	Respect
+917
+	Cannot pin this task
+	Step 1 of the task if given.
+918
+	You have entered your date of birth as:
+	You cannot change your date of birth<br>once it has been submitted.<br>Are you sure?
+919
+	Show all
+	Last catch:
+920
+924
+	Show competition history
+	Check competition schedule
+921
+	Personal bests
+	Total weight
+922
+	You are awarded 0 fish tokens.
+	Results
+923
+	Bait
+	Hook
+919
+	Show all
+	Last catch:
+925
+	Fish Flingers Reward Shop
+	Cost: 0 tokens
+926
+	Red 
+	Magenta
+927
+	Game Over
+	Turns taken: 12 x 101 = 1212
+473
+	Attacker Honour Points:
+	Defender Honour Points:
+928
+	Factory Managment Help 
+	Welcome to your factory!<br><br>You have to fulfil an order of 7 Fruitcakes, 7 Nutty Eggs and 7 Tangy Egg Breads for the Easter Bunny. If you can complete the order in less that 15 turns, you will receive an additional reward for your hard work.<br><br>You start with 5 workers.<br><br>You can purchase more workers for 2 random resources each. <br><br>You can have a maximum of 15 workers employed at any time. <br><br>Every turn you pay 1 resource as wages for every 5 workers you have. <br><br>Workers can be allocated to gathering resources, making orders or repairing machines. <br><br>You can have up to 15 of each resource stored. Resources generated over 15 are lost.<br><br>Each finished product takes 2 resources to make.<br><br>Fruit Cake needs: 1 Chocolate, 1 Fruit.<br><br>Nutty Egg needs: 1 Chocolate, 1 Nuts.<br><br>Tangy Egg Bread needs 1 Fruit, 1 Nuts.<br><br>Every turn, there is a chance that something might befall the factory. You may lose some resources, find some bonus resources, or one of your machines might be in need of repair. This will be reported to you, as well as all the other details you need to know in running your factory, when you end your turn.<br><br>If a machine is broken, you can choose to alllocate a worker to repair it, or you can repair it yourself by going to the machine and performing the repair, as you have done so already. Machines that are not repaired will produce 1 less item per turn.<br><br>When you have comepleted the order you will be shown your score. THe lower the Score, the better you have performed. Your score is broken down into the various parts that make it up. WHy not see if you can beat your friends score.<br><br>You can repeat the game as many times as you like during the event.<br><br><br><br> Best of luck! 
+930
+	Factory Managment Help 
+	Welcome to your factory!<br><br>You have to fulfil an order of 7 Fruitcakes, 7 Nutty Eggs and 7 Tangy Egg Breads for the Easter Bunny. If you can complete the order in less that 15 turns, you will receive an additional reward for your hard work.<br><br>You start with 5 workers.<br><br>You can purchase more workers for 2 random resources each. <br><br>You can have a maximum of 15 workers employed at any time. <br><br>Every turn you pay 1 resource as wages for every 5 workers you have. <br><br>Workers can be allocated to gathering resources, making orders or repairing machines. <br><br>You can have up to 15 of each resource stored. Resources generated over 15 are lost.<br><br>Each finished product takes 2 resources to make.<br><br>Fruit Cake needs: 1 Chocolate, 1 Fruit.<br><br>Nutty Egg needs: 1 Chocolate, 1 Nuts.<br><br>Tangy Egg Bread needs 1 Fruit, 1 Nuts.<br><br>Every turn, there is a chance that something might befall the factory. You may lose some resources, find some bonus resources, or one of your machines might be in need of repair. This will be reported to you, as well as all the other details you need to know in running your factory, when you end your turn.<br><br>If a machine is broken, you can choose to alllocate a worker to repair it, or you can repair it yourself by going to the machine and performing the repair, as you have done so already. Machines that are not repaired will produce 1 less item per turn.<br><br>When you have completed the order you will be shown your score. The lower the Score, the better you have performed. Your score is broken down into the various parts that make it up. Why not see if you can beat your friends score.<br><br>You can repeat the game as many times as you like during the event.<br><br><br><br> Best of luck! 
+929
+	End of Turn Report
+	Next Turn
+931
+	Management Planning
+	Turn 1/15
+932
+	Hit the red button<br>to discard an item.
+	Correct 0/5
+306
+	Hit the red button<br>to discard an item.
+	Correct 4/4
+933
+	Congratulations! You have completed a Dungeon!
+	Total XP:
+934
+	Smithing
+935
+	Dungeon Completed!
+	Ready
+936
+	00
+	00
+937
+	Book Title
+	line1
+938
+	Select Complexity
+	The complexity of a dungeon determines how many of your skills and abilities will be tested in a raid. Choosing a lower complexity will make the dungeon more straight-forward to complete, but it will also lower the Dungeoneering XP reward you receive at the end.<br><br>When you first start Dungeoneering, only complexity 1 will be unlocked. You must complete at least one raid at that complexity before you can unlock the next.
+939
+	Party Details
+	Leave party
+940
+	Your tokens: 
+	0
+732
+	Druidic Mage Top 
+	Lvl. Req. 20 Magic, 10 Defence
+941
+	What would you like to smelt?
+	<br><br><br><br>Bronze
+942
+943
+	The quick brown fox jumped over the 
+	The quick brown fox jumped over the 
+944
+	Right-click the object to see more options
+	Choose a resource...
+945
+	 Progress bar text
+946
+	Player ~ Name
+947
+	Select Floor
+	Floor
+948
+	Dungeon Journal
+	Misc.
+949
+	You Are Invited to a Dungeon Party
+	Do you accept the invitation?
+950
+951
+	Congratulations! You have completed a dungeon!
+	Mod Trick
+952
+	Select items to bind. Only bound items will be kept between dungeons.
+	Items bound: 0/1
+953
+	Player ~ Name
+954
+	Player ~ Name
+955
+	Loading...
+956
+	Shop
+	Free sample items
+957
+958
+	page%1
+	page%2
+959
+	Book Title
+	line1
+960
+	line16
+	line24
+961
+962
+963
+964
+965
+	 
+966
+967
+968
+969
+970
+	BIR<br>DIP<br>CLR<br>ALP
+	A<br>L<br>P
+971
+972
+973
+974
+	Zanaris Needs You!
+	Zanaris Needs You!
+975
+	Play Game
+976
+	Leave Alone
+	Auto Setup
+977
+	Manual Setup
+	Advanced
+978
+	If the game runs slowly on your computer, please try reducing these settings.
+	Screen Sizing
+979
+	Click on a line of text to choose the player you are reporting, then click the 'Next' button.
+	A report sends us the last 60 seconds of chat. Older chat may not be reportable.
+980
+	powered
+	unpowered
+981
+982
+	Chat Setup
+	Clan
+983
+	Click on the purple<br>orbs to switch view.
+	Stop viewing
+984
+985
+	Red Team Score:
+	Blue Team Score:
+986
+	Culprit
+	Prof. Oddenstein
+987
+	Elderly Citizen
+	Desert Dweller
+988
+	0/15
+	Toll:
+989
+	Ruined boat
+990
+	On death:
+	Click on the ground to move the dummy.<br><br>Click on doors and stairs to use them.
+991
+	START NODE
+	View<br>Upper Half
+992
+993
+	~ Confirm Reset ~
+	Sorry, you have no remaining resets.
+940
+	Your tokens: 
+	0
+994
+	Select Autogrouping Floor
+	Floor
+995
+	Start Room Modifications
+	Photo Booth
+996
+	N
+997
+	N
+998
+	Hint
+999
+	5000
+	5000
+1000
+	Paths interlace and intersect. May runes match where they meet.
+	 Invert  paths 
+767
+	Item/note withdrawal: Clicking this button toggles how you withdraw items from your bank. `Item' mode places the actual item in your inventory; `Note' mode places a `noted' version of that object in your inventory. A note is worth the exact same value as the item it depicts, but is not the item itself and cannot be used as such. Notes are typically used for trading in bulk, as noted items can be stacked even if the actual item cannot be.
+	Deposit carried items and worn items. One button empties all of the items from your inventory, while the other moves all of the items you are wearing into your bank, if there is space. Items that cannot be placed in your bank will stay where they are.    
+1001
+	Paths interlace and intersect. May runes match where they meet.
+	 Invert  paths 
+1002
+	Paths interlace and intersect. May runes match where they meet.
+	 Invert  paths 
+1003
+	Paths interlace and intersect. May runes match where they meet.
+	 Invert  paths 
+1004
+	Reactions
+	+
+1005
+1006
+	Herbicide Settings
+	Guam leaf:
+1007
+	Statue Collection Bag
+1008
+	Truce Offer
+	Your opponent has offered to call a truce. If you accept, the Conquest will end in a draw.
+1009
+	Conquest Ranking: 1000
+1010
+	Turn Options
+	Commorb Charging
+1011
+	Void Knight Melee Helm
+	200 Commendations
+1012
+	Troop Details
+	This troop is not currently affected by any Commands.
+1013
+	0:00
+1014
+1015
+	Mage
+	Squad Resources:
+1016
+	Conquest Options
+	Maximum Turn Time
+1017
+	Reset
+	Squad Formation
+1018
+	Name
+	Line 1
+1019
+	If you resign, the Conquest will end immediately.
+	Diplomacy
+1020
+	Click here to continue
+1021
+	Confirm Options
+	Maximum Turn Time
+1022
+	Opponent's Stake
+	Your Stake
+1023
+	You are about to stake:
+	Absolutely nothing!
+1024
+	Command Points: 1000
+	You have not included any Commands in your army selection.
+1025
+1026
+	Select Challenge Type
+	Regular Conquest
+1027
+	Opponent Logged Out
+	Your opponent has been logged out for 1 minute.<br><br>You may wait for them to return, or take the victory and be declared the winner.
+1030
+1028
+	Pick skin colour
+	Customise Character
+1029
+1030
+1031
+1032
+1033
+1034
+1035
+1036
+1037
+1038
+1039
+1040
+1041
+1042
+1043
+1044
+1045
+1046
+1047
+1048
+1049
+1050
+	Shop
+	Main stock
+1051
+	You have entered your date of birth as:
+	You cannot change your date of birth<br>once it has been submitted.<br>Are you sure?
+1052
+	RESET
+	Return
+1053
+	RESET
+	Deselect
+1054
+	Reset
+	Activate
+1056
+	Description
+	Rewards
+1057
+	Tag the above locations in order for some extra strength xp!
+	Using all tokens
+1058
+	Please make a selection
+	36635
+1059
+1060
+	Reset
+1061
+	Throw!
+1062
+1063
+1064
+1065
+1066
+	You are Entering the Members' Game
+	Lorem Ipsum Sub Rosa Dolores Clairborne. Lorem Ipsum Sub Rosa Dolores Clairborne.Lorem Ipsum Sub Rosa Dolores Clairborne.Lorem Ipsum Sub Rosa Dolores Clairborne. Lorem Ipsum Sub Rosa Dolores Clairborne.
+1067
+	You are Entering the Members' Game
+	Subscribe Now
+1068
+	The Golden Joystick Award
+	Jagex is proud to have won the Golden Joystick Award for Best UK Games Developer in 2009 and 2010. To celebrate with us, equip this golden hammer and see what it can do!
+1069
+	The Golden Joystick Award
+	Jagex is proud to have won the Golden Joystick Award for Best UK Games Developer in 2009 and 2010. To celebrate with us, use this cracker on another player and see what you get!

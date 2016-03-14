@@ -1,0 +1,507 @@
+Outside World Spawn Locations
+------------------------------------------
+Karamja mine near the Nature altar.
+West of the falcon hunting area.
+North of the Catherby allotment patches.
+Dwarven Mines entrance on Ice Mountain.
+//Castle Wars.
+//Duel Arena entrance.
+South of the Heroes guild.
+Canifis mushroom patch.
+Around the Varrock Earth altar.
+South-west of the Ranging Guild.
+South of Ardougne - east of the Clock Tower.
+Red Chinchompas in Feldip Hills.
+Red salamander hunting spot near ZMI altar.
+
+
+
+
+BABY IMPLING 
+Npc id - 
+1028
+
+Item ids -
+Commen
+1755
+1734
+1733
+946
+1985
+2347
+1759
+
+Uncommen
+1927
+319
+2007
+1779
+7170
+401
+1438
+
+Rare
+2355
+1607
+1743
+379
+
+Level - 
+17
+
+EXP-
+20/25
+
+-------------------------
+
+YOUNG IMPLING
+Npc id - 
+1029
+
+item ids-
+Common
+855
+361
+1901
+1539 (5)
+1783 (4 noted)
+1523
+7936
+5970
+
+UnCommon
+1353
+2293
+7178
+247
+453
+1777
+231
+1761
+
+Rare
+1097
+1157
+8778
+133
+2359
+
+Level - 
+22
+
+EXP-
+48/65
+
+GFX-
+
+--------------------------
+
+GOURMET IMPLING
+
+NPC id-
+1030
+
+Item ids -
+Common
+365
+361
+2011
+2327
+1897
+2293
+5004
+2007
+5970
+
+UnCommon
+1883
+247
+380 (4 noted)
+386 (3 noted)
+7170
+5755
+7178
+7188
+3145 (2 noted)
+3143 (2 noted)
+
+Rare
+10137 (5 noted)
+7179 (6 noted)
+374 ( 3 noted)
+10136
+
+Level -
+28
+
+EXP -
+82/113
+
+GFX-
+
+-----------------------------------------------------
+EARTH IMPLING
+
+NPC id -
+1031
+
+Item ids -
+
+Common
+557 (32)
+5535
+6033 ( 6 noted)
+1440
+5104 ( 2)
+
+Uncommon
+2353
+444
+237
+453 (6)
+1784 (4 noted)
+1273
+5311 (2)
+5294 (2)
+447
+
+Rare
+448 (3 noted)
+6035 (2 noted)
+1606 ( 2 noted)
+1442 
+
+Very Rare
+1603
+5303
+
+Level -
+36
+
+EXP -
+126/177
+
+GFX -
+
+-----------------------------------------------
+ESSENCE IMPLING
+
+NPC id-
+1032
+
+Item id -
+
+Common
+562 (4)
+555 (13,30)
+558 (25)
+556 (25,30,60)
+559 (28-30)
+554 (50)
+1448
+7937 ( 20-35 noted)
+
+Unkown 
+1437 (20 noted)
+564 (4)
+4695 (4)
+4696 (4)
+4698 (4)
+4694 (4)
+4699 (4)
+4697 (4)
+565 (7)
+566 (11)
+563 (13)
+560 (13)
+561 (13)
+1442
+1778 (92 noted)
+
+Level - 
+42
+
+EXP -
+160/225
+
+GFX -
+
+------------------------------------------------
+ECLECTIC IMPLING
+
+NPC id - 
+1033
+
+Item ids -
+
+Common
+1391
+1273
+5970
+231
+556 (various)
+
+UnCommon
+2358 (5 noted)
+
+Rare 
+2494
+10083
+1213
+450 (10 noted)
+7208
+
+Very Rare
+1601
+
+Unkown 
+1199
+444
+7937 (20-35 noted)
+237
+5760 (2 noted)
+8779 (4 noted)
+5321 (3)
+
+Level - 
+50
+
+EXP -
+205/289
+
+GFX-
+
+-----------------------------------------------
+SPIRIT IMPLING
+
+NPC id -
+7866
+
+Item id's -
+Theres over 40 there charms , summoning seconderairys and summoning pouches
+http://runescape.wikia.com/wiki/Spirit_impling
+
+Level - 54
+
+EXP - 227/321
+
+GFX- 
+
+------------------------------------------------
+NATURE IMPLING
+
+NPC id -
+1034
+
+Item ids-
+
+Common
+5100
+5104
+5281
+5294
+5295
+5297
+5299
+5298 (5)
+5303
+254 (4 noted)
+
+UnCommen
+5313
+5286	
+5285
+3000
+5974
+
+Rare
+5304 (rare one every 30 loots on average out of 300 nature impling loots)
+270 ( 2 noted)
+1513
+
+Level-
+58
+
+EXP-
+250/353
+
+GFX-
+
+----------------------------------------------
+MAGPIE IMPLING
+
+NPC Id-
+1035
+
+Item id's -
+Idk the how rare they are for most of them ,
+http://runescape.wikia.com/wiki/Magpie_impling it doesnt say on there 
+so ill just put them all to gether
+
+1347			24800
+1682 ( 3 noted)		6567
+1732 (3 noted)		8016	
+2569 ( 3 noted)		3348
+2571 (4-5 noted)	24.412-30515
+4097			5718
+4095			5840
+1215			17700
+3391			2875
+1333			15231
+1185			23000
+5541			7
+1748 ( 6 noted)		27612
+2364 (2 noted)		25994
+1602 ( 4 noted)		28016
+985			22800
+987			12500
+993			51563
+5287			8167
+5300			15300
+1603			1191
+
+Level -
+65
+
+EXP -
+289/409
+
+GFX- 
+
+
+NINJA IMPLING
+
+NPC id-
+6053
+
+Item ids-
+1113		29700
+6328		3336
+3385		5750
+3391		2795
+4097		5718
+4095		5840
+3101		7128
+1333		15231
+1347		24900
+1215		17600
+5680		17000
+5698		23601
+6313		410
+892, 70		13370
+811, 70		7420
+868, 40		39400
+805, 50		14500
+9342, 2		17510
+9194, 4		30000
+1748, 16	70800
+6156, 3		12420
+140, 4		12388
+5938, 4		2076
+2364, 4		51988
+
+Level-
+74
+
+EXP-
+339/481
+
+GFX-
+
+
+DRAGON IMPLING
+
+NPC id-
+6054
+
+item ids -
+1	 Rare		ID: 4099
+1	 Rare		ID: 4109
+1	Common		ID: 4107
+1	 Common		ID: 4117
+1	 Rare		ID: 4105
+1	 Rare		ID: 4115
+1	 Very rare	ID: 4101
+1	 Very rare	ID: 4111
+1	 Very rare	ID: 4103
+1 	Very Rare	ID: 4113
+Common
+11212 (100-500)
+9244 (3-40)
+1305
+11237 ( 100-500)
+9193 (10-49)
+535 (111-285 noted)
+
+UnCommon
+11230 (105-350)
+11232 (105-350)
+5316
+537(52-95 noted)
+1616(3-6 noted)
+
+Rare
+1713 ( 2-3 noted)
+3000 (6)
+5681 (3 noted)
+
+Very Rare
+5547 
+1684 (2-3 noted)
+7219 (5-15 noted)
+
+Level -
+83
+
+EXP-
+390/553
+
+GFX-
+
+
+KINGLY IMPLING
+
+NPC id-
+7903
+
+Item id's-
+
+Items with no rarity's-
+Item Quantity Rarity 
+Dragon arrow	 40–144	 -
+Dragon arrowtips 64–148	 -
+Dragon dart	 192–319	-	
+Dragon dart tip	 Unkown	 -
+Dragon longsword 1–2 (noted)	-	
+Dragon spear	 1	 -
+Dragon 2h sword	 1	 -
+Shield left half 1	 -
+Dragonstone	 6 (noted)	-	
+Dragon bolts	 40–70 -
+Amulet of glory	 3–11 (noted)	-	
+Dragonstone ammy 3 (noted)	-
+Rune bar	 10 (noted)	-
+Crystal key 2 (noted) -
+
+UnCommon
+9342 (57)
+
+Rare
+15503
+15505
+15507
+15509
+15511
+1632(5 noted)
+9194 ( 1-73)
+
+Very Rare
+6571
+
+Level-
+91
+
+EXP-
+434/617
+
+GFX

@@ -1,0 +1,11 @@
+Steve this is how a temporary inventory works as the way u did it created dupes,
+
+First off ill use trade for a example use.
+Both players start trading, the temporary inventory is created
+That handles transactions between trading screen and inventory.
+If the trade session is ended the temporary inventory and trade screen containor are discarded and no action is taken, now if the trade is accepted by both players the temporary inventory is discarded and the trade screen container now removes the items from the players actual inventory and if the item doesnt exist or is over the amt in the players inventory the other person doesnt get the non existing item or extra amount of the item he only gets what was deleted from the other players inventory and the temporary inventory is only used for item transactions and cant be called by other outside methods such as droping equiping and banking
+
+The current trade dupes, sending a trade request n right clicking the item u want to dupe, then having their partner accept the request, u then drops the item n declines the trade, the temporary inventory is discarded which is correct but the dropped item is still in the inventory once the trade is declined, why? Well first off the mistake was how you implemented the temporary inventory, in the getInventory() method it returns the temporary inventory if one is present which is incorrect use of this system. This allows other methods to access this temporary inventory thinking its the actual inventory, so therefore if a temporary inventory is created and you drop something it will remove the item from the temporary inventory now if something happens that the temporary inventory is discarded (such as declining trade) the actual inventory is restored with all the items that were in it when the temporary inventory was created thus restoring the item that was dropped and keeping the items duplicate from the temporary inventory on the ground. Droping isnt the only dupe with this, it includes banking, equiping, price checking, dieing, and summoning storing
+
+Thats 7 different dupes right there
+I fixed it

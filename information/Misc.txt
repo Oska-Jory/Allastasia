@@ -1,0 +1,164 @@
+Combat Instructors:
+
+Melee instructor:
+id - 705
+Dummy ids - 7891
+
+[What would you like to talk about?]
+1, "Who are you?"
+2, "What is this place?"
+3, "What is that cape you're wearing?"
+
+//Option 1:
+PLY: "Who are you?"
+#next
+NPC: "My name is Harlan, a master of defence!"
+#next
+PLY: "What do you do here?"
+#next
+NPC: "I assest new adventurers in learning the ways of melee"
+	"combat. It is a dangerous but worthwile study. There"
+	"is nothing like the feeling of wading into battle against"
+	"many foes."
+#next
+[What would you like to talk about?]
+2, "What is this place?"
+3, "What is that cape you're wearing?"
+//Option 2
+PLY: "What is this place?"
+#next
+NPC: "This is a safe place for people to train combat. We have"
+	"areas for each corner of the combat triangle. I'm in"
+	"charge of the melee area, although I admit that the"
+	"melee training isn't so complicated. Just click to attack"
+#next
+NPC: "the melee dummies."
+#next
+PLY: "That's great! This is much safer than fighting goblins or"
+	"spiders."
+#next
+NPC: "Well, that is true, but it is no replacement for real"
+	"training. You won't get very much experience while"
+	"training here. This place is just intended as a practice"
+	"arena. When you feel ready, you should face real"
+#next
+NPC: "enemies to get better experience."
+@END
+//Option 3
+PLY: "What is that cape you're wearing?"
+#next
+NPC: "Ah, this is a Skillcape of Defence. I have mastered the"
+	"art of defence and wear it proudly to show others."
+#next
+PLY: "Hmm, interesting."
+#next
+[Select an Option]
+4, "Please tell me more about skillcapes."
+5, "Bye."
+//Option 4
+PLY: "Please tell me about skillcapes."
+#next
+NPC: "Of course. Skillcapes are a symbol of achievement. Only"
+	"people who have mastered a skill and reached level 99"
+	"can get their hands on them and gain the benefits they"
+	"carry."
+@END
+//Option 5
+@END
+
+
+
+Magic instructor:
+id - 4707
+Dummy id - 4474
+
+[What would you like to talk about?]
+6, "Who are you?"
+7, "What is this place?"
+//option 6
+PLY: "Who are you?"
+#next
+NPC: "My name is Mikasi."
+#next
+PLY: "What do you do here?"
+#next
+NPC: "I travelled the world for many years, training my"
+	"Magic, but I decided to settle down. So I founded this"
+	"practice arena with Harlan and Nemart so we could"
+	"help new adventurers on their journey to skill mastery."
+#next
+[What would you like to talk about?]
+7, "What is this place?"
+8, "Nothing."
+//Option 7
+PLY: "what is this place?"
+#next
+NPC: "This is a safe place for people to train combat. We have"
+	"areas for each corner of the combat triangle. I'm in"
+	"charge of the magic area. If you've not got any runes,"
+	"I've heard Aubury's rune shop in Varrock sometimes"
+#next
+NPC: "has some free samples. When you're ready, simply cast"
+	"your combat spells at these blue dummies."
+#next
+PLY: "That's great! This is much safer than fighting goblins or"
+	"spiders."
+#next
+NPC: "Well, that is true, but it is no replacement for real"
+	"training. You won't get very much experience while"
+	"training here. This place is just intended as a practice"
+	"arena. When you feel ready, you should face real"
+#next
+NPC: "enemies to get better experience."
+@END
+//Option 8
+@END
+
+Range instructor:
+id - 1861
+target objects - 45305
+[What would you like to talk about?]
+9, "Who are you?"
+10, "What is this place?"
+//option 9
+PLY: "Who are you?"
+#next
+NPC: "My name is Nemarti."
+#next
+PLY: "What do you do here?"
+#next
+NPC: "I am a skilled ranger, but felt I should contribute by"
+	"helping others become skilled rangers."
+#next
+[What would you like to talk about?]
+10, "What is this place?"
+11, "Nothing."
+//Option 10
+PLY: "what is this place?"
+#next
+NPC: "This is a safe place for people to train combat. We have"
+	"areas for each corner of the combat triangle. I'm in"
+	"charge of the ranged area. To use this area you'll need"
+	"some ranged equipment. I'd recommend Lowe's archery"
+#next
+NPC: "store in Varrock. He may even have some free samples."
+	"When you have a bow and arrow wielded, simply click"
+	"on a target to shoot at it."
+PLY: "That's great! This is much safer than fighting goblins or"
+	"spiders."
+#next
+NPC: "Well, that is true, but it is no replacement for real"
+	"training. You won't get very much experience while"
+	"training here. This place is just intended as a practice"
+	"arena. When you feel ready, you should face real"
+#next
+NPC: "enemies to get better experience."
+@END
+
+Crop circle animation + GFX
+
+anim ID: 6601
+GFX ID: 1118
+
+stuff:
+<npcDefinition> <id>6216</id> <hitpoints>465</hitpoints> <maximumHit>70</maximumHit> <attackAnimation>8080</attackAnimation> <defenceAnimation>8082</defenceAnimation> <deathAnimation>8078</deathAnimation> <fightTypes> <fightType>MELEE</fightType> <fightType>MAGIC</fightType> <fightType>RANGE</fightType> </fightTypes> <rangeProjectile>-1</rangeProjectile> <magicProjectileId>-1</magicProjectileId> <magicStartGfx>-1</magicStartGfx> <rangeStartGfx>-1</rangeStartGfx> <endRangeGfx>-1</endRangeGfx> <endMageGfx>-1</endMageGfx> <aggressive>false</aggressive> <defenceBonus>1245</defenceBonus> <attackBonus>1245</attackBonus> </npcDefinition> <npcDefinition> <id>6214</id> <hitPoints>600</hitPoints> <maximumHit>85</maximumHit> <attackAnimation>810</attackAnimation> <defenceAnimation>-1</defenceAnimation> <deathAnimation>-1</deathAnimation> <fighTypes> <fightType>MELEE</fightType> </fightTypes> <defenceBonus>2349</defenceBonus> <attackBonus>2838</attackBonus> </npcDefinition> <npcDefinition> <id>6215</id> <hitPoints>1340</hitPoints> <maximumHit>80</maximumHit> <attackAnimation>9434</attackAnimation> <defenceAnimation>9436</defenceAnimation> <deathAnimation>9435</deathAnimation> <fightTypes> <fightType>MELEE</fightType> </fightTypes> <defenceBonus>4384</defenceBonus> <attackBonus>3848</attackBonus> <aggressive>false</aggressive> </npcDefinition> <npcDefinition> <id>6212</id> <hitPoints>1000</hitPoints> <maximumHit>130</maximumHit> <attackAnimation>6536</attackAnimation> <defenceAnimation>6538</defenceAnimation> <deathAnimation>6537</deathAnimation> <fightTypes> <fightType>MELEE</fightType> </fightTypes> <defenceBonus>3848</defenceBonus> <attackBonus>3288</attackBonus> <aggressive>true</aggressive> </npcDefinition> <npcDefinition> <id>6219</id> <hitPoints>1310</hitPoints> <maximumHit>160</maximumHit> <attackAnimation>-1</attackAnimation> <defenceAnimation>-1</defenceAnimation> <deathAnimation>-1</deathAnimation> <fightTypes> <fightType>MELEE</fightType> </fightTypes> <defenceBonus>4858</defenceBonus> <attackBonus>2838</attackBonus> </npcDefinition> <npcDefinition> <id>6221</id> <hitPoints>750</hitPoints>> <maximumHit>194</maximumHit> <attackAnimation>-1</attackAnimation> <defenceAnimation>-1</defenceAnimation> <deathAnimation>-1</deathAnimation> <fightTypes> <fightType>MAGIC</fightType> </fightTypes> <magicProjectileId>-1<magicProjectileId> <magicGfxStart>-1</magicGfxStart> <endMageGfx>-1</endMageGfx> <aggressive>true</aggressive> </npcDefinition>

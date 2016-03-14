@@ -1,0 +1,56 @@
+spawn = 1648 3423 3539 0 0 0 0 0 slayer
+spawn = 1648 3421 3536 0 0 0 0 0 slayer
+spawn = 1648 3424 3537 0 0 0 0 0 slayer
+spawn = 1648 3419 3536 0 0 0 0 0 slayer
+spawn = 1648 3419 3538 0 0 0 0 0 slayer
+
+spawn = 1600 3413 3535 0 0 0 0 0 slayer
+spawn = 1600 3410 3535 0 0 0 0 0 slayer
+spawn = 1600 3409 3539 0 0 0 0 0 slayer
+spawn = 1600 3412 3539 0 0 0 0 0 slayer
+
+spawn = 1620 3412 3546 0 0 0 0 0 slayer
+spawn = 1620 3413 3550 0 0 0 0 0 slayer
+spawn = 1620 3410 3550 0 0 0 0 0 slayer
+spawn = 1620 3418 3545 0 0 0 0 0 slayer
+spawn = 1620 3425 3544 0 0 0 0 0 slayer
+
+spawn = 1616 3425 3558 0 0 0 0 0 slayer
+spawn = 1616 3423 3554 0 0 0 0 0 slayer
+spawn = 1616 3427 3550 0 0 0 0 0 slayer
+spawn = 1616 3412 3560 0 0 0 0 0 slayer
+spawn = 1616 3415 3556 0 0 0 0 0 slayer
+spawn = 1616 3420 3558 0 0 0 0 0 slayer
+
+
+
+spawn = 1618 3413 3574 0 0 0 0 0 slayer
+spawn = 1618 3418 3571 0 0 0 0 0 slayer
+spawn = 1618 3422 3569 0 0 0 0 0 slayer
+spawn = 1618 3421 3574 0 0 0 0 0 slayer
+spawn = 1618 3415 3556 0 0 0 0 0 slayer
+spawn = 1618 3420 3558 0 0 0 0 0 slayer
+spawn = 1618 3413 3571 0 0 0 0 0 slayer
+
+
+spawn = 1624 3431 3571 0 0 0 0 0 slayer
+spawn = 1624 3434 3575 0 0 0 0 0 slayer
+spawn = 1624 3437 3571 0 0 0 0 0 slayer
+spawn = 1624 3439 3574 0 0 0 0 0 slayer
+spawn = 1624 3442 3572 0 0 0 0 0 slayer
+spawn = 1624 3434 3571 0 0 0 0 0 slayer
+
+spawn = 1610 3441 3561 0 0 0 0 0 slayer
+spawn = 1610 3436 3565 0 0 0 0 0 slayer
+spawn = 1610 3436 3560 0 0 0 0 0 slayer
+spawn = 1610 3441 3565 0 0 0 0 0 slayer
+
+spawn = 2783 3442 3546 0 0 0 0 0 slayer
+spawn = 2783 3440 3542 0 0 0 0 0 slayer
+spawn = 2783 3446 3545 0 0 0 0 0 slayer
+
+spawn = 1615 3444 3538 0 0 0 0 0 slayer
+spawn = 1615 3448 3539 0 0 0 0 0 slayer
+spawn = 1615 3447 3535 0 0 0 0 0 slayer
+spawn = 1615 3444 3535 0 0 0 0 0 slayer
+[ENDOFSPAWNLIST]

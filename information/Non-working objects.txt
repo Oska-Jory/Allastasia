@@ -1,0 +1,30 @@
+NON-WORKING OBJECTS:
+
+
+
+
+
+
+
+
+
+
+Castlewars object ids (working):
+//4903 Zamorak flag standard
+//4902 Saradomin flag standard
+//4377 Empty saradomin standard
+//4378 Empty zamorak flag standard.
+//4901 Dropped Zamorak flag (Take option)
+//4900 Dropped saradomin flag (take option)
+//Setting up cades: anim 9648
+//Cades dying: 9658
+//Attack own gate: "You don't want to damage your own doors."
+//Attacking door: 9649
+//Object 4446 + rope = 36313
+//Step stones animation: 741|| 
+
+//Items you can take.
+All pots
+Sara brews(no zam brews)
+runes
+bolts

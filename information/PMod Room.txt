@@ -1,0 +1,6 @@
+ID: 26807 X: 59 Y: 47 Z: 0 Type: 10 Face: 3 mapId: 1875 BaseX: 2816 BaseY: 5184
+ID: 26807 X: 63 Y: 52 Z: 0 Type: 10 Face: 2 mapId: 1875 BaseX: 2816 BaseY: 5184
+
+J-Mod options table ^
+
+Use secondary mapregion packet.

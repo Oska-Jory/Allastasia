@@ -1,0 +1,632 @@
+Green monsters (stronhold)
+
+Combat type: Magic, Melee
+
+	<npcDefinition><!--Combat 49-->
+		<id>4397</id>
+		<hitpoints>500</hitpoints>
+		<maximumHit>74</maximumHit>
+		<attackAnimation>4272</attackAnimation>
+		<defenceAnimation>4273</defenceAnimation>
+		<deathAnimation>4274</deathAnimation>
+		<defenceBonus>7200</defenceBonus>
+		<attackBonus>5800</attackBonus>
+		<fightTypes>
+			<fightType>MAGIC</fightType>
+		</fightTypes>
+		<magicStartGfx>105</magicStartGfx>
+		<magicProjectileId>106</magicProjectileId>
+		<aggressive>true</aggressive>
+	</npcDefinition>
+	<npcDefinition><!--Combat 49-->
+		<id>4398</id>
+		<hitpoints>700</hitpoints>
+		<maximumHit>68</maximumHit>
+		<attackAnimation>4272</attackAnimation>
+		<defenceAnimation>4273</defenceAnimation>
+		<deathAnimation>4274</deathAnimation>
+		<defenceBonus>8200</defenceBonus>
+		<attackBonus>6200</attackBonus>
+		<fightTypes>
+			<fightType>MAGIC</fightType>
+		</fightTypes>
+		<magicStartGfx>105</magicStartGfx>
+		<magicProjectileId>106</magicProjectileId>
+		<aggressive>true</aggressive>
+	</npcDefinition>
+	<npcDefinition><!--Combat 49-->
+		<id>4399</id>
+		<hitpoints>500</hitpoints>
+		<maximumHit>74</maximumHit>
+		<attackAnimation>4272</attackAnimation>
+		<defenceAnimation>4273</defenceAnimation>
+		<deathAnimation>4274</deathAnimation>
+		<defenceBonus>9200</defenceBonus>
+		<attackBonus>6800</attackBonus>
+		<fightTypes>
+			<fightType>MAGIC</fightType>
+		</fightTypes>
+		<magicStartGfx>105</magicStartGfx>
+		<magicProjectileId>106</magicProjectileId>
+		<aggressive>true</aggressive>
+	</npcDefinition>
+
+id = 4397, level: 49, name = Catablepon, headIcons = -1, size: 2
+id = 4398, level: 64, name = Catablepon, headIcons = -1, size: 2
+id = 4399, level: 68, name = Catablepon, headIcons = -1, size: 2
+attack anim:4272
+start gfx: 105
+projectile id:
+end gfx: 
+defence anim; 4273
+death anim
+
+Object "[Search] Dead Explorer":
+//If player already has stronghold notes:
+sendMessage("You don't find anything.");
+//ELSE:
+//add item Stronghold notes (id 9004)
+"You rummage around in the dead explorer's bag....."
+//NEXT
+"You find a book of hand written notes."
+
+Object "[Search] Cradle of Life"
+"As your hand touches the cradle, you hear the voices of a million"
+"dead adventurers..."
+//NEXT
+"Welcome adventurer... you appear to have lost your boots."
+//NEXT
+"you can choose betwe...")
+//NEXT
+"They will both protect your feet in exactly the same manner;"
+"however, they look very different. You can always come back and"
+"get another pair if you lose them, or even swamp them for the other"
+"style!"
+//NEXT
+[Choose your style of boots.]
+Opt1: "I'll take the colourful ones."
+Opt2: "I'll take the fighting ones."
+//NEXT:
+player dialogue: "I'll take the ...."
+//NEXT;
+[Boots picked] "Enjoy your boots.
+Bunyip (6813)
+ - 8547
+ - 7741
+
+Infernal Mage (1643)
+ - 14223
+ - 7187
+ - 7185
+
+null (13627)
+ - 6291
+
+Jelly (1640)
+ - 8571
+ - 8569
+ - 8570
+
+Man (2)
+ - 425
+ - 422
+ - 836
+
+Jelly (1641)
+ - 8569
+ - 8570
+ - 8571
+
+Man (3)
+ - 425
+ - 836
+
+Infernal Mage (1646)
+ - 7187
+ - 14223
+ - 7185
+
+Woman (4)
+ - 425
+ - 422
+ - 836
+
+Woman (5)
+ - 425
+ - 836
+
+Infernal Mage (1645)
+ - 7187
+ - 14223
+ - 7185
+
+Pyrefiend (1634)
+ - 8084
+ - 8080
+ - 11211
+
+Guard (9)
+ - 386
+ - 388
+ - 836
+
+Pyrefiend (1635)
+ - 8084
+ - 8080
+
+Pyrefiend (1633)
+ - 8084
+ - 8080
+
+Pyrefiend (1636)
+ - 8084
+ - 8080
+
+Spirit terrorbird (6794)
+ - 8231
+
+null (13613)
+ - 7308
+
+Man (13612)
+ - 829
+
+Mountain troll (1109)
+ - 13786
+
+Mountain troll (1108)
+ - 13788
+
+Mountain troll (1111)
+ - 13786
+
+Crawling Hand (1648)
+ - 9127
+ - 9125
+
+Mountain troll (1110)
+ - 13786
+ - 13787
+
+Crawling Hand (1655)
+ - 9446
+ - 9444
+
+Giant rat (8828)
+ - 14861
+ - 14859
+ - 14860
+
+Mountain troll (1106)
+ - 13786
+ - 13787
+ - 13785
+
+Kurask (1608)
+ - 9439
+ - 9441
+
+Kurask (1609)
+ - 9439
+
+Gargoyle (1610)
+ - 9454
+ - 9455
+
+Goblin (12357)
+ - 6183
+ - 6182
+
+Banshee (1612)
+ - 9449
+ - 9451
+ - 9450
+
+Goblin (12355)
+ - 6183
+ - 6184
+ - 6182
+
+Nechryael (1613)
+ - 9487
+ - 9489
+ - 9488
+ - 9491
+
+Malignius Mortifer (2713)
+ - 2791
+
+Goblin (12354)
+ - 6183
+ - 6182
+
+Death spawn (1614)
+ - 9459
+ - 9461
+
+Market Guard (2236)
+ - 401
+ - 836
+
+Abyssal demon (1615)
+ - 1537
+ - 2309
+ - 1538
+
+Giant spider (12352)
+ - 5328
+ - 5327
+ - 5329
+
+Lumbridge guard (12367)
+ - 424
+ - 12310
+ - 1363
+
+Cave crawler (1600)
+ - 267
+ - 266
+ - 265
+
+Cave crawler (1601)
+ - 267
+ - 265
+
+Cave crawler (1602)
+ - 267
+ - 266
+ - 265
+
+Cave crawler (1603)
+ - 267
+ - 266
+ - 265
+
+Aberrant spectre (1604)
+ - 9466
+
+Duck (46)
+ - 6818
+
+Aberrant spectre (1605)
+ - 9468
+ - 9466
+ - 9467
+
+Aberrant spectre (1606)
+ - 9466
+ - 9468
+ - 9467
+
+Aberrant spectre (1607)
+ - 9466
+ - 9468
+
+Goblin (12360)
+ - 6184
+ - 6183
+ - 6182
+
+Spirit kyatt (7365)
+ - 7909
+
+Turoth (1627)
+ - 9481
+ - 9483
+ - 9482
+
+Turoth (1626)
+ - 9473
+ - 9471
+ - 9472
+
+Turoth (1628)
+ - 9478
+ - 9476
+ - 9477
+
+Lumbridge guard (12368)
+ - 12310
+ - 1156
+ - 1363
+
+Rockslug (1631)
+ - 9508
+ - 9506
+
+Unicorn stallion (6822)
+ - 8266
+
+Duck (2693)
+ - 6818
+
+Basilisk (1616)
+ - 260
+ - 261
+ - 264
+
+Bloodveld (1619)
+ - 9434
+ - 9436
+ - 9435
+
+Bloodveld (1618)
+ - 9132
+ - 9130
+ - 9131
+
+Dwarf (56)
+ - 417
+
+Cockatrice (1620)
+ - 7761
+ - 7762
+ - 7763
+
+Turoth (1623)
+ - 9471
+ - 9473
+ - 9472
+
+Essence impling (1032)
+ - 12831
+
+Guard (5919)
+ - 6488
+ - 6489
+ - 6490
+
+Dwarf (3220)
+ - 100
+ - 99
+ - 102
+
+Dwarf (65)
+ - 417
+
+Guard (3228)
+ - 388
+ - 386
+ - 836
+
+Guard (3229)
+ - 2075
+ - 425
+ - 836
+
+Ringmaster (8085)
+ - 10314
+
+Cow (81)
+ - 5854
+ - 150
+ - 244
+ - 245
+
+Wolf (95)
+ - 6557
+ - 6559
+ - 6558
+
+Giant rat (12350)
+ - 14861
+ - 14859
+
+Giant rat (12351)
+ - 14861
+ - 14859
+ - 14860
+
+Ticket vendor (8088)
+ - 10319
+ - 10320
+
+Magic instructor (4707)
+ - 9976
+
+Black unicorn Foal (1329)
+ - 6375
+ - 6376
+
+Fenris wolf (1330)
+ - 6557
+ - 6559
+
+Tool leprechaun (7567)
+ - 11704
+
+Grizzly bear (105)
+ - 4927
+ - 4925
+
+null (2761)
+ - 811
+
+Bunny (1321)
+ - 1244
+ - 1246
+
+Bear Cub (1327)
+ - 4928
+ - 4926
+
+Dark wizard (3243)
+ - 425
+ - 718
+
+Fox (1319)
+ - 6569
+ - 6562
+
+Cow calf (2310)
+ - 5854
+
+Sheepdog (2311)
+ - 1854
+ - 1827
+
+Bat (412)
+ - 12462
+ - 12461
+ - 4918
+
+Ghoul (1218)
+ - 422
+ - 425
+
+Chicken (2314)
+ - 5388
+ - 5389
+
+Goblin (1769)
+ - 6183
+ - 6184
+
+Chicken (2313)
+ - 5388
+ - 5389
+
+Black unicorn (133)
+ - 6375
+ - 6376
+
+Miner ancestor (6657)
+ - 48
+
+Cow (397)
+ - 5854
+
+Ram (3673)
+ - 5337
+ - 5336
+
+1337sp34kr (2577)
+ - 2553
+
+Qutiedoll (2576)
+ - 2553
+
+Town crier (6135)
+ - 6863
+ - 6865
+
+Cool Mom227 (2579)
+ - 832
+ - 425
+ - 422
+
+Elfinlocks (2578)
+ - 2553
+
+Town crier (6137)
+ - 6865
+ - 6863
+
+Town crier (6136)
+ - 6865
+ - 6863
+
+Town crier (6139)
+ - 6865
+ - 6863
+
+Aquanite (9172)
+ - 12040
+ - 12041
+ - 12042
+ - 12039
+
+Wise Old Man (2566)
+ - 1167
+ - 1818
+ - 827
+ - 401
+ - 403
+ - 723
+
+null (9633)
+ - 6291
+
+Seagull (6115)
+ - 1014
+ - 1015
+
+Wise Old Man (2567)
+ - 811
+ - 2555
+ - 1820
+
+Rock Crab (1267)
+ - 1312
+ - 1313
+ - 1314
+
+Rock Crab (1265)
+ - 1313
+ - 1312
+ - 1314
+
+Olivia (2572)
+ - 1816
+
+Pillory Guard (2573)
+ - 2557
+
+Purepker895 (2575)
+ - 2553
+
+Banker (2568)
+ - 836
+
+Banker (2569)
+ - 422
+ - 425
+ - 836
+
+Market Guard (2571)
+ - 401
+ - 388
+ - 836
+
+Party Pete (659)
+ - 827
+
+Erjolf (7467)
+ - 11613
+
+Erjolf (7462)
+ - 11613
+ - 11615
+
+Karma the chameleon (8585)
+ - 8364
+
+Karma the chameleon (8589)
+ - 8364
+
+Kitten (765)
+ - 9163
+
+Shady stranger (8339)
+ - 7187
+ - 7183
+ - 8939
+
+Jail guard (448)
+ - 403
+ - 401
+
+Max (3374)
+ - 364
+
+Imp (708)
+ - 170
+ - 169
+
+Fire raft (7453)
+ - 11570
+
+Highwayman (7443)
+ - 387
+ - 386
+ - 836

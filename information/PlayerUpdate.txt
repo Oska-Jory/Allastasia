@@ -1,0 +1,704 @@
+package org.dementhium.model.player;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.dementhium.model.Item;
+import org.dementhium.model.Location;
+import org.dementhium.model.World;
+import org.dementhium.model.definition.NPCDefinition;
+import org.dementhium.model.mask.DamageManager.DamageHit;
+import org.dementhium.net.ActionSender;
+import org.dementhium.net.message.MessageBuilder;
+import org.dementhium.net.message.Message.PacketType;
+import org.dementhium.util.Misc;
+/**
+ * 
+ * @author 'Mystic Flow
+ */
+public class PlayerUpdate {
+
+	public static final int MAX_ADD = 10;
+
+	/*public static Comparator<Player> LOCAL_ORDER = new Comparator<Player>() {
+		@Override
+		public int compare(Player first, Player second) {
+			if(first.getIndex() > second.getIndex()) {
+				return 1;
+			} else if(first.getIndex() < second.getIndex()) {
+				return -1;
+			} else {
+				return 0;
+			}
+		}
+	};*/
+
+	private final Player player;
+
+	private byte[] flags;
+	private short[] localIndicies;
+	private boolean[] added;
+
+	private Set<Integer> removeIndicies = new HashSet<Integer>();
+
+	private int localCount;
+	private int skip;
+
+	public PlayerUpdate(Player player) {
+		this.player = player;
+		this.localIndicies = new short[2048];
+		this.flags = new byte[2048];
+		this.added = new boolean[2048];
+		this.skip = -1;
+	}
+
+	public void loginData(MessageBuilder stream) {
+		stream.startBitAccess();
+		stream.writeBits(30, player.getLocation().getX() << 14 | player.getLocation().getY() & 0x3fff | player.getLocation().getZ() << 28);
+		short playerIndex = player.getIndex();
+		for(int index = 1; index < 2048; index++) {
+			if(index == playerIndex)
+				continue;
+			Player other = World.getWorld().getPlayers().get(index);
+			if(other == null || !other.isOnline()) {
+				stream.writeBits(18, 0);
+				continue;
+			}
+			if(!player.getLocation().withinDistance(other.getLocation())) {
+				stream.writeBits(18, 0);
+				continue;
+			}
+			stream.writeBits(18, other.getLocation().get18BitsHash());
+		}
+		localIndicies[localCount++] = playerIndex;
+		added[playerIndex] = true;
+		stream.finishBitAccess();
+	}
+
+	public void sendUpdate() {
+		if(!player.isOnline() || player.destroyed()) {
+			return;
+		}
+		if(player.getRegion().isDidMapRegionChange()) {
+			ActionSender.sendMapRegion(player, true);
+		}
+
+		boolean chatUpdate = player.getMask().getLastChatMessage() != null;
+
+		MessageBuilder packet = new MessageBuilder(70, PacketType.VAR_SHORT);
+		MessageBuilder updateBlock = new MessageBuilder();
+		packet.startBitAccess();
+		for(int i = 0; i < 2; i++) {
+			localUpdate(packet, updateBlock, i == 1);
+			calculateNextSkip(packet);
+			recalculateBitAccess(packet);
+		}
+		if(chatUpdate) {
+			for(int i = 0; i < localCount; i++) {
+				int index = localIndicies[i];
+				if(!added[index]) {
+					continue;
+				}
+				Player other = World.getWorld().getPlayers().get(index);
+				if(other != null) {
+					ActionSender.sendPublicChatMessage(other, player.getIndex(),  player.getRights(), player.getMask().getLastChatMessage());
+				}
+			}
+		}
+		for(int i = 0; i < 2; i++) {
+			nonLocalUpdate(packet, updateBlock, i == 0);
+			calculateNextSkip(packet);
+			recalculateBitAccess(i == 0 ? packet : null);
+		}
+		packet.finishBitAccess();
+		//Collections.sort(localPlayers, LOCAL_ORDER);
+		removeIndicies.clear();
+		localCount = 0;
+		for(short i = 1; i < 2048; i++) {
+			if(added[i]) {
+				localIndicies[localCount++] = i;
+			}
+			flags[i] >>= 1;
+		}
+		packet.writeBytes(updateBlock.getBuffer());
+		player.write(packet.toMessage());
+	}
+
+	public void localUpdate(MessageBuilder packet, MessageBuilder updateBlock, boolean loop) {
+		for(int i = 0; i < localCount; i++) {
+			int index = localIndicies[i];
+			Player other = World.getWorld().getPlayers().get(index);
+			int value = flags[index] & 0x1;
+			boolean flagged = loop ? value != 0 : value == 0;
+			if(flagged) {
+				if(other == null || other.destroyed() || !other.isOnline() || !other.getLocation().withinDistance(player.getLocation())) {
+					removeLocalPlayer(packet, index);
+				} else if(isLocalUpdateRequired(other)) {
+					calculateNextSkip(packet);
+					applyLocalUpdate(packet, updateBlock, other);
+				} else {
+					flags[index] |= 2;
+					skip++;
+				}
+			}
+		}
+	}
+
+	public void nonLocalUpdate(MessageBuilder packet, MessageBuilder updateBlock, boolean loop) {
+		int counter = 0;
+		for(int i = 1; i < 2048; i++) {
+			Player other = World.getWorld().getPlayers().get(i);
+			int value = flags[i] & 0x1;
+			boolean flagged = loop ? value != 0 : value == 0;
+			if(flagged) {
+				if(player == other || added[i] || removeIndicies.contains(i)) {
+					continue;
+				} else if(isNonLocalUpdateRequired(other) && counter < MAX_ADD) {
+					calculateNextSkip(packet);
+					addLocalPlayer(packet, updateBlock, other);
+					flags[i] |= 2;
+					counter++;
+				} else {
+					flags[i] |= 2;
+					skip++;
+				}
+			}
+		}
+	}
+
+	private void recalculateBitAccess(MessageBuilder packet) {
+		if(packet != null) {
+			packet.finishBitAccess();
+			packet.startBitAccess();
+		}
+	}
+
+	private boolean isNonLocalUpdateRequired(Player other) {
+		return other != null && other.getLocation().withinDistance(player.getLocation()) && other.isOnline();
+	}
+
+	private boolean isLocalUpdateRequired(Player other) {
+		return other.getRegion().isDidTeleport() || other.getMask().requiresUpdate();
+	}
+
+	private void addLocalPlayer(MessageBuilder packet, MessageBuilder updateBlock, Player other) {
+		appendPlayerUpdateBlock(updateBlock, other, true);
+		packet.writeBits(1, 1);
+		packet.writeBits(2, 0);
+		boolean updateHash = false;
+		packet.writeBits(1, updateHash ? 0 : 1);
+		if (!updateHash) {
+			packet.writeBits(2, 3);
+			packet.writeBits(18, other.getLocation().get18BitsHash());
+		}
+		packet.writeBits(6, other.getLocation().getX() - (other.getLocation().getRegionX() << 6));
+		packet.writeBits(6, other.getLocation().getY() - (other.getLocation().getRegionY() << 6));
+		packet.writeBits(1, 1);
+		added[other.getIndex()] = true;
+		localIndicies[localCount++] = other.getIndex();
+	}
+
+	private void applyLocalUpdate(MessageBuilder packet, MessageBuilder updateBlock, Player other) {
+		appendPlayerUpdateBlock(updateBlock, other, false);
+		if(!other.getRegion().isDidTeleport() && !other.getWalkingQueue().hasDirection()) {
+			sendLocalPlayerStatus(packet, 0, true);
+			return;
+		}
+		if(other.getRegion().isDidTeleport()) {
+			sendLocalPlayerTeleport(packet, other);
+			return;
+		}
+		int walkDir = other.getWalkingQueue().getWalkDir();
+		int runDir = other.getWalkingQueue().getRunDir();
+		sendLocalPlayerStatus(packet, walkDir > -1 ? 1 : runDir > -1 ? 2 : 0, true);
+		if(walkDir < 0 && runDir < 0)
+			return;
+		packet.writeBits(walkDir > -1 ? 3 : 4, walkDir > -1 ? walkDir : runDir);
+	}
+
+	private void sendLocalPlayerTeleport(MessageBuilder packet, Player other) {
+		sendLocalPlayerStatus(packet, 3, true);
+		packet.writeBits(1, 1);
+		packet.writeBits(30, other.getLocation().get30BitsHash());
+	}
+
+	private void sendLocalPlayerStatus(MessageBuilder packet, int type, boolean status) {
+		packet.writeBits(1, 1); // no skip
+		packet.writeBits(1, status ? 1 : 0);
+		packet.writeBits(2, type);
+	}
+
+	private void removeLocalPlayer(MessageBuilder packet, int index) {
+		if(!added[index]) {
+			return;
+		}
+		removeIndicies.add(index);
+		added[index] = false;
+		sendLocalPlayerStatus(packet, 0, false);
+		packet.writeBits(1, 0);
+	}
+
+	private void calculateNextSkip(MessageBuilder packet) {
+		if(skip > -1) {
+			skip(packet);
+			skip = -1;
+		}
+	}
+
+	private void skip(MessageBuilder bldr) {
+		int type = 0;
+		if(skip != 0) {
+			if(skip < 32) {
+				type = 1;
+			} else if(skip < 256) {
+				type = 2;
+			} else if(skip < 2048) {
+				type = 3;
+			}
+		}
+		bldr.writeBits(1, 0);
+		bldr.writeBits(2, type);
+		if(type == 1) {
+			bldr.writeBits(5, skip);
+		} else if(type == 2) {
+			bldr.writeBits(8, skip);
+		} else if(type == 3) {
+			bldr.writeBits(11, skip);
+		}
+	}
+
+	private void appendPlayerUpdateBlock(MessageBuilder updateBlock, Player other, boolean forceAppearance) {
+		if(!other.getMask().requiresUpdate() && !forceAppearance) {
+			return;
+		}
+		int maskData = 0;
+		if (other.getMask().getLastGraphics() != null) {
+			maskData |= 0x4000;
+		}
+		if (other.getRegion().isDidTeleport()) {
+			maskData |= 0x2000;
+		}
+		if (other.getDamageManager().getHits().size() > 0) {
+			maskData |= 0x8;
+		}
+		if (other.getMask().getLastAnimation() != null) {
+			maskData |= 0x10;
+		}
+		//		if (other.getMask().isForceMovementUpdate()) {
+		//			maskData |= 0x8000;
+		//		}
+		//		if (other.getMask().getForceText() != null) {
+		//			maskData |= 0x400;
+		//		}
+		//		if (other.getMask().isFaceEntityUpdate()) {
+		//			maskData |= 0x2;
+		//		}
+		if (other.getMask().isApperanceUpdate() || forceAppearance) {
+			maskData |= 0x40;
+		}
+		if (other.getWalkingQueue().getWalkDir() != -1 || other.getWalkingQueue().getRunDir() != -1) {
+			maskData |= 0x1;
+		}
+		//		if (other.getMask().getLastHeal() != null) {
+		//			maskData |= 0x100;
+		//		}
+		/*if (other.getMask().getFacePosition() != null) {
+			maskData |= 0x4;
+		}*/
+		if (maskData > 128)
+			maskData |= 0x20;
+		if (maskData > 32768)
+			maskData |= 0x800;
+		updateBlock.writeByte(maskData);
+		if (maskData > 128)
+			updateBlock.writeByte(maskData >> 8);
+		if (maskData > 32768)
+			updateBlock.writeByte(maskData >> 16);
+		//		if (other.getHits().getSecondaryHit() != null) {
+		//			applyHit2Mask(other, updateBlock);
+		//		}
+		if (other.getRegion().isDidTeleport()) {
+			applyTeleTypeMask(updateBlock);
+		}
+		if (other.getMask().getLastGraphics() != null) {
+			applyGraphicMask(other, updateBlock);
+		}
+		if (other.getDamageManager().getHits().size() > 0) {
+			applyHitMask(player, other, updateBlock);
+		}
+		if (other.getMask().getLastAnimation() != null) {
+			applyAnimationMask(other, updateBlock);
+		}
+		//		if (other.getMask().isForceMovementUpdate()) {
+		//			applyForceMovementMask(other, updateBlock);
+		//		}
+		//		if (other.getMask().getForceText() != null) {
+		//			applyForceText(other, updateBlock);
+		//		}
+		//		if (other.getMask().isFaceEntityUpdate()) {
+		//			applyTurnToMask(other, updateBlock);
+		//		}
+		if (other.getMask().isApperanceUpdate() || forceAppearance) {
+			applyAppearanceMask(other, updateBlock);
+		}
+		if (other.getWalkingQueue().getWalkDir() != -1 || other.getWalkingQueue().getRunDir() != -1) {
+			applyMovementMask(other, updateBlock);
+		}
+		//		if (other.getMask().getLastHeal() != null) {
+		//			applyHealMask(other, updateBlock);
+		//		}
+		/*if (p.getMask().getFacePosition() != null) {
+			applyTurnToCoordMask(other, updateBlock);
+		}*/
+	}
+
+	private void applyForceMovementMask(Player p, MessageBuilder updateBlock) {
+		Location myLocation = p.getLocation();
+		Location fromLocation = p.getLocation();
+		Location toLocation = Location.create(p.getForceWalk()[0], p.getForceWalk()[1], 0);
+
+		int distfromx = 0;
+		int distfromy = 0;
+		boolean positiveFromX = false;
+		boolean positiveFromY = false;
+		int distanceToX = 0;
+		int distanceToY = 0;
+		boolean positiveToX = false;
+		boolean positiveToY = false;
+
+		if (myLocation.getX() < fromLocation.getX()) {
+			positiveFromX = true;
+		}
+		if (myLocation.getY() < fromLocation.getY()) {
+			positiveFromY = true;
+		}
+		if (fromLocation.getX() < toLocation.getX()) {
+			positiveToX = true;
+		}
+		if (fromLocation.getY() < toLocation.getY()) {
+			positiveToY = true;
+		}
+
+		if (positiveFromX) {
+			distfromx = fromLocation.getX() - myLocation.getX();
+		} else {
+			distfromx = myLocation.getX() - fromLocation.getX();
+		}
+		if (positiveFromY) {
+			distfromy = fromLocation.getY() - myLocation.getY();
+		} else {
+			distfromy = myLocation.getY() - fromLocation.getY();
+		}
+		if (positiveToX) {
+			distanceToX = toLocation.getX() - fromLocation.getX();
+		} else {
+			distanceToX = fromLocation.getX() - toLocation.getX();
+		}
+
+		if (positiveToY) {
+			distanceToY = toLocation.getY() - fromLocation.getY();
+		} else {
+			distanceToY = fromLocation.getY() - toLocation.getY();
+		}
+
+		updateBlock.writeByteA(positiveFromX ? distfromx : -distfromx);
+		updateBlock.writeByteC(positiveFromY ? distfromy : -distfromy);
+		updateBlock.writeByteA(positiveToX ? distanceToX : -distanceToX);
+		updateBlock.writeByteA(positiveToY ? distanceToY : -distanceToY);
+
+		updateBlock.writeLEShortA(p.getForceWalk()[2]);
+		updateBlock.writeLEShort(p.getForceWalk()[3]);
+		updateBlock.writeByte(p.getForceWalk()[4]);
+
+	}
+
+	/*private static void applyTurnToCoordMask(Player p, OutStream updateBlock) {
+		updateBlock.writeShortLE(Misc.getFacingDirection(p.getLocation().getX(), p.getLocation().getY(), p.getMask().getFacePosition().getX(), p.getMask().getFacePosition().getY()));
+	}*/
+
+	private static void applyForceText(Player p, MessageBuilder updateBlock) {
+		updateBlock.writeRS2String(p.getMask().getForceText().getLastForceText());
+	}
+
+	public static void applyForceMovement(Player p, MessageBuilder updateBlock) {
+
+	}
+
+	public static void applyTurnToMask(Player p, MessageBuilder bldr) {
+		if(p.getMask().getInteractingEntity() != null) {
+			bldr.writeShortA(p.getMask().getInteractingEntity().getClientIndex());
+		} else {
+			bldr.writeShortA(-1);
+		}
+	}
+
+	public static void applyTeleTypeMask(MessageBuilder bldr) {
+		bldr.writeByteA(127);
+	}
+
+	public static void applyHitMask(Player player, Player other, MessageBuilder bldr) {
+		bldr.writeByte(other.getDamageManager().getHits().size());
+		for(DamageHit hit : other.getDamageManager().getHits()) {
+			int type = hit.type.toInteger();
+			if(hit.attacker == player || hit.victim == player) {
+				bldr.writeSmart(type);
+			} else {
+				bldr.writeSmart(type + 14);
+			}
+			bldr.writeSmart(hit.damage);
+			bldr.writeSmart(0);//Delay TODO
+			bldr.writeByte(hit.currentHealth);
+		}
+	}
+
+	public static void applyHealMask(Player p, MessageBuilder outStream) {
+		outStream.writeShort(p.getMask().getLastHeal().getHealDelay());
+		outStream.writeByteS(p.getMask().getLastHeal().getBarDelay());
+		outStream.writeByteS(p.getMask().getLastHeal().getHealSpeed());
+	}
+
+	public static void applyAnimationMask(Player p, MessageBuilder updateBlock) {
+		for(int i = 0; i < 4; i++) {
+			updateBlock.writeLEShortA(p.getMask().getLastAnimation().getId());
+		}
+		updateBlock.writeByteC(p.getMask().getLastAnimation().getDelay());
+	}
+
+	public static void applyGraphicMask(Player p, MessageBuilder outStream) {
+		outStream.writeLEShortA(p.getMask().getLastGraphics().getId());
+		outStream.writeInt2(p.getMask().getLastGraphics().getDelay());
+		outStream.writeByte(p.getMask().getLastGraphics().getHeight());
+	}
+
+	public static void applyMovementMask(Player p, MessageBuilder outStream) {
+		outStream.writeByteA(p.getWalkingQueue().getWalkDir() != -1 ? 1 : 2);
+	}
+
+	public static void applyAppearanceMask(Player p, MessageBuilder outStream) {
+		MessageBuilder playerUpdate = new MessageBuilder();
+		NPCDefinition def = p.getAppearence().getNpcType() != -1 ? NPCDefinition.forId(p.getAppearence().getNpcType()) : null;
+		int hash = 0;
+		hash |= p.getAppearence().getGender() & 0x1;
+		playerUpdate.writeByte(hash);
+		playerUpdate.writeByte(0); // mobi arms titles
+		playerUpdate.writeByte(-1); // pk icon
+		playerUpdate.writeByte(p.getPrayer().getHeadIcon());
+		playerUpdate.writeByte(0);
+		if (p.getAppearence().getNpcType() == -1) {
+			for (int i = 0; i < 4; i++) {
+				if (p.getEquipment().get(i) == null)
+					playerUpdate.writeByte(0);
+				else
+					playerUpdate.writeShort(32768 + p.getEquipment().get(i).getDefinition().getEquipId());
+			}
+			if (p.getEquipment().get(Equipment.SLOT_CHEST) != null) {
+				playerUpdate.writeShort(32768 + p.getEquipment().get(
+						Equipment.SLOT_CHEST).getDefinition().getEquipId());
+			} else {
+				playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[2]);
+			}
+			if (p.getEquipment().get(Equipment.SLOT_SHIELD) != null) {
+				playerUpdate.writeShort(32768 + p.getEquipment().get(Equipment.SLOT_SHIELD).getDefinition().getEquipId());
+			} else {
+				playerUpdate.writeByte((byte) 0);
+			}
+			Item chest = p.getEquipment().get(Equipment.SLOT_CHEST);
+			if (chest != null) {
+				if (!Equipment.isFullBody(chest.getDefinition())) {
+					playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[3]);
+				} else {
+					playerUpdate.writeByte((byte) 0);
+				}
+			} else {
+				playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[3]);
+			}
+			if (p.getEquipment().get(Equipment.SLOT_LEGS) != null) {
+				playerUpdate.writeShort(32768 + p.getEquipment().get(Equipment.SLOT_LEGS).getDefinition().getEquipId());
+			} else {
+				playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[5]);
+			}
+			Item hat = p.getEquipment().get(Equipment.SLOT_HAT);
+			if (hat != null) {
+				if (!Equipment.isFullHat(hat.getDefinition()) && !Equipment.isFullMask(hat.getDefinition())) {
+					playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[0]);
+				} else {
+					playerUpdate.writeByte((byte) 0);
+				}
+			} else {
+				playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[0]);
+			}
+			if (p.getEquipment().get(Equipment.SLOT_HANDS) != null) {
+				playerUpdate.writeShort(32768 + p.getEquipment().get(Equipment.SLOT_HANDS).getDefinition().getEquipId());
+			} else {
+				playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[4]);
+			}
+			if (p.getEquipment().get(Equipment.SLOT_FEET) != null) {
+				playerUpdate.writeShort(32768 + p.getEquipment().get(Equipment.SLOT_FEET).getDefinition().getEquipId());
+			} else {
+				playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[6]);
+			}
+			if (hat != null) {
+				if (!Equipment.isFullMask(hat.getDefinition())) {
+					playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[1]);
+				} else {
+					playerUpdate.writeByte((byte) 0);
+				}
+			} else {
+				playerUpdate.writeShort(0x100 + p.getAppearence().getLook()[1]);
+			}
+		} else {
+			playerUpdate.writeShort(-1);
+			playerUpdate.writeShort(def.getId());
+			playerUpdate.writeByte(0);
+		}
+		for (int j = 0; j < 5; j++) {
+			playerUpdate.writeByte(p.getAppearence().getColour()[j]);
+		}
+		playerUpdate.writeShort(p.getAppearence().getNpcType() != -1 && def != null ? def.getRenderAnim() : p.getEquipment().getRenderAnim());
+		playerUpdate.writeRS2String(Misc.formatPlayerNameForDisplay(p.getUsername()));
+		playerUpdate.writeByte(p.getSkills().getCombatLevel());
+		playerUpdate.writeShort(0);
+		playerUpdate.writeByte(0);
+		outStream.writeByteA(playerUpdate.position());
+		outStream.writeBytes(playerUpdate.getBuffer());
+	}
+/*
+ * static final void method2858(Class98_Sub22_Sub1 class98_sub22_sub1, int i) {
+		try {
+			class98_sub22_sub1.method1256(0);
+			int i_1_ = 0;
+			for (int i_2_ = 0; i_2_ < Class2.anInt71; i_2_++) {
+				int i_3_ = Class319.anIntArray2705[i_2_];
+				if ((0x1 & Class98_Sub27.aByteArray4075[i_3_]) == 0) {
+					if ((i_1_ ^ 0xffffffff) < -1) {
+						i_1_--;
+						Class98_Sub27.aByteArray4075[i_3_] = (byte) Class41
+								.method366(
+										(Class98_Sub27.aByteArray4075[i_3_]), 2);
+					} else {
+						int i_4_ = class98_sub22_sub1
+								.readBits((byte) -106, 1);
+						if (i_4_ == 0) {
+							i_1_ = Class238.method2917(i + 1,
+									class98_sub22_sub1);
+							Class98_Sub27.aByteArray4075[i_3_] = (byte) Class41
+									.method366(
+											(Class98_Sub27.aByteArray4075[i_3_]),
+											2);
+						} else
+							Class98_Sub10_Sub20.method1060(i_3_, 12,
+									class98_sub22_sub1);
+					}
+				}
+			}
+			class98_sub22_sub1.method1254((byte) 120);
+			if (i_1_ != 0)
+				throw new RuntimeException("nsn0");
+			class98_sub22_sub1.method1256(0);
+			for (int i_5_ = 0; Class2.anInt71 > i_5_; i_5_++) {
+				int i_6_ = Class319.anIntArray2705[i_5_];
+				if ((0x1 & Class98_Sub27.aByteArray4075[i_6_]) != 0) {
+					if ((i_1_ ^ 0xffffffff) < -1) {
+						Class98_Sub27.aByteArray4075[i_6_] = (byte) Class41
+								.method366(
+										(Class98_Sub27.aByteArray4075[i_6_]), 2);
+						i_1_--;
+					} else {
+						int i_7_ = class98_sub22_sub1.readBits((byte) -29, 1);
+						if (i_7_ == 0) {
+							i_1_ = Class238.method2917(0, class98_sub22_sub1);
+							Class98_Sub27.aByteArray4075[i_6_] = (byte) Class41
+									.method366(
+											(Class98_Sub27.aByteArray4075[i_6_]),
+											2);
+						} else
+							Class98_Sub10_Sub20.method1060(i_6_, i + 13,
+									class98_sub22_sub1);
+					}
+				}
+			}
+			class98_sub22_sub1.method1254((byte) 120);
+			if (i_1_ != 0)
+				throw new RuntimeException("nsn1");
+			class98_sub22_sub1.method1256(0);
+			for (int i_8_ = 0; (Class373_Sub2.anInt5473 ^ 0xffffffff) < (i_8_ ^ 0xffffffff); i_8_++) {
+				int i_9_ = Class76_Sub9.anIntArray3791[i_8_];
+				if ((Class98_Sub27.aByteArray4075[i_9_] & 0x1 ^ 0xffffffff) != -1) {
+					if (i_1_ > 0) {
+						Class98_Sub27.aByteArray4075[i_9_] = (byte) Class41
+								.method366(
+										(Class98_Sub27.aByteArray4075[i_9_]), 2);
+						i_1_--;
+					} else {
+						int i_10_ = class98_sub22_sub1.readBits((byte) -106,
+								1);
+						if (i_10_ == 0) {
+							i_1_ = Class238.method2917(0, class98_sub22_sub1);
+							Class98_Sub27.aByteArray4075[i_9_] = (byte) Class41
+									.method366(
+											(Class98_Sub27.aByteArray4075[i_9_]),
+											2);
+						} else if (Class351.method3845(-2, i_9_,
+								class98_sub22_sub1))
+							Class98_Sub27.aByteArray4075[i_9_] = (byte) Class41
+									.method366(
+											(Class98_Sub27.aByteArray4075[i_9_]),
+											2);
+					}
+				}
+			}
+			class98_sub22_sub1.method1254((byte) 120);
+			if ((i_1_ ^ 0xffffffff) != -1)
+				throw new RuntimeException("nsn2");
+			class98_sub22_sub1.method1256(0);
+			for (int i_11_ = 0; (i_11_ ^ 0xffffffff) > (Class373_Sub2.anInt5473 ^ 0xffffffff); i_11_++) {
+				int i_12_ = Class76_Sub9.anIntArray3791[i_11_];
+				if ((Class98_Sub27.aByteArray4075[i_12_] & 0x1 ^ 0xffffffff) == -1) {
+					if ((i_1_ ^ 0xffffffff) < -1) {
+						Class98_Sub27.aByteArray4075[i_12_] = (byte) Class41
+								.method366(
+										(Class98_Sub27.aByteArray4075[i_12_]),
+										2);
+						i_1_--;
+					} else {
+						int i_13_ = class98_sub22_sub1
+								.readBits((byte) -57, 1);
+						if ((i_13_ ^ 0xffffffff) == -1) {
+							i_1_ = Class238.method2917(i ^ 0xffffffff,
+									class98_sub22_sub1);
+							Class98_Sub27.aByteArray4075[i_12_] = (byte) Class41
+									.method366(
+											(Class98_Sub27.aByteArray4075[i_12_]),
+											2);
+						} else if (Class351.method3845(i + -1, i_12_,
+								class98_sub22_sub1))
+							Class98_Sub27.aByteArray4075[i_12_] = (byte) Class41
+									.method366(
+											(Class98_Sub27.aByteArray4075[i_12_]),
+											2);
+					}
+				}
+			}
+			class98_sub22_sub1.method1254((byte) 120);
+			if (i != (i_1_ ^ 0xffffffff))
+				throw new RuntimeException("nsn3");
+			Class373_Sub2.anInt5473 = 0;
+			Class2.anInt71 = 0;
+			for (int i_14_ = 1; (i_14_ ^ 0xffffffff) > -2049; i_14_++) {
+				Class98_Sub27.aByteArray4075[i_14_] >>= 1;
+				Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_14_]);
+				if (class246_sub3_sub4_sub2_sub2 == null)
+					Class76_Sub9.anIntArray3791[Class373_Sub2.anInt5473++] = i_14_;
+				else
+					Class319.anIntArray2705[Class2.anInt71++] = i_14_;
+			}
+		} catch (RuntimeException runtimeexception) {
+			throw Class64_Sub27.method667(runtimeexception,
+					("oh.C(" + (class98_sub22_sub1 != null ? "{...}" : "null")
+							+ ',' + i + ')'));
+		}
+	}
+
+ */
+	
+}

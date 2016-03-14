@@ -1,0 +1,95 @@
+config 1054: Clan chat setting: On, Off, Friends
+1055 = Assists: On, Off, Friends
+1056 = Game: Filter, all
+
+BConfig 168 tabId: Changes the currently viewed tab.
+
+BConfig 233: Changes the skills tab's icon. 
+	(0 = normal, 1 = squad command, 4 = Turn options, ...)
+
+BConfig 234: Changes quest tab icon. 
+	(0 = normal, 1 = Special units, 2 = Troop details, 3 = Dung party organizer, 4 = book, ...)
+
+BConfig 822: Changes task tab icon.
+	(0 = normal, 1 = Camera, ...)
+
+Bconfig 235: Changes inventory tab icon.
+	(0 = normal, 1 = My squads, 2 = Commands, ...)
+
+BConfig 236: Changes equipment tab icon.
+	(0 = normal, 1 = acrobat emotes, 2 = Forfeit, 3 = Diplomacy, 4 = retreat, ...)
+
+BConfig 456: 0 = hitpoints orb normal, 1 = diseased hp.
+BConfig 182: 0 = prayer orb normal, 1 = quick curses.
+BConfig 119: Change run orb setting.
+
+Interface configs:
+ic 746 165, 166 true: grave marker timer.
+ic 746 167 false: hides the actual map in the minimap.
+ic 746 127 true: sets task icon to shining.
+ic 746 83 - 16+-: tab interface showing up/chaning.
+ic 746 0 false - Removes the gamescreen.
+ic 746 1 false - Removes the gamescreen.
+ic 746 10 false - Removes the minimap, orbs, ... all but the XP counter.
+ic 746 16 false - hides all chat setting buttons.
+ic 746 17 false - Removes all tabs but task (just the icon remains, for task).
+ic 746 18 false - hides all tab icon backgrounds.
+ic 746 19 false - Sets current tab to inventory and disables switching to other tabs.
+ic 746 20 false - hides all tab icons but task icon.
+ic 746 21 false - hides attack tab icon.
+ic 746 22 false - hides skill tab icon.
+ic 746 23 false - hides Quest tab icon.
+ic 746 24 false - hides inventory tab icon.
+ic 746 25 false - hides equipment tab icon.
+ic 746 26 false - hides prayer tab icon.
+ic 746 27 false - hides magic tab icon.
+ic 746 28 false - hides the already hidden tab icon (true = show).
+ic 746 29 false - hides friends tab icon.
+ic 746 30 false - hides ignores tab icon.
+ic 746 31 false - hides clans tab icon.
+ic 746 32 false - hides settings tab icon.
+ic 746 33 false - hides emotes tab icon.
+ic 746 34 false - hides music tab icon.
+ic 746 35 false - hides notes tab icon.
+
+
+Config: 1146, 0/1 << 5 //Change gravestone interface (266).
+
+102 - Poison on hp orb.
+170 - # of mouse buttons
+
+//Use: currentGraveId | gravesToShow(v)
+
+0 - Default			0
+32 - flag -			1
+96 - flag + small gravestone	2
+224 - (96) + ornate.		4
+480 - ^ + font of life.		8
+992 - ^ + stele			16
+2016 - ^ + symbol of sara	32
+4064 				64
+8160				128
+16352				256
+32736				512
+65504				1024
+131040				2048
+262112				4096
+Grave ids * 4 << 5
+
+
+Prayer stat adjustments:
+
+Config ID: 1583
+80 == 16
+value---------------
+Attack: -25%: 5, 0%: 30 (-25%-0% = 30+adj.)
+
+511305600
+
+	int stat = 30;
+	int value = stat | ((stat << 0) | attackModifier << 1) 
+			| ((stat << 6) | strengthModifier << 1)
+			| ((stat << 12) | defenceModifier << 1) 
+			| ((stat << 18) | rangeModifier << 1)
+			| ((stat << 24) | magicModifier << 1);
+
